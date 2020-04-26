@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img src="/Images/types.png" alt="Types" width="220px" />
+</h1>
+
 # Tipos de Tipagem
 
 Muitas pessoas costumam falar que a linguagem 'x' tem tipagem fraca ou forte, mas o que significa?
@@ -99,6 +103,10 @@ Espero que o conceito de "tipagem" tenha ficado mais claro para você depois de 
 
 Perceba também que várias linguagens não são **totalmente estáticas ou dinâmicas**, muitas vezes 
 as linguagems tendem a mesclar alguns aspectos de tipagens diferentes.
+
+<h1 align="center">
+  <img src="/Images/meme.jpeg" alt="Meme" width="600px" />
+</h1>
 
 # Referências
 * https://www.treinaweb.com.br/blog/quais-as-diferencas-entre-tipagens-estatica-ou-dinamica-e-forte-ou-fraca/
