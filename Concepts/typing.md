@@ -6,7 +6,7 @@
 
 Muitas pessoas costumam falar que a linguagem 'x' tem tipagem fraca ou forte, mas o que significa?
 
-Neste artigo vou trazer vários tipos de tipagem explicados e exemplos práticos.
+Neste tutorial vou trazer vários tipos de tipagem explicados e exemplos práticos.
 
 ### Tipagem Estática
 
@@ -107,6 +107,9 @@ as linguagems tendem a mesclar alguns aspectos de tipagens diferentes.
 <h1 align="center">
   <img src="/Images/meme.jpeg" alt="Meme" width="600px" />
 </h1>
+
+# Autores
+* [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador do GoHorse Coding e Engenheiro de Software
 
 # Referências
 * https://www.treinaweb.com.br/blog/quais-as-diferencas-entre-tipagens-estatica-ou-dinamica-e-forte-ou-fraca/
