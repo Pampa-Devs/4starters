@@ -1,3 +1,3 @@
 <h1 align="center">
-  <img src="/Images/concepts.png" alt="Concepts" width="650px" />
+  <img src="/Images/concepts.jpg" alt="Concepts" width="650px" />
 </h1>
