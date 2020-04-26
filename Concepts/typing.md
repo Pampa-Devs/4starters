@@ -21,7 +21,7 @@ Exemplos de linguagem estática: `C`, `C++`, `Java`, `Rust`, `Go`, `Scala`
 <br>
 
 Exemplo em **Java**:
-```
+```Java
 public class MyClass {
 	public static void main(String args[]) {
 		int valor = 10; // Váriavel valor é um tipo Inteiro com um valor de 10.
@@ -44,7 +44,7 @@ Exemplos de linguagem dinâmica: `Perl`, `Ruby`, `Python`, `PHP`, `JavaScript`
 <br>
 
 Exemplo em **JavaScript**:
-```
+```JavaScript
 let variavel = 'Felipe Almeida'; // Variavel declarada como string
 
 variavel = 10; // Então mudamos o tipo para number
@@ -66,7 +66,7 @@ Exemplo de linguagens com inferência de tipo: `C#`, `PHP`, `Javascript`, `Pytho
 <br>
 
 Exemplo em **C#**:
-```
+```C#
 using System;
 
 public class Program
@@ -86,7 +86,7 @@ A tipagem fraca está ligada a habilidade de uma linguagem **realizar conversõe
 de dados.
 
 Exemplo em **JavaScript**:
-```
+```JavaScript
 var nome = "Felipe Almeida"; //string
 
 var idade = 25; //number
@@ -99,7 +99,7 @@ console.log(nome + " " + idade); //Felipe Almeida 25
 Linguagens com tipagem forte **não realizam conversões** entre tipos diferentes automaticamente.
 
 Exemplo em **Python**:
-```
+```Python
 var nome = "Felipe Almeida"; //string
 
 var idade = 25; //number
