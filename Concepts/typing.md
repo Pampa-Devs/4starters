@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/Images/types.png" alt="Types" width="220px" />
+  <img src="/Images/types.png" alt="Types" width="400px" />
 </h1>
 
 # Tipos de Tipagem
