@@ -82,7 +82,7 @@ public class Program
 
 ### Tipagem Fraca
 
-A tipagem fraca está ligada a habilidade de uma linguagem **realizar conversões autoamticamente** entre tipos diferentes
+A tipagem fraca está ligada a habilidade de uma linguagem **realizar conversões automaticamente** entre tipos diferentes
 de dados.
 
 Exemplo em **JavaScript**:
