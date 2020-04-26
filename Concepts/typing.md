@@ -14,7 +14,7 @@ Uma linguagem tem tipagem estática quando o **tipo da váriavel** é conhecido 
 Isso significa que o desenvolvedor não pode alterar o tipo da variável depois de a mesma ser declarada, devido a isso
 é possível identificar vários bugs triviais muito rápido.
 <br>
-Exemplos de linguagem estática: ´C´, ´C++´, ´Java´, ´Rust´, ´Go´, ´Scala´ 
+Exemplos de linguagem estática: `C`, `C++`, `Java`, `Rust`, `Go`, `Scala` 
 <br>
 Exemplo em **Java**:
 ```
