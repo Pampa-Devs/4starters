@@ -16,7 +16,7 @@ Isso significa que o desenvolvedor não pode alterar o tipo da variável depois 
 <br>
 Exemplos de linguagem estática: ´C´, ´C++´, ´Java´, ´Rust´, ´Go´, ´Scala´ 
 <br>
-Exemplo em Java:
+Exemplo em **Java**:
 ```
 public class MyClass {
 	public static void main(String args[]) {
@@ -35,15 +35,13 @@ não é necessário especificar os tipos o tempo inteiro (a não ser que você u
 <br>
 Exemplos de linguagem dinâmica: `Perl`, `Ruby`, `Python`, `PHP`, `JavaScript`
 <br>
-Exemplo em JavaScript:
+Exemplo em **JavaScript**:
 ```
 let variavel = 'Felipe Almeida'; // Variavel declarada como string
 
-variavel = 10; // Então mudamos o tipo para inteiro
+variavel = 10; // Então mudamos o tipo para number
 
-variavel = true; // Agora para boolean
-
-variavel = 555.55; // E por fim, float
+variavel = true; // E por fim para boolean
 
 console.log()
 ```
@@ -55,7 +53,7 @@ que o tipo seja alterado após a declaração.
 <br>
 Exemplo de linguagens com inferência de tipo: `C#`, `PHP`, `Javascript`, `Python`, `Ruby`.
 <br>
-Exemplo em C#:
+Exemplo em **C#**:
 ```
 using System;
 
@@ -75,7 +73,7 @@ public class Program
 A tipagem fraca está ligada a habilidade de uma linguagem **realizar conversões autoamticamente** entre tipos diferentes
 de dados.
 
-Veja em JavaScript:
+Exemplo em **JavaScript**:
 ```
 var nome = "Felipe Almeida"; //string
 
@@ -88,7 +86,7 @@ console.log(nome + " " + idade); //Felipe Almeida 25
 
 Linguagens com tipagem forte **não realizam conversões** entre tipos diferentes automaticamente.
 
-Exemplo em Python:
+Exemplo em **Python**:
 ```
 var nome = "Felipe Almeida"; //string
 
