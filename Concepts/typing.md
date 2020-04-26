@@ -6,7 +6,7 @@
 
 Muitas pessoas costumam falar que a linguagem 'x' tem tipagem fraca ou forte, mas o que significa?
 
-Neste tutorial vou trazer vários tipos de tipagem explicados e exemplos práticos.
+Neste artigo vou trazer vários tipos de tipagem explicados e exemplos práticos.
 
 ### Tipagem Estática
 
