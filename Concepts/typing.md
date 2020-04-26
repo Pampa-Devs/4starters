@@ -13,9 +13,13 @@ Neste artigo vou trazer vários tipos de tipagem explicados e exemplos práticos
 Uma linguagem tem tipagem estática quando o **tipo da váriavel** é conhecido em tempo de compilação.
 Isso significa que o desenvolvedor não pode alterar o tipo da variável depois de a mesma ser declarada, devido a isso
 é possível identificar vários bugs triviais muito rápido.
+
 <br>
+
 Exemplos de linguagem estática: `C`, `C++`, `Java`, `Rust`, `Go`, `Scala` 
+
 <br>
+
 Exemplo em **Java**:
 ```
 public class MyClass {
@@ -32,9 +36,13 @@ public class MyClass {
 Na tipagem dinâmica essa verificação também ocorre mas ela é feita em cima do dado em si, já que as variáveis
 podem conter qualquer tipo de dado. Isso significa que você, como um programador, consegue escrever um pouco mais rápido pois 
 não é necessário especificar os tipos o tempo inteiro (a não ser que você use uma linguagem estática com inferência de tipo).
+
 <br>
+
 Exemplos de linguagem dinâmica: `Perl`, `Ruby`, `Python`, `PHP`, `JavaScript`
+
 <br>
+
 Exemplo em **JavaScript**:
 ```
 let variavel = 'Felipe Almeida'; // Variavel declarada como string
@@ -50,9 +58,13 @@ console.log()
 
 Temos algumas linguagens estáticas que podem fazer a **inferência de tipo** na declaração da váraivel, mas não permite 
 que o tipo seja alterado após a declaração.
+
 <br>
+
 Exemplo de linguagens com inferência de tipo: `C#`, `PHP`, `Javascript`, `Python`, `Ruby`.
+
 <br>
+
 Exemplo em **C#**:
 ```
 using System;
