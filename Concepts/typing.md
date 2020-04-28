@@ -4,15 +4,14 @@
 
 # Tipos de Tipagem
 
-Muitas pessoas costumam falar que a linguagem 'x' tem tipagem fraca ou forte, mas o que significa?
+Muitas pessoas costumam falar que a linguagem 'x' tem tipagem fraca ou forte, mas o que isso significa?
 
 Neste artigo vou trazer vários tipos de tipagem explicados e exemplos práticos.
 
 ### Tipagem Estática
 
 Uma linguagem tem tipagem estática quando o **tipo da váriavel** é conhecido em tempo de compilação.
-Isso significa que o desenvolvedor não pode alterar o tipo da variável depois de a mesma ser declarada, devido a isso
-é possível identificar vários bugs triviais muito rápido.
+Isso significa que o desenvolvedor não pode alterar o tipo da variável depois de a mesma ser declarada, o que possibilida a identificação de vários bugs triviais muito rápido.
 
 <br>
 
@@ -33,7 +32,7 @@ public class MyClass {
 
 ### Tipagem Dinâmica
 
-Na tipagem dinâmica essa verificação também ocorre mas ela é feita em cima do dado em si, já que as variáveis
+Na tipagem dinâmica essa verificação também ocorre, todavia ela é feita em cima do dado em si, já que as variáveis
 podem conter qualquer tipo de dado. Isso significa que você, como um programador, consegue escrever um pouco mais rápido pois 
 não é necessário especificar os tipos o tempo inteiro (a não ser que você use uma linguagem estática com inferência de tipo).
 
@@ -56,7 +55,7 @@ console.log()
 
 ### Inferência de Tipos
 
-Temos algumas linguagens estáticas que podem fazer a **inferência de tipo** na declaração da váraivel, mas não permite 
+Temos algumas linguagens estáticas que podem fazer a **inferência de tipo** na declaração da váriavel, mas não permitem 
 que o tipo seja alterado após a declaração.
 
 <br>
