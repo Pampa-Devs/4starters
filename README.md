@@ -5,7 +5,6 @@
 # Fundamentos e Conceitos de Programação
 
 Este repositório tem como objetivo compartilhar exemplos práticos e tutoriais sobre conceitos e fundamentos gerais da arte da programação.
-<br>
 Iremos ir atualizando este repositório mensalmente. Você também pode contribuir com o seu tutorial entrando em contato com nossos **moderadores** no nosso servidor do [discord](https://discord.gg/FvkzVcr).
 <br>
 
