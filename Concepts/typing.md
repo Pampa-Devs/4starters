@@ -102,8 +102,7 @@ Exemplo em **Python**:
 var nome = "Felipe Almeida"; //string
 
 var idade = 25; //number
-
-console.log(nome + " " + idade); //TypeError: can only concatenate str (not "int") to str
+logging.debug(nome + ' ' + idade); //TypeError: can only concatenate str (not "int") to str
 ```
 
 ## Conclusão
