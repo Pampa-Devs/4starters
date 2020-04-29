@@ -100,7 +100,7 @@ Linguagens com tipagem forte **não realizam conversões** entre tipos diferente
 Exemplo em **Python**:
 ```Python
 nome = "Felipe Almeida" //str
-var idade = 25 //int
+idade = 25 //int
 
 print(nome + " " + idade); //TypeError: can only concatenate str (not "int") to str
 ```
