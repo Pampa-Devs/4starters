@@ -99,10 +99,10 @@ Linguagens com tipagem forte **não realizam conversões** entre tipos diferente
 
 Exemplo em **Python**:
 ```Python
-var nome = "Felipe Almeida"; //string
+nome = "Felipe Almeida" //str
+var idade = 25 //int
 
-var idade = 25; //number
-logging.debug(nome + ' ' + idade); //TypeError: can only concatenate str (not "int") to str
+print(nome + " " + idade); //TypeError: can only concatenate str (not "int") to str
 ```
 
 ## Conclusão
