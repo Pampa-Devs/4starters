@@ -36,6 +36,23 @@ alias | Precisão | Tamanho | Tipo .NET
 `double` | ~15 **a** 17 dígitos | 8 bytes | [System.Double](https://docs.microsoft.com/pt-br/dotnet/api/system.double?view=netcore-3.1)
 `decimal` | 28 **a** 29 dígitos | 16 bytes | [System.Decimal](https://docs.microsoft.com/pt-br/dotnet/api/system.decimal?view=netcore-3.1)
 
+Estes tipos também possuem sufixos para serem determinados:
+* O literal sem sufixo ou com o d ou D sufixo é do tipo `double`
+* O literal f com F o ou sufixo é do tipo `float`
+* O literal m com M o ou sufixo é do tipo `decimal`
+
+Exemplos:
+```C#
+double d1 = 3D;
+double d2 = 4d;
+
+float f1 = 3000F;
+float f2 = 4500f;
+
+decimal dinheiro1 = 400.75m;
+decimal dinheiro2 = 800.00M;
+
+```
 
 ### Tipo Boolean
 
@@ -61,3 +78,4 @@ O valor default de um bool é `false`.
 
 
 ##Tipos de Referência
+
