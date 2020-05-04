@@ -79,7 +79,7 @@ else
 }
 ```
 
-O valor default de um bool é `false`.
+O valor default de um boolean é `false`.
 
 
 ## Tipos de Referência
