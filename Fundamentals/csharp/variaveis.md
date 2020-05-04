@@ -32,9 +32,9 @@ Os *tipos numéricos de ponto flutuante* representam números reais. São **tipo
 
 alias | Precisão | Tamanho | Tipo .NET
 ------- | ------- | ------- | -------
-`float` | **~6** a **9 dígitos** | 4 bytes | [System.Single](https://docs.microsoft.com/pt-br/dotnet/api/system.single?view=netcore-3.1)
-`double` | **~15** a **17 dígitos** | 8 bytes | [System.Double](https://docs.microsoft.com/pt-br/dotnet/api/system.double?view=netcore-3.1)
-`decimal` | **28** a **29 dígitos** | 16 bytes | [System.Decimal](https://docs.microsoft.com/pt-br/dotnet/api/system.decimal?view=netcore-3.1)
+`float` | ~6 **a** 9 dígitos | 4 bytes | [System.Single](https://docs.microsoft.com/pt-br/dotnet/api/system.single?view=netcore-3.1)
+`double` | ~15 **a** 17 dígitos | 8 bytes | [System.Double](https://docs.microsoft.com/pt-br/dotnet/api/system.double?view=netcore-3.1)
+`decimal` | 28 **a** 29 dígitos | 16 bytes | [System.Decimal](https://docs.microsoft.com/pt-br/dotnet/api/system.decimal?view=netcore-3.1)
 
 
 ### Tipo Boolean
@@ -42,7 +42,7 @@ alias | Precisão | Tamanho | Tipo .NET
 A `bool` é um tipo para [System.Boolean](https://docs.microsoft.com/pt-br/dotnet/api/system.boolean?view=netcore-3.1). Representa um
 valor booleano que pode ser `true` ou `false` (verdadeiro ou falso).
 
-Bastante utilizado para realizar operações lógicas do tipo booleano. É o resultado de comparação e igualdade dos operadores. Exememplo:
+Bastante utilizado para realizar operações lógicas do tipo booleano. É o resultado de comparação e igualdade dos operadores. No exemplo a seguir, o resultado será `A luz está ligada`:
 
 ```C#
 bool luzLigada = true;
