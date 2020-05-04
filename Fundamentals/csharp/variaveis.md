@@ -2,8 +2,8 @@
 
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
 enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos. 
-* Com os tipos de valor, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
-* Com os tipos de referência é possível que duas variáveis diferentes referenciem o mesmo objeto, ou seja, alterar uma delas irá alterar o valor da outra.
+* Com os **tipos de valor**, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
+* Com os **tipos de referência** é possível que duas variáveis diferentes referenciem o mesmo objeto, ou seja, alterar uma delas irá alterar o valor da outra.
 
 ## Tipos de Valor
 
