@@ -1,6 +1,6 @@
 # Tipos e Váriaveis
 
-##Tipos de Valor
+## Tipos de Valor
 
 ### Tipos numéricos integrais
 
@@ -77,5 +77,6 @@ else
 O valor default de um bool é `false`.
 
 
-##Tipos de Referência
+## Tipos de Referência
 
+a
