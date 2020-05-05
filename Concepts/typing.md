@@ -117,7 +117,7 @@ Espero que o conceito de "tipagem" tenha ficado mais claro para você depois de 
 </h1>
 
 # Autores
-* [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador do GoHorse Coding e Engenheiro de Software
+* [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador do PampaDevs e Engenheiro de Software
 
 # Referências
 * https://www.treinaweb.com.br/blog/quais-as-diferencas-entre-tipagens-estatica-ou-dinamica-e-forte-ou-fraca/
