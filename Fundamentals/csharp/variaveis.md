@@ -61,7 +61,7 @@ decimal dinheiro2 = 800.00M;
 
 ### Tipo Boolean
 
-A `bool` é um tipo para [System.Boolean](https://docs.microsoft.com/pt-br/dotnet/api/system.boolean?view=netcore-3.1). Representa um
+A `bool` é um alias para o tipo [System.Boolean](https://docs.microsoft.com/pt-br/dotnet/api/system.boolean?view=netcore-3.1). Representa um
 valor booleano que pode ser `true` ou `false` (verdadeiro ou falso).
 
 Bastante utilizado para realizar operações lógicas do tipo booleano. É o resultado de comparação e igualdade dos operadores. No exemplo a seguir, o resultado será `A luz está ligada`:
@@ -81,7 +81,154 @@ else
 
 O valor default de um boolean é `false`.
 
+### Tipos Char
+
+O `char` é um alias para o tipo [System.Char](https://docs.microsoft.com/pt-br/dotnet/api/system.char?view=netcore-3.1) que representa um caractere [Unicode UTF-16](http://www.fileformat.info/info/charset/UTF-16/list.htm).
+
+alias | Intervalo | Tamanho | Tipo .NET
+------- | ------- | ------- | -------
+`char` | U+0000 **até** U+FFFF | 16 bits | [System.Char](https://docs.microsoft.com/pt-br/dotnet/api/system.char?view=netcore-3.1)
+
+Você pode específicar um `char` das seguintes formas:
+* Um caracter literal, **j**. 
+* Uma sequência de fuga Unicode `\u`, que é seguida pela representação hexadecimal de um código de caractere.
+* Uma sequência de fuga hexadecimal `\x`, que é seguida pela representação hexadecimal de um código de caractere.
+* Um valor de código de caracter no valor correspondente.
+
+```C#
+char a = 'j';
+char b = '\u006A';
+char c = '\x006A';
+char d = (char)106;
+
+string abcd = string.Join(" ", a, b, c, d);
+
+Console.WriteLine(abcd);
+```
+No exemplo acima, o output será **j j j j**.
+
+### Tipo de enumeração
+
+Um *tipo de enumeração* (ou *tipo enum*) é um tipo de valor definido por um conjunto de constantes nomeadas do tipo [numérico integral](). `enum` é o alias do tipo [System.Enum](https://docs.microsoft.com/pt-br/dotnet/api/system.enum?view=netcore-3.1).
+Para definir uma enumeração, use o alias `enum` e especifique os membros:
+```C#
+enum Profissoes
+{
+    Professor,
+    Engenheiro,
+    Astronauta	
+}
+```
+
+Por padrão, os valores constantes associados dos membros do `enum` são do tipo `int`. Eles começam com **zero** e aumentam em **um** seguindo a ordem definida. Você também pode especificar explicitamente qualquer outro tipo 
+[numérico integral]() como um enum, além de também poder especificar explicitamente os valores constantes, como mostra o exemplo a seguir:
+```C#
+enum Profissoes : ushort
+{
+    Professor = 0,
+    Engenheiro = 1,
+    Astronauta = 200	
+}
+```
+
+#### Tipos de Enumeração como Bit Flags
+Se você quiser que um tipo de enumeração represente uma combinação de escolhas, defina os membros dessa enumeração de tal forma que cada membro individual seja um bit. Com isso, você pode utilizar os
+[operadores lógicos bitwise '|' ou '&']() para combinar ou interceptar combinações de escolhas. Para indicar que um enumerador declara seus membros como bits, utilize o atributo [[Flags]](), por exemplo:
+```C#
+[Flags]
+public enum DiasDaSemana
+{
+    Segunda			= 0b_0000_0001, //1
+    Terca			= 0b_0000_0010, //2
+    Quarta			= 0b_0000_0100, //4
+    Quinta			= 0b_0000_1000, //8
+    Sexta			= 0b_0001_0000, //16
+    Sabado			= 0b_0010_0000, //32
+    Domingo			= 0b_0100_0000, //64
+    FinalDeSemana	= Sabado | Domingo
+}
+
+public class FlasEnumExemplo
+{
+    public static void Main()
+    {
+        Dias diasDeReuniao = Dias.Segunda | Dias.Quarta | Dias.Sexta;
+        Console.WriteLine(diasDeReuniao);
+        // Output: Segunda, Quarta, Sexta
+        
+        Dias diasHomeOffice = Dias.Terca | Dias.Sexta;
+        Console.WriteLine($"Entre na reunião por telefone na {diasDeReuniao & diasHomeOffice}");
+        // Output: "Entre na reunião por telefone na Sexta"
+
+        bool temReuniaoTerca = (diasDeReuniao & Dias.Terca) == Dias.Terca;
+        Console.WriteLine($"Tem reuniao na terça: {temReuniaoTerca}");
+        // Output: "Tem reunião na terça: false";
+
+        var a = (Dias)37;
+        Console.WriteLine(a);
+        // 37 em bits é 100101, ou seja: 0b_0010_0101
+        // Output: Segunda, Quarta, Sabado
+    }
+}
+```
+
+### Tipo de Estrutura
+
+Um *tipo de estrutura* é um tipo de valor que pode encapsular dados e funcionalidades relacionadas. Você usa o alias `struct` para definir uma estrutura:
+
+```C#
+public struct Coordenadas
+{
+    public Coordenadas(double x, double y)
+    {
+        X = x;
+        Y = y;        
+    }
+	
+    public double X { get; }
+    public double Y { get; }
+
+    public override string ToString() => $"({X}, {Y})";
+}
+```
+Os tipos de estrutura têm *semântica de valor*. Ou seja, uma variável de um tipo de estrutura contém uma instância do tipo. Por padrão, os valores variáveis são copiados na atribuição, passando um argumento para um método
+e retornando um resultado do método. No caso de uma variável do tipo `struct`, uma instância do tipo é copiada.
+
+Normalmente, usamos uma `struct` para criar pequenos tipos centrados em dados que fornecem pouco ou nenhum comportamento.
 
 ## Tipos de Referência
 
-a
+### Tipo String
+
+O tipo `string` é uma cadeira de caracteres que representa uma sequência de um ou mais caracteres Unicode. `string` é um alias de [System.String](https://docs.microsoft.com/pt-br/dotnet/api/system.string?view=netcore-3.1).
+
+Mesmo `string` sendo um tipo de referência, os operadores de igualdade `==` e `!=` comparam os **valores** de objetos `string`, não referências. Por exemplo:
+```C#
+string a = "M";
+string b = "Mundo";
+
+a += "undo";
+
+Console.WriteLine("As strings são iguais: " + (a == b));
+Console.WriteLine("As referências das strings são iguais: " + object.ReferenceEquals(a, b));
+```
+Este código vai exibir **As strings são iguais: true** e, em seguida, **As referências das strings são iguais: false** porque os conteúdos das cadeidas de caracteres são equivalentes, mas `a` e `b` são instâncias diferentes.
+
+O operador `+` concatena as cadeias de caracteres:
+```C#
+string a = "Olá " + "Mundo";
+Console.WriteLine(a);
+```
+Isso cria uma cadeia de caracteres que contém **Olá mundo**.
+
+Cadeia de caracteres são *imutáveis*, ou seja, o conteúdo de uma `string` não pode ser alterado depois que o objeto é criado, embora a sintaxe faça com que pareça que você pode fazer isso. Toda nova operação em uma string acaba
+por criar uma nova `string`.
+
+O operador `[]` pode ser usado para ler um caracter específico dentro de uma `string`. Por exemplo:
+```C#
+string texto = "Felipe";
+char caracter = texto[0];
+
+Console.WriteLine(caracter);
+```
+
