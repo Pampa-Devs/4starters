@@ -145,7 +145,7 @@ public enum DiasDaSemana
     Sexta			= 0b_0001_0000, //16
     Sabado			= 0b_0010_0000, //32
     Domingo			= 0b_0100_0000, //64
-    FinalDeSemana	= Sabado | Domingo
+    FinalDeSemana		= Sabado | Domingo
 }
 
 public class FlasEnumExemplo
