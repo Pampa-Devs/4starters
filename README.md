@@ -10,4 +10,4 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 
 Tutorial | Autores | Link
 ------- | ------- | -------
-**Tipos de Tipagem** | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/typing.md](https://github.com/Pampa-Devs/programming-concepts-tutorial/blob/master/Concepts/typing.md)
+**Tipos de Tipagem** | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/typing.md](https://github.com/Pampa-Devs/concepts/blob/master/Concepts/typing.md)
