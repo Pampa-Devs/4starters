@@ -12,7 +12,7 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 Como o nome já diz, os *tipos numéricos integrais* representam **números inteiros**. São **tipos simples** e todos suportam 
 operadores aritméticos, Bitwise lógicos, de comparação e de igualdade.
 
-alias | Intervalo | Tamanho | Tipo .NET
+Tipo ou Apelido | Intervalo | Tamanho | Tipo .NET
 ------- | ------- | ------- | -------
 `sbyte` | -128 **até** 127 | Inteiro de 8 bits com sinal | [System.SByte](https://docs.microsoft.com/pt-br/dotnet/api/system.sbyte?view=netcore-3.1)
 `byte` | 0 **até** 255 | Inteiro de 8 bits sem sinal | [System.Byte](https://docs.microsoft.com/pt-br/dotnet/api/system.byte?view=netcore-3.1)
@@ -23,7 +23,7 @@ alias | Intervalo | Tamanho | Tipo .NET
 `long` | -9.223.372.036.854.775.808 **até** 9.223.372.036.854.775.807 | Inteiro assinado de 64 bits | [System.Int64](https://docs.microsoft.com/pt-br/dotnet/api/system.int64?view=netcore-3.1)
 `ulong` | 0 **até** 18.446.744.073.709.551.615 | Inteiro de 64 bits sem sinal | [System.UInt64](https://docs.microsoft.com/pt-br/dotnet/api/system.uint64?view=netcore-3.1)
 
-A coluna **Tipo** representa um *alias* a ser utilizado dentro do código. Por exemplo, as declarações a seguir representam o mesmo tipo:
+A coluna **Tipo** representa um *alias*(palavra-chave ou apelido. Um **System.Byte** é a mesma coisa que um `byte`) a ser utilizado dentro do código. Por exemplo, as declarações a seguir representam o mesmo tipo:
 ```C#
 int a = 123;
 System.Int32 b = 123;
