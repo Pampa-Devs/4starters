@@ -138,14 +138,14 @@ Se você quiser que um tipo de enumeração represente uma combinação de escol
 [Flags]
 public enum DiasDaSemana
 {
-    Segunda            = 0b_0000_0001, //1
-    Terca            = 0b_0000_0010, //2
-    Quarta            = 0b_0000_0100, //4
-    Quinta            = 0b_0000_1000, //8
-    Sexta            = 0b_0001_0000, //16
-    Sabado            = 0b_0010_0000, //32
-    Domingo            = 0b_0100_0000, //64
-    FinalDeSemana        = Sabado | Domingo
+    Segunda				= 0b_0000_0001, //1
+    Terca				= 0b_0000_0010, //2
+    Quarta				= 0b_0000_0100, //4
+    Quinta				= 0b_0000_1000, //8
+    Sexta				= 0b_0001_0000, //16
+    Sabado				= 0b_0010_0000, //32
+    Domingo				= 0b_0100_0000, //64
+    FinalDeSemana		= Sabado | Domingo
 }
 
 public class FlasEnumExemplo
@@ -234,7 +234,7 @@ Console.WriteLine(caracter);
 
 ### Tipo Class
 
-Class é um objeto que é declarado usando o alias `class`:
+Class é um objeto que é declarado usando o alias `class`. Uma classe é uma estrutura de dados que combina ações e estados em uma única unidade. 
 ```C#
 class TestClass
 {
