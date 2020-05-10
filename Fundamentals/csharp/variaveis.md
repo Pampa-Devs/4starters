@@ -231,6 +231,7 @@ char caracter = texto[0];
 
 Console.WriteLine(caracter);
 ```
+O resultado irá imprimir a letra **F** como resultado;
 
 ### 2. Tipo Class
 
@@ -391,7 +392,7 @@ class Fusca : ICarro
         carro.Acelerar();
         carro.Freiar();
         
-        // Invocação de uma *implementação padrão*
+        // Invocação de uma implementação padrão
         carro.Buzinar();
     }
 }

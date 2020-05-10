@@ -8,6 +8,14 @@ Este repositório tem como objetivo compartilhar exemplos práticos e tutoriais 
 Iremos ir atualizando este repositório mensalmente. Você também pode contribuir com o seu tutorial entrando em contato com nossos **moderadores** no nosso servidor do [discord](https://discord.gg/FvkzVcr).
 <br>
 
+## Fundamentos
+
+Fundamento | Autores | Link
+------- | ------- | -------
+**Tipos e Variaveis** | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/typing.md](https://github.com/Pampa-Devs/concepts/blob/master/Concepts/typing.md)
+
+## Conceitos
+
 Tutorial | Autores | Link
 ------- | ------- | -------
 **Tipos de Tipagem** | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/typing.md](https://github.com/Pampa-Devs/concepts/blob/master/Concepts/typing.md)
