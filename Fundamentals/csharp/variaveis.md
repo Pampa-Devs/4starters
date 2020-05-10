@@ -5,9 +5,9 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 * Com os **tipos de valor**, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
 * Com os **tipos de referência** é possível que duas variáveis diferentes referenciem o mesmo objeto, ou seja, alterar uma delas irá alterar o valor da outra.
 
-## Tipos de Valor
+## A) Tipos de Valor
 
-### Tipos numéricos integrais
+### 1. Tipos numéricos integrais
 
 Como o nome já diz, os *tipos numéricos integrais* representam **números inteiros**. São **tipos simples** e todos suportam 
 operadores aritméticos, Bitwise lógicos, de comparação e de igualdade.
@@ -31,7 +31,7 @@ System.Int32 b = 123;
 
 O valor padrão de cada tipo integral é `0`. Cada um dos tipos possui as constantes `MinValue` e `MaxValue` que fornecem o valor mínimo e máximo desse tipo.
 
-### Tipos numéricos de ponto flutuante
+### 2. Tipos numéricos de ponto flutuante
 
 Os *tipos numéricos de ponto flutuante* representam números reais. São **tipos simples** e também suportam operadores aritméticos, bitwise lógicos], de comparação e de igualdade.
 
@@ -59,7 +59,7 @@ decimal dinheiro2 = 800.00M;
 
 ```
 
-### Tipo Boolean
+### 3. Tipo Boolean
 
 A `bool` é um alias para o tipo [System.Boolean](https://docs.microsoft.com/pt-br/dotnet/api/system.boolean?view=netcore-3.1). Representa um
 valor booleano que pode ser `true` ou `false` (verdadeiro ou falso).
@@ -81,7 +81,7 @@ else
 
 O valor default de um boolean é `false`.
 
-### Tipos Char
+### 4. Tipos Char
 
 O `char` é um alias para o tipo [System.Char](https://docs.microsoft.com/pt-br/dotnet/api/system.char?view=netcore-3.1) que representa um caractere [Unicode UTF-16](http://www.fileformat.info/info/charset/UTF-16/list.htm).
 
@@ -107,7 +107,7 @@ Console.WriteLine(abcd);
 ```
 No exemplo acima, o output será **j j j j**.
 
-### Tipo de enumeração
+### 5. Tipo de enumeração
 
 Um *tipo de enumeração* (ou *tipo enum*) é um tipo de valor definido por um conjunto de constantes nomeadas do tipo [numérico integral](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#tipos-num%C3%A9ricos-integrais). `enum` é o alias do tipo [System.Enum](https://docs.microsoft.com/pt-br/dotnet/api/system.enum?view=netcore-3.1).
 Para definir uma enumeração, use o alias `enum` e especifique os membros:
@@ -131,7 +131,7 @@ enum Profissoes : ushort
 }
 ```
 
-#### Tipos de Enumeração como Bit Flags
+#### 5.1. Tipos de Enumeração como Bit Flags
 Se você quiser que um tipo de enumeração represente uma combinação de escolhas, defina os membros dessa enumeração de tal forma que cada membro individual seja um bit. Com isso, você pode utilizar os
 [operadores lógicos bitwise '|' ou '&']() para combinar ou interceptar combinações de escolhas. Para indicar que um enumerador declara seus membros como bits, utilize o atributo [[Flags]](), por exemplo:
 ```C#
@@ -172,7 +172,7 @@ public class FlasEnumExemplo
 }
 ```
 
-### Tipo de Estrutura
+### 6. Tipo de Estrutura
 
 Um *tipo de estrutura* é um tipo de valor que pode encapsular dados e funcionalidades relacionadas. Você usa o alias `struct` para definir uma estrutura:
 
@@ -196,9 +196,9 @@ e retornando um resultado do método. No caso de uma variável do tipo `struct`,
 
 Normalmente, usamos uma `struct` para criar pequenos tipos centrados em dados que fornecem pouco ou nenhum comportamento.
 
-## Tipos de Referência
+## B) Tipos de Referência
 
-### Tipo String
+### 1. Tipo String
 
 O tipo `string` é uma cadeira de caracteres que representa uma sequência de um ou mais caracteres Unicode. `string` é um alias de [System.String](https://docs.microsoft.com/pt-br/dotnet/api/system.string?view=netcore-3.1).
 
@@ -232,7 +232,7 @@ char caracter = texto[0];
 Console.WriteLine(caracter);
 ```
 
-### Tipo Class
+### 2. Tipo Class
 
 Class é um objeto que é declarado usando o alias `class`. Uma classe é uma estrutura de dados que combina ações e estados em uma única unidade. 
 ```C#
