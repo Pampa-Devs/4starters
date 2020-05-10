@@ -91,11 +91,12 @@ alias | Intervalo | Tamanho | Tipo .NET
 `char` | U+0000 **até** U+FFFF | 16 bits | [System.Char](https://docs.microsoft.com/pt-br/dotnet/api/system.char?view=netcore-3.1)
 
 Você pode específicar um `char` das seguintes formas:
-* Um caracter literal, **j**. 
-* Uma sequência de fuga Unicode `\u`, que é seguida pela representação hexadecimal de um código de caractere.
-* Uma sequência de fuga hexadecimal `\x`, que é seguida pela representação hexadecimal de um código de caractere.
-* Um valor de código de caracter no valor correspondente.
+* Um caracter literal, **j** (char a, no exemplo abaixo). 
+* Uma sequência de fuga Unicode `\u`, que é seguida pela representação hexadecimal de um código de caractere (char b).
+* Uma sequência de fuga hexadecimal `\x`, que é seguida pela representação hexadecimal de um código de caractere (char c).
+* Um valor de código de caracter no valor correspondente (char d).
 
+No exemplo abaixo, escolhi o caracter unicode **j** para o exemplo. Escrevi **j** em seu valor unicode **\u006A**, seu valor hexadecimal **\x006A**, e por fim, sua posição na tabela unicode **106**.
 ```C#
 char a = 'j';
 char b = '\u006A';
@@ -106,7 +107,7 @@ string abcd = string.Join(" ", a, b, c, d);
 
 Console.WriteLine(abcd);
 ```
-No exemplo acima, o output será **j j j j**.
+No exemplo acima, utilizo a função **string.Join()** para unir todos os caracteres, o resultado exibido será **j j j j**.
 
 ### 5. Tipo de enumeração
 
