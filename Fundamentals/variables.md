@@ -2,7 +2,7 @@
 
 linguagem | Autores | Link
 ------- | ------- | -------
-C# | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/typing.md](https://github.com/Pampa-Devs/concepts/blob/master/Concepts/typing.md)
+C# | [felipe-allmeida](https://github.com/felipe-allmeida) | [fundamentals/csharp/variaveis.md](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md)
 Java | - | -
 Javascript | - | -
 Python | - | -
