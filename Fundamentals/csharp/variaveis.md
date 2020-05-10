@@ -109,7 +109,7 @@ No exemplo acima, o output será **j j j j**.
 
 ### Tipo de enumeração
 
-Um *tipo de enumeração* (ou *tipo enum*) é um tipo de valor definido por um conjunto de constantes nomeadas do tipo [numérico integral](). `enum` é o alias do tipo [System.Enum](https://docs.microsoft.com/pt-br/dotnet/api/system.enum?view=netcore-3.1).
+Um *tipo de enumeração* (ou *tipo enum*) é um tipo de valor definido por um conjunto de constantes nomeadas do tipo [numérico integral](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#tipos-num%C3%A9ricos-integrais). `enum` é o alias do tipo [System.Enum](https://docs.microsoft.com/pt-br/dotnet/api/system.enum?view=netcore-3.1).
 Para definir uma enumeração, use o alias `enum` e especifique os membros:
 ```C#
 enum Profissoes
@@ -121,7 +121,7 @@ enum Profissoes
 ```
 
 Por padrão, os valores constantes associados dos membros do `enum` são do tipo `int`. Eles começam com **zero** e aumentam em **um** seguindo a ordem definida. Você também pode especificar explicitamente qualquer outro tipo 
-[numérico integral]() como um enum, além de também poder especificar explicitamente os valores constantes, como mostra o exemplo a seguir:
+[numérico integral](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#tipos-num%C3%A9ricos-integrais) como um enum, além de também poder especificar explicitamente os valores constantes, como mostra o exemplo a seguir:
 ```C#
 enum Profissoes : ushort
 {
