@@ -14,16 +14,16 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 Fundamento | Autores | Link
 ------- | ------- | -------
 **Tipos e Variaveis** | [felipe-allmeida](https://github.com/felipe-allmeida) | [fundamentals/variables.md](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
-**Operadores Aritméticas** | - | 
-**Operadores Lógicos e de Comparação** | - | 
-**Estruturas Condicionais** | - | 
-**Estruturas de Repetição** | - | 
-**Métodos** | - | 
-**Arrays** | - | 
-**Listas** | - | 
-**HashMaps** | - | 
-**Modificadores** | - | 
-**Exceções** | - | 
+**Operadores Aritméticas** | - | -
+**Operadores Lógicos e de Comparação** | - | -
+**Estruturas Condicionais** | - | -
+**Estruturas de Repetição** | - | -
+**Métodos** | - | -
+**Arrays** | - | -
+**Listas** | - | -
+**HashMaps** | - | -
+**Modificadores** | - | -
+**Exceções** | - | -
 
 ## Conceitos
 
