@@ -14,6 +14,7 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 aaa | Fundamento | Autores | Link
 ------- | ------- | ------- | -------
 1. | **Tipos e Variaveis** | [felipe-allmeida](https://github.com/felipe-allmeida) | [fundamentals/variables.md](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
+
 2. | **Operadores Aritméticas** | - | 
 3. | **Operadores Lógicos e de Comparação** | - | 
 4. | **Estruturas Condicionais** | - | 
