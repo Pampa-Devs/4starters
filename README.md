@@ -10,17 +10,17 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 
 ## Fundamentos
 
-1. [**Tipos e Variáveis**][fundamentals/variables.md](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
-2. [TO DO][**Operadores Aritméticos**]()
-3. [TO DO][**Operadores Lógicos e de Comparação**]()
-4. [TO DO][**Estruturas Condicionais**]()
-5. [TO DO][**Estruturas de Repetição**]()
-6. [TO DO][**Métodos**]()
-7. [TO DO][**Arrays**]()
-8. [TO DO][**Listas**]()
-9. [TO DO][**HashMaps**]()
-10. [TO DO][**Modificadores**]()
-11. [TO DO][**Exceções**]()
+1. [**Tipos e Variáveis**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
+2. [TO DO] [**Operadores Aritméticos**]()
+3. [TO DO] [**Operadores Lógicos e de Comparação**]()
+4. [TO DO] [**Estruturas Condicionais**]()
+5. [TO DO] [**Estruturas de Repetição**]()
+6. [TO DO] [**Métodos**]()
+7. [TO DO] [**Arrays**]()
+8. [TO DO] [**Listas**]()
+9. [TO DO] [**HashMaps**]()
+10. [TO DO] [**Modificadores**]()
+11. [TO DO] [**Exceções**]()
 
 ## Conceitos
 
