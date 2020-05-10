@@ -269,7 +269,7 @@ class ClasseDerivada : ClasseBase, InterfaceA
 
 Classes que você declara dentro de um namespace, que não são sub classes de outras classes, podem ser [públicas]() ou [internas](). As classes são `internal` por padrão
 
-Já seus membros podem ser públicos, internos protegidos, protegidos, internos, privados ou protegidos privados. Os membros são `private` por padrão.
+Já seus membros podem ser [públicos](), [internos protegidos](), [protegidos](), [internos](), [privados]() ou [protegidos privados]](). Os membros são `private` por padrão.
 
 Uma classe pode conter várias declarações:
 * Construtores
