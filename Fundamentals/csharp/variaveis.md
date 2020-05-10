@@ -23,11 +23,12 @@ Tipo | Intervalo | Tamanho | Tipo .NET
 `long` | -9.223.372.036.854.775.808 **até** 9.223.372.036.854.775.807 | Inteiro assinado de 64 bits | [System.Int64](https://docs.microsoft.com/pt-br/dotnet/api/system.int64?view=netcore-3.1)
 `ulong` | 0 **até** 18.446.744.073.709.551.615 | Inteiro de 64 bits sem sinal | [System.UInt64](https://docs.microsoft.com/pt-br/dotnet/api/system.uint64?view=netcore-3.1)
 
-A coluna **Tipo** representa um *alias*(palavra-chave ou apelido. Um **System.Byte** é a mesma coisa que um `byte`) a ser utilizado dentro do código. Por exemplo, as declarações a seguir representam o mesmo tipo:
+A coluna **Tipo** representa um *alias* (palavra-chave ou apelido) a ser utilizado dentro do código. Por exemplo, as declarações a seguir representam o mesmo tipo:
 ```C#
 int a = 123;
 System.Int32 b = 123;
 ```
+O alias `int` é um apelido para `System.Int32`
 
 O valor padrão de cada tipo integral é `0`. Cada um dos tipos possui as constantes `MinValue` e `MaxValue` que fornecem o valor mínimo e máximo desse tipo.
 
