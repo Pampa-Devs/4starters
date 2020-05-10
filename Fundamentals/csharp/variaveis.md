@@ -109,7 +109,7 @@ No exemplo acima, o output será **j j j j**.
 
 ### 5. Tipo de enumeração
 
-Um *tipo de enumeração* (ou *tipo enum*) é um tipo de valor definido por um conjunto de constantes nomeadas do tipo [numérico integral](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#tipos-num%C3%A9ricos-integrais). `enum` é o alias do tipo [System.Enum](https://docs.microsoft.com/pt-br/dotnet/api/system.enum?view=netcore-3.1).
+Um *tipo de enumeração* (ou *tipo enum*) é um tipo de valor definido por um conjunto de constantes nomeadas do tipo [numérico integral](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#1-tipos-num%C3%A9ricos-integrais). `enum` é o alias do tipo [System.Enum](https://docs.microsoft.com/pt-br/dotnet/api/system.enum?view=netcore-3.1).
 Para definir uma enumeração, use o alias `enum` e especifique os membros:
 ```C#
 enum Profissoes
@@ -121,7 +121,7 @@ enum Profissoes
 ```
 
 Por padrão, os valores constantes associados dos membros do `enum` são do tipo `int`. Eles começam com **zero** e aumentam em **um** seguindo a ordem definida. Você também pode especificar explicitamente qualquer outro tipo 
-[numérico integral](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#tipos-num%C3%A9ricos-integrais) como um enum, além de também poder especificar explicitamente os valores constantes, como mostra o exemplo a seguir:
+[numérico integral](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#1-tipos-num%C3%A9ricos-integrais) como um enum, além de também poder especificar explicitamente os valores constantes, como mostra o exemplo a seguir:
 ```C#
 enum Profissoes : ushort
 {
@@ -342,3 +342,55 @@ class Mundo
     }
 }
 ```
+
+### 3. Tipo Interface
+
+Uma interface tem como objetivo definir um contrato, qualquer [class](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#2-tipo-class) ou [struct](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variaveis.md#2-tipo-class)
+que implemente este contrato deve fornecer uma implementação **obrigatória** dos membros definidos na interface. Exemplo:
+```C#
+interface ICarro
+{
+    // Propriedade
+    string Nome { get; set; }
+    string Marca { get; }
+    // Métodos
+    void Acelerar();
+    void Freiar();
+}
+
+class Fusca : ICarro
+{
+    // Implementação das propriedades
+    string Nome { get; set; }
+    string Marca => return "Meu Fusquinha Turbinado";
+	
+    // Implementação explícita da interface
+    void ICarro.Acelerar()
+    {
+        //Lógica para acelerar o fusca
+    }
+    // Implementação implícita da interface
+    void Freiar()
+    {
+        //Lógica para freiar o fusca
+    }
+    
+    static void Main()
+    {
+        // Declaração de uma interfacia com uma instância de fusca
+        ICarro carro = new Fusca();
+        
+        // Invocação dos métodos da interface
+        carro.Acelerar();
+        carro.Freiar();
+    }
+}
+```
+
+Uma declaração de interface podem ser as seguintes:
+* Método
+* Propriedades
+* Indexadores
+* Eventos
+Nenhuma dessas declarações de membros precisa conter um corpo. Como podemos observar no exemplo acima, **Acelerar** e **Freiar**, na interface **ICarro** não possuem implementação.
+Caso seja criado um corpo para uma declaração, este corpo será uma *implementação padrão* declaração.
