@@ -407,3 +407,9 @@ Uma declaração de interface podem ser as seguintes:
 * Eventos
 Nenhuma dessas declarações de membros precisa conter um corpo. Como podemos observar no exemplo acima, **Acelerar** e **Freiar**, na interface **ICarro** não possuem implementação.
 Caso seja criado um corpo para uma declaração, este corpo será uma *implementação padrão*.
+
+# Referências
+* https://docs.microsoft.com/pt-br/dotnet/csharp/
+* https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=dec
+* https://www.devmedia.com.br/introducao-a-variaveis-e-constantes-no-csharp/29629
+* http://www.macoratti.net/net_tpdt.htm
