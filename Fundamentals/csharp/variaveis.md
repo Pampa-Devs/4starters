@@ -12,7 +12,7 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 Como o nome já diz, os *tipos numéricos integrais* representam **números inteiros**. São **tipos simples** e todos suportam 
 operadores aritméticos, Bitwise lógicos, de comparação e de igualdade.
 
-Tipo ou Apelido | Intervalo | Tamanho | Tipo .NET
+Tipo | Intervalo | Tamanho | Tipo .NET
 ------- | ------- | ------- | -------
 `sbyte` | -128 **até** 127 | Inteiro de 8 bits com sinal | [System.SByte](https://docs.microsoft.com/pt-br/dotnet/api/system.sbyte?view=netcore-3.1)
 `byte` | 0 **até** 255 | Inteiro de 8 bits sem sinal | [System.Byte](https://docs.microsoft.com/pt-br/dotnet/api/system.byte?view=netcore-3.1)
