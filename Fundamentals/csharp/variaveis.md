@@ -19,7 +19,7 @@ alias | Intervalo | Tamanho | Tipo .NET
 `short` | -32.768 **até** 32.767 | Inteiro de 16 bits com sinal | [System.Int16](https://docs.microsoft.com/pt-br/dotnet/api/system.int16?view=netcore-3.1)
 `ushort` | 0 **até** 65.535 | Inteiro de 16 bits sem sinal | [System.UInt16](https://docs.microsoft.com/pt-br/dotnet/api/system.uint16?view=netcore-3.1)
 `int` | -2.147.483.648 **até** 2.147.483.647 | Inteiro assinado de 32 bits | [System.Int32](https://docs.microsoft.com/pt-br/dotnet/api/system.int32?view=netcore-3.1)
-`uint` | 0 **até** 4.294.967.295 | Inteiro de 32 bits sem sinal | [	System.UInt32](https://docs.microsoft.com/pt-br/dotnet/api/system.uint32?view=netcore-3.1)
+`uint` | 0 **até** 4.294.967.295 | Inteiro de 32 bits sem sinal | [    System.UInt32](https://docs.microsoft.com/pt-br/dotnet/api/system.uint32?view=netcore-3.1)
 `long` | -9.223.372.036.854.775.808 **até** 9.223.372.036.854.775.807 | Inteiro assinado de 64 bits | [System.Int64](https://docs.microsoft.com/pt-br/dotnet/api/system.int64?view=netcore-3.1)
 `ulong` | 0 **até** 18.446.744.073.709.551.615 | Inteiro de 64 bits sem sinal | [System.UInt64](https://docs.microsoft.com/pt-br/dotnet/api/system.uint64?view=netcore-3.1)
 
@@ -116,7 +116,7 @@ enum Profissoes
 {
     Professor,
     Engenheiro,
-    Astronauta	
+    Astronauta    
 }
 ```
 
@@ -127,7 +127,7 @@ enum Profissoes : ushort
 {
     Professor = 0,
     Engenheiro = 1,
-    Astronauta = 200	
+    Astronauta = 200    
 }
 ```
 
@@ -138,14 +138,14 @@ Se você quiser que um tipo de enumeração represente uma combinação de escol
 [Flags]
 public enum DiasDaSemana
 {
-    Segunda			= 0b_0000_0001, //1
-    Terca			= 0b_0000_0010, //2
-    Quarta			= 0b_0000_0100, //4
-    Quinta			= 0b_0000_1000, //8
-    Sexta			= 0b_0001_0000, //16
-    Sabado			= 0b_0010_0000, //32
-    Domingo			= 0b_0100_0000, //64
-    FinalDeSemana		= Sabado | Domingo
+    Segunda            = 0b_0000_0001, //1
+    Terca            = 0b_0000_0010, //2
+    Quarta            = 0b_0000_0100, //4
+    Quinta            = 0b_0000_1000, //8
+    Sexta            = 0b_0001_0000, //16
+    Sabado            = 0b_0010_0000, //32
+    Domingo            = 0b_0100_0000, //64
+    FinalDeSemana        = Sabado | Domingo
 }
 
 public class FlasEnumExemplo
@@ -182,9 +182,9 @@ public struct Coordenadas
     public Coordenadas(double x, double y)
     {
         X = x;
-        Y = y;        
+        Y = y;
     }
-	
+    
     public double X { get; }
     public double Y { get; }
 
@@ -232,3 +232,113 @@ char caracter = texto[0];
 Console.WriteLine(caracter);
 ```
 
+### Tipo Class
+
+Class é um objeto que é declarado usando o alias `class`:
+```C#
+class TestClass
+{
+    // Métodos, prorpriedades, campos, eventos, delegados e sub classes vão aqui dentro
+}
+```
+
+O **C#** não da suporta a múltiplas heranças que nem linguagens como **C++**, somente herança única. Porém, uma classe pode implementar mais de uma interface. 
+Exemplos:
+
+```C#
+// Classe sem nenhuma herança
+class ClassTest
+{
+}
+
+// Classe com uma única herança
+class ClasseDerivada : ClasseBase
+{
+}
+
+// Classe sem nenhuma herança, porém implementa duas interfaces
+class ClassTest : InterfaceA, InterfaceB
+{
+}
+
+// Classe com uma única herança e implementa uma interface
+class ClasseDerivada : ClasseBase, InterfaceA
+{
+}
+```
+
+Classes que você declara dentro de um namespace, que não são sub classes de outras classes, podem ser [públicas]() ou [internas](). As classes são `internal` por padrão
+
+Já seus membros podem ser públicos, internos protegidos, protegidos, internos, privados ou protegidos privados. Os membros são `private` por padrão.
+
+Uma classe pode conter várias declarações:
+* Construtores
+* Constantes
+* Campos
+* Finalizadores
+* Métodos
+* Propriedades
+* Indexadores
+* Operadores
+* Eventos
+* Delegados
+* Classes
+* Interfaces
+* Tipos de estrutura
+* Tipos de enumeração
+
+Exemplo:
+```C#
+class Personagem
+{    
+    // Campos
+    private string Nome;
+    private string Classe;
+
+    // Construtor padrão
+    public Personagem()
+    {
+        Nome = "Sem Nome";
+        Classe = "Sem Classe";
+    }
+    
+    // Construtor com parâmetros
+    public Personagem(string nome, string classe)
+    {
+        this.Nome = nome;
+        this.Classe = classe;
+    }
+    
+    // Finalizador
+    ~Personagem()
+    {
+        Nome = string.Empty;
+        Classe = string.Empty;
+    }
+    
+    // Método
+    public void Atacar()
+    {
+        Console.WriteLine($"{Nome} da classe {Classe} está atacando!");
+    }
+}
+
+class Mundo
+{
+    static void Main()
+    {
+        // Instanciação usando Construtor padrão
+        var personagemSemNome = new Personagem();
+        
+        // Instanciação usando Construtor com parâmetros
+        var felipe = new Personagem("Felipe", "Berserker");
+        
+        // Invocação do método Personagem.Atacar()
+        personagemSemNome.Atacar();
+        felipe.Atacar();
+        
+        //Removendo referência para chamar o Finalizador
+        felipe = null;
+    }
+}
+```
