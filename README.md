@@ -10,11 +10,16 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 
 ## Fundamentos
 
+1. [**Tipos e Variáveis**]()
+2. [**Operadores Aritméticos**]()
+3. [**Operadores Lógicos e de Comparação**]()
+4. [**Estruturas Condicionais**]()
+5. [**Estruturas de Repetição**]()
 
 Fundamento | Autores | Link
 ------- | ------- | -------
 **Tipos e Variaveis** | [felipe-allmeida](https://github.com/felipe-allmeida) | [fundamentals/variables.md](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
-**Operadores Aritméticas** | - | -
+**Operadores Aritméticos** | - | -
 **Operadores Lógicos e de Comparação** | - | -
 **Estruturas Condicionais** | - | -
 **Estruturas de Repetição** | - | -
