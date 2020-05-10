@@ -10,9 +10,9 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 
 ## Fundamentos
 
-Fundamento | Autores | Link
-------- | ------- | -------
-**Tipos e Variaveis** | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/typing.md](https://github.com/Pampa-Devs/concepts/blob/master/Concepts/typing.md)
+ | Fundamento | Autores | Link
+------- | ------- | ------- | -------
+1. | **Tipos e Variaveis** | [felipe-allmeida](https://github.com/felipe-allmeida) | [fundamentals/variables.md](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
 
 ## Conceitos
 
