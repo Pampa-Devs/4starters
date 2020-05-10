@@ -353,9 +353,16 @@ interface ICarro
     // Propriedade
     string Nome { get; set; }
     string Marca { get; }
+    
     // Métodos
     void Acelerar();
     void Freiar();
+
+    // Método com implementação padrão
+    void Buzinar()
+    {
+        Console.WriteLine("Nani!?")
+    }
 }
 
 class Fusca : ICarro
@@ -383,6 +390,9 @@ class Fusca : ICarro
         // Invocação dos métodos da interface
         carro.Acelerar();
         carro.Freiar();
+        
+        // Invocação de uma *implementação padrão*
+        carro.Buzinar();
     }
 }
 ```
@@ -393,4 +403,4 @@ Uma declaração de interface podem ser as seguintes:
 * Indexadores
 * Eventos
 Nenhuma dessas declarações de membros precisa conter um corpo. Como podemos observar no exemplo acima, **Acelerar** e **Freiar**, na interface **ICarro** não possuem implementação.
-Caso seja criado um corpo para uma declaração, este corpo será uma *implementação padrão* declaração.
+Caso seja criado um corpo para uma declaração, este corpo será uma *implementação padrão*.
