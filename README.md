@@ -8,7 +8,7 @@ Este repositório tem como objetivo compartilhar exemplos práticos e tutoriais 
 Iremos ir atualizando este repositório mensalmente. Você também pode contribuir com o seu tutorial entrando em contato com nossos **moderadores** no nosso servidor do [discord](https://discord.gg/FvkzVcr).
 <br>
 
-## Fundamentos
+Aqui iremos apresentar os conceitos básicos e elementares de **programação** e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de **programação**.
 
 1. [**Tipos e Variáveis**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
 2. [TO DO] [**Operadores Aritméticos**]()
@@ -22,8 +22,7 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 10. [TO DO] [**Modificadores**]()
 11. [TO DO] [**Exceções**]()
 
-## Conceitos
 
-Tutorial | Autores | Link
+Artigo | Autores | Link
 ------- | ------- | -------
 **Tipos de Tipagem** | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/typing.md](https://github.com/Pampa-Devs/concepts/blob/master/Concepts/typing.md)
