@@ -169,9 +169,115 @@ class FareService
 }
 ```
 
-Com essa alteração, a classe *FareService* não tem mais necessidade de saber qual o tipo de tarifa necessário para chamar o método **Calculate()**.
+Com essa alteração, a classe *FareService* não tem mais necessidade de saber qual o tipo de tarifa necessário para chamar o método **Calculate()**. Ela será capaz de calcular a tarifa de qualquer tipo de veículo
+que seja criado no futuro (caminhão, avião, etc) sem qualquer necessidade de alteração do código fonte. Com isso implementamos o príncipio Aberto-Fechado em nosso código!
+
+
 ## LSP - Princípio da substituição de Liskov
+> "Objetos em um programa devem ser substituíveis por instâncias de seus subtipos, sem alterar a funcionalidade do programa"
+
+Este princípio foi apresentado por [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), também recebeu o prêmio [Turing Award](https://en.wikipedia.org/wiki/Turing_Award) pelas suas contribuições.
+A definição formal de Liskov sobre o príncipio diz que:
+> Se para cada objeto o1 do tipo S há um objeto o2 do tipo T de forma que, para todos os programas P definidos em termos de T, 
+o comportamento de P é inalterado quando o1 é substituído por o2 então S é um subtipo de T
+
+Para facilitar o entendimento, vamos ao exemplo prático:
+```C#
+class ClasseBase
+{
+    public string GetName()
+    {
+        return "Sou o objeto 'ClasseBase'";
+    }
+}
+
+class ClasseDerivada : ClasseBase
+{
+    public new string GetName()
+    {
+        return "Sou o objeto 'ClasseDerivada'";
+    }
+}
+
+class Program
+{
+    public void Main()
+    {
+        var objeto1 = new ClasseBase();
+        var objeto2 = new ClasseDerivada();
+        
+        Console.WriteLine(objeto1.GetName()); // Sou o objeto 'ClasseBase'
+        Console.WriteLine(objeto2.GetName()); // Sou o objeto 'ClasseDerivada'
+    }
+}
+```
+Estamos usando a função **GetName** tanto da *ClasseBase* quanto da *ClasseDerivada* e o código funciona da mesma forma para ambas.
+
+### Exemplos prático de violações do LSP:
+
+* Sobrescrever/implementar um método que não faz nada;
+* Lançar uma exceção inesperada;
+* Retornar valores de tipos diferentes da classe base.
+
+```C#
+
+// Sobrescrevendo um método que não faz nada:
+class Penguim : Bird
+{
+    public override void Fly()
+    {
+        // Não faz nada
+    }
+}
+
+
+
+// Lançando uma exceção inesperada
+class Vehicle
+{
+    public void Ligar()
+    {
+        // Liga o veículo
+    }
+}
+
+class Bike : Vehicle
+{
+    public new void Ligar()
+    {
+        throw new Exception("Uma bicicleta não precisa ser ligada");
+    }
+}
+
+
+// Retornando valores de tipos diferentes
+class Security
+{
+    public bool Validate()
+    {
+        // Valida usuário
+        return true;
+    }
+}
+
+class ApiSecurity : Security
+{
+    public new string Validate()
+    {
+        //Valida usuário
+        return "Usuário válido";
+    }
+}
+```
+
+Ao seguir o **LSP** ganhamos mais confiança para usar polimorfismo por exemplo. Não precisamos nos preocupar com resultados inesperados.
 
 ## ISP - Princípio da segregação da interface
 
 ## DIP - Princípio da inversão da depêndencia
+
+
+# Referências
+* http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+* https://medium.com/joaorobertopb/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
+* https://pt.wikipedia.org/wiki/SOLID
