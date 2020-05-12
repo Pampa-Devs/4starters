@@ -10,18 +10,18 @@ Estes princípios foram apresentados por [Robert C. Martin](https://en.wikipedia
 
 ## Os 5 princípios **S.O.L.I.D.**:
 
-1. **S** - Single Responsability Principle (Príncipio da responsabilidade única)
-2. **O** - Open-Closed Principle (Princípio Aberto-Fechado)
-3. **L** - Liskov Substitution Principle (Princípio da substituição de Liskov)
-4. **I** - Interface Segregation Principle (Princípio da Segregação da Interface)
-5. **D** - Dependency Inversion Principle (Princípio da inversão da depêndencia)
+1. **S - Single Responsability Principle** (Príncipio da responsabilidade única)
+2. **O - Open-Closed Principle** (Princípio Aberto-Fechado)
+3. **L - Liskov Substitution Principle** (Princípio da substituição de Liskov)
+4. **I - Interface Segregation Principle** (Princípio da Segregação da Interface)
+5. **D - Dependency Inversion Principle** (Princípio da inversão da depêndencia)
 
 Ao seguir estes princípios, o código do desenvolvedor se torna **mais limpo**, mais **modularizado** com pouco **acoplamento**. O que acaba por facilitar a refatoração e reutilização do código.
 
 ## SRP -  Príncipio da responsabilidade única
 > "Uma classe deve ter apenas uma única responsabilidade"
 
-Esse princípio declara que uma classe deve ser especializada em um único assunto e possuir apenas uma responsabilidade dentro do software, ou seja, a classe deve ter uma única tarefa ou ação para executar.
+Esse princípio declara que uma classe deve ser especializada em um **único assunto** e possuir apenas **uma responsabilidade** dentro do software, ou seja, a classe deve ter uma única tarefa ou ação para executar.
 
 Em programação orientada a objetos, uma classe que sabe demais ou faz coisas demais é chamado de **God Class** (Classe Deus). Ao alterar uma **God Class**, sempre existe um nível de incerteza se a alteração de uma responsabilidade
 irá comprometer todas as outras, principalmente se não existirem testes automatizados.
@@ -53,10 +53,10 @@ class Customer
 A classe *Customer* está violando o SRP pois realiza 3 tipos de tarefas. Ela além de lidar com os dados do *customer*, também é responsável pela renderização e manipulação dos dados.
 
 A violação deste príncipio pode resultar nos seguintes problemas:
-* Falta de coesão - Uma classe não deve assumir responsabilidades que não são suas
-* Alto acoplamento - Quanto maior o número de responsabilidades, maior o número de dependências.
-* Dificuldade na implementação de testes automatizados - É díficil de criar uma *"versão de testes"* dessa classe
-* Dificuldades para reaproveitação do código - Por ter várias responsabilidades, provavelmente não irá ser reaproveitada em um projeto diferente
+* **Falta de coesão** - Uma classe não deve assumir responsabilidades que não são suas
+* **Alto acoplamento** - Quanto maior o número de responsabilidades, maior o número de dependências.
+* **Dificuldade na implementação de testes automatizados** - É díficil de criar uma *"versão de testes"* dessa classe
+* **Dificuldades para reaproveitação do código** - Por ter várias responsabilidades, provavelmente não irá ser reaproveitada em um projeto diferente
 
 ### Aplicando SRP na classe *customer*:
 ```C#
@@ -132,10 +132,11 @@ A classe *FareService*, para cara tipo diferente de veiculo, possui uma classe d
 
 Existe uma frase no artigo do **Uncle Bob** que é o seguinte:
 > Separate extensible behavioor behind an interface, and flip the dependencies.
+
 Que traduzindo fica:
 > Separe o comportamento extensível por trás de uma interface e inverta as dependências
 
-Caso a interface seja bem definida, conseguimos extrair da classe *FareService* a implementação das regras de calculo e simplesmente deixar a operação **Calculate**.
+Caso a interface seja bem definida, conseguimos extrair da classe *FareService* a implementação dos tipos de tarifa e chamar somente a **Calculate**.
 
 ### Aplicando OCP
 
@@ -168,7 +169,7 @@ class FareService
 }
 ```
 
-Com essa alteração, a classe *FareService* não tem mais necessidade de saber qual o tipo de *fare* necessário para chamar o método *Calculate()*.
+Com essa alteração, a classe *FareService* não tem mais necessidade de saber qual o tipo de tarifa necessário para chamar o método **Calculate()**.
 ## LSP - Princípio da substituição de Liskov
 
 ## ISP - Princípio da segregação da interface
