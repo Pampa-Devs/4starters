@@ -23,6 +23,8 @@ Aqui iremos apresentar os conceitos básicos e elementares de **programação** 
 11. [TO DO] [**Exceções**]()
 
 
-Artigo | Autores | Link
+
+Material | Autores | Link
 ------- | ------- | -------
 **Tipos de Tipagem** | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/typing.md](https://github.com/Pampa-Devs/concepts/blob/master/Concepts/typing.md)
+O que é **SOLID**? | [felipe-allmeida](https://github.com/felipe-allmeida) | [concepts/solid.md](https://github.com/Pampa-Devs/concepts/blob/master/Concepts/solid.md)

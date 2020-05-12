@@ -1,4 +1,4 @@
-# Tipos e Váriaveis
+# Tipos e Variáveis
 
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
 enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos. 

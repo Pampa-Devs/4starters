@@ -1,4 +1,4 @@
-# Tipos e Váriaveis
+# Tipos e Variáveis
 
 linguagem | Autores | Link
 ------- | ------- | -------
