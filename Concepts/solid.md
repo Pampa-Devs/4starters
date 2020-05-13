@@ -323,7 +323,7 @@ class EventLogger : ILogger
 }
 ```
 Perceba que ao implementar a interface `ILogger`, a classe `ConsoleLogger` que não possui armazenamento de *logs* acaba por ser obrigada a implementar a função `GetLogs()`.
-Essa estrutura não está violando somente *Interface Segregation Principle*, ela também viola o *Liskov Substitution Principle*.
+Essa estrutura não está violando somente *Interface Segregation Principle*, ela também viola o *Liskov Substitution Principle* pois a classe `ConsoleLogger` não implementa todas as funcionalidades de `ILogger`.
 
 ### Aplicando ISP
 Esse problema é facilmente resolvido criando interfaces mais específicas, veja:
