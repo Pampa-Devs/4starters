@@ -367,7 +367,84 @@ isolar os comportamentos das classes *logger* respeitando o príncipio ISP.
 ## DIP - Princípio da inversão da depêndencia
 > "Deve-se depender de abstrações, não de objetos concretos"
 
+De acordo com **Uncle Bob**, esse princípio pode ser definido da seguinte forma:
+* Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração.
+* Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+
+### Exemplo prático de uma violação do DIP:
+```C#
+public class PaymentService
+{
+    private readonly PayPalGateway _gateway;
+
+    public class PaymentService()
+    {
+        _gateway = new PayPalGateway();
+    }
+    
+    public void Pay(decimal value)
+    {
+        _gateway.Pay(value);
+    }
+}
+```
+
+Para realizar um pagamento, a classe `PaymentService` precisa inicializar o gateway de pagamento, para isso, ela cria uma instancia de `PayPalGateway` em seu construtor
+para poder realizar a operação de pagamento.
+
+O problema deste código é o **alto nível de acoplamento** entre a classe `PaymentService` e `PayPalGateway`, pois a `PayPalService` tem a responsabilidade de criar uma
+instância da classe `PayPalGateway`. Para criar um teste *mocado* de nosso serviço de pagamento, teríamos que mocar também o `PayPalGateway` e neste exemplo isso não não é possível.
+
+### Aplicando DIP
+
+Como dito anteriormente, *módulos de alto nível (PayPalService) não devem depender de módulos de baixo nível (PayPalGateway). Ambos devem depender da abstração.*
+
+Com isso em mente, podemos criar uma interface para o nosso gateway de pagamento.
+```C#
+public interface IPaymentGateway
+{
+    public void Pay(decimal value);
+}
+```
+
+A nossa classe `PayPalGateway` será a implementação de nossa nova interface.
+```C#
+public class PayPalGateway : IPaymentGateway
+{
+    public void Pay(decimal value) {\* ... *\};
+}
+```
+
+E por fim, nosso serviço de pagamento vai ser modificado para o seguinte:
+```C#
+public class PaymentService
+{
+    private readonly IPaymentGateway _gateway;
+
+    public class PaymentService(IPaymentGateway gateway)
+    {
+        _gateway = gateway;
+    }
+    
+    public void Pay(decimal value)
+    {
+        _gateway.Pay(value);
+    }
+}
+```
+
+Passamos a interface `IPaymentGateway` ao invés de passar direto a `PayPalGateway` pois imagine que existisse uma tarefa para mudar PayPal por pagamento por boleto:
+A nossa classe `PaymentService` exigiria uma alteração para funcionar com o novo *gateway de pagamento*.
+
+Com a alteração mostrada neste exemplo, possibilitamos que **n** novos *gateway de pagamentos* sejam adicionados ao código sem a necessidade de alterar a classe `PaymentService`.
+Ou seja, não estamos mais violando o **DIP**, ambas as classes estão desacopladas e dependendo de uma abstração e favorecemos uma possível reusabilidade do código.
+
+## Conclusão
+
+Somente por respeitar os princípios defendidos pelo **SOLID**, obtemos um software escalável, flexível, robusto e modular. Além disso, realizar manutenções e testes no sistema se torna uma atividade trivial.
+
 # Referências
 * http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
 * https://medium.com/joaorobertopb/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
 * https://pt.wikipedia.org/wiki/SOLID
+* https://refactoring.guru/pt-br
