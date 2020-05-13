@@ -443,6 +443,14 @@ Ou seja, não estamos mais violando o **DIP**, ambas as classes estão desacopla
 
 Somente por respeitar os princípios defendidos pelo **SOLID**, obtemos um software escalável, flexível, robusto e modular. Além disso, realizar manutenções e testes no sistema se torna uma atividade trivial.
 
+
+
+## Agradecimentos
+
+Minha irmã, Thais de Almeida - Pela formatação e correção do texto.
+[crejaneogomes](https://github.com/crejaneogomes) - Pela revisão do ponto de vista técnico.
+
+
 # Referências
 * http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
 * https://medium.com/joaorobertopb/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
