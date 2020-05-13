@@ -110,7 +110,7 @@ print(nome + " " + idade); //TypeError: can only concatenate str (not "int") to 
 Perceba também que várias linguagens não são **totalmente estáticas ou dinâmicas**, muitas vezes 
 as linguagems tendem a mesclar alguns aspectos de tipagens diferentes.
 
-Espero que o conceito de "tipagem" tenha ficado mais claro para você depois de ler esse tópico.
+Espero que o conceito de "tipagem" tenha ficado mais claro para você depois de ler esse artigo.
 
 <h1 align="center">
   <img src="/Images/meme.jpeg" alt="Meme" width="600px" />
