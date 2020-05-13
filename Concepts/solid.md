@@ -16,14 +16,14 @@ Estes princípios foram apresentados por [Robert C. Martin](https://en.wikipedia
 4. **I - Interface Segregation Principle** (Princípio da Segregação da Interface)
 5. **D - Dependency Inversion Principle** (Princípio da inversão da depêndencia)
 
-Ao seguir estes princípios, o código do desenvolvedor se torna **mais limpo**, mais **modularizado** com pouco **acoplamento**. O que acaba por facilitar a refatoração e reutilização do código.
+Ao seguir estes princípios, o código do desenvolvedor se torna **mais limpo**, mais **modularizado** e com pouco **acoplamento**, o que acaba por facilitar a refatoração e reutilização do código.
 
 ## SRP -  Príncipio da responsabilidade única
 > "Uma classe deve ter apenas uma única responsabilidade"
 
 Esse princípio declara que uma classe deve ser especializada em um **único assunto** e possuir apenas **uma responsabilidade** dentro do software, ou seja, a classe deve ter uma única tarefa ou ação para executar.
 
-Em programação orientada a objetos, uma classe que sabe demais ou faz coisas demais é chamado de **God Class** (Classe Deus). Ao alterar uma **God Class**, sempre existe um nível de incerteza se a alteração de uma responsabilidade
+Em programação orientada a objetos, uma classe que sabe demais ou faz coisas demais é chamada de **God Class** (Classe Deus). Ao alterar uma **God Class**, sempre existe um nível de incerteza se a alteração de uma responsabilidade
 irá comprometer todas as outras, principalmente se não existirem testes automatizados.
 
 ### Exemplo prático de uma violação do SRP:
@@ -50,7 +50,7 @@ class Customer
 }
 ```
 
-A classe *Customer* está violando o SRP pois realiza 3 tipos de tarefas. Ela além de lidar com os dados do *customer*, também é responsável pela renderização e manipulação dos dados.
+A classe *Customer* está violando o SRP, pois realiza três tipos de tarefas. Ela além de lidar com os dados do *customer*, também é responsável pela renderização e manipulação dos dados.
 
 A violação deste príncipio pode resultar nos seguintes problemas:
 * **Falta de coesão** - Uma classe não deve assumir responsabilidades que não são suas
@@ -88,9 +88,9 @@ class CustomerRepository
     public void Delete() {\*...*\}
 }
 ```
-Perceba que conseguimos **quebrar** a classe *customer* em 4 diferentes classes, onde cada uma tem sua própria responsabilidade.
+Perceba que conseguimos **quebrar** a classe *customer* em quatro diferentes classes, onde cada uma tem sua própria responsabilidade.
 
-Por reforçar a modularização, o SRP é considerado um dos princípios mais importantes. Ele também é a base para outros princípios e padrões pois lida com questões de coesão e acoplamento, coisa que todo desenvolvedor deve saber aplicar.
+Por reforçar a modularização, o SRP é considerado um dos princípios mais importantes. Ele também é a base para outros princípios e padrões, pois lida com questões de coesão e acoplamento, coisa que todo desenvolvedor deve saber aplicar.
 
 ## OCP - Príncipio Aberto-Fechado
 > "Entidades de software devem ser abertas para extensão, mas fechadas para modificação."
@@ -127,7 +127,9 @@ class FareService
     }
 }
 ```
+
 A classe *FareService*, para cada tipo diferente de veiculo, possui uma classe de calculo diferente. Caso surja a necessidade de adicionar suporte a outros veiculos, obviamente teríamos de modificar essa classe, assim violando o princípio Aberto-Fechado do SOLID.
+
 **O principal problema** de alterar uma classe já em funcionamento é a introdução de novos bugs.
 
 Existe uma frase no artigo do **Uncle Bob** que é o seguinte:
