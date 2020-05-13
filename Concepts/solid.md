@@ -447,8 +447,8 @@ Somente por respeitar os princípios defendidos pelo **SOLID**, obtemos um softw
 
 ## Agradecimentos
 
-Minha irmã, Thais de Almeida - Pela formatação e correção do texto.
-[crejaneogomes](https://github.com/crejaneogomes) - Pela revisão do ponto de vista técnico.
+* Minha irmã, Thais de Almeida - Pela formatação e correção do texto.
+* [crejaneogomes](https://github.com/crejaneogomes) - Pela revisão do ponto de vista técnico.
 
 
 # Referências
