@@ -50,7 +50,7 @@ class Customer
 }
 ```
 
-A classe *Customer* está violando o SRP, pois realiza três tipos de tarefas. Ela além de lidar com os dados do *customer*, também é responsável pela renderização e manipulação dos dados.
+A classe `Customer` está violando o SRP, pois realiza três tipos de tarefas. Ela além de lidar com os dados do `Customer`, também é responsável pela renderização e manipulação dos dados.
 
 A violação deste príncipio pode resultar nos seguintes problemas:
 * **Falta de coesão** - Uma classe não deve assumir responsabilidades que não são suas
@@ -88,7 +88,7 @@ class CustomerRepository
     public void Delete() {\*...*\}
 }
 ```
-Perceba que conseguimos **quebrar** a classe *customer* em quatro diferentes classes, onde cada uma tem sua própria responsabilidade.
+Perceba que conseguimos **quebrar** a classe `customer` em quatro diferentes classes, onde cada uma tem sua própria responsabilidade.
 
 Por reforçar a modularização, o SRP é considerado um dos princípios mais importantes. Ele também é a base para outros princípios e padrões, pois lida com questões de coesão e acoplamento, coisa que todo desenvolvedor deve saber aplicar.
 
@@ -142,7 +142,9 @@ O que ele quer dizer é:
 ### Aplicando OCP
 
 Olhando para o nosso exemplo, podemos concluir que o nosso problema é, que para cada novo tipo de veiculo iremos adicionar um novo `if` no programa. Aplicando o OCP e isolando esse comportamento **extensível** atrás de uma interface,
-podemos criar uma interface com o nome de **IVehicleFare** contendo o método **Calculate(double distance)**. A nossa classe **FareService** irá depender de uma abstração IVehicleFare ao invés de depender das implementações.
+podemos criar uma interface com o nome de `IVehicleFare` contendo o método `Calculate(double distance)`. 
+
+Nossa classe `FareService` irá depender de uma abstração `IVehicleFare` ao invés de depender das implementações.
 
 Código refatorado:
 ```C#
@@ -170,7 +172,7 @@ class FareService
 }
 ```
 
-Com essa alteração, a classe *FareService* não tem mais necessidade de saber qual o tipo de tarifa necessário para chamar o método **Calculate()**. Ela será capaz de calcular a tarifa de qualquer tipo de veículo
+Com essa alteração, a classe `FareService` não tem mais necessidade de saber qual o tipo de tarifa necessário para chamar o método `Calculate()`. Ela será capaz de calcular a tarifa de qualquer tipo de veículo
 que seja criado no futuro (caminhão, avião, etc) sem qualquer necessidade de alteração do código fonte. Com isso implementamos o príncipio Aberto-Fechado em nosso código!
 
 
@@ -216,7 +218,7 @@ class Program
     }
 }
 ```
-Estamos usando a função **GetName** tanto da *ClasseBase* quanto da *ClasseDerivada* e o código funciona da mesma forma para ambas.
+Estamos usando a função `GetName()` tanto da `ClasseBase` quanto da `ClasseDerivada` e o código funciona da mesma forma para ambas.
 
 ### Exemplos prático de violações do LSP:
 
@@ -280,7 +282,7 @@ Ao seguir o **LSP** ganhamos mais confiança para usar polimorfismo por exemplo.
 ## ISP - Princípio da segregação da interface
 > "Muitas interfaces de clientes específicas, são melhores do que uma para todos propósitos"
 
-Basicamente, esse príncipio diz que é melhor ter várias interfaces especificas do que forçar uma classe a implementar interfaces e métodos que não irá utilizar.
+Basicamente, esse príncipio diz que é melhor ter **várias interfaces especificas** do que forçar uma classe a implementar interfaces e métodos que não irá utilizar.
 
 ### Exemplo prático de uma violação do ISP:
 ```C#
@@ -318,7 +320,7 @@ class EventLogger : ILogger
     }
 }
 ```
-Perceba que ao implementar a interface **ILogger**, a classe *ConsoleLogger* que não possui armazenamento de *logs* acaba por ser obrigada a implementar a função **GetLogs()**.
+Perceba que ao implementar a interface `ILogger`, a classe `ConsoleLogger` que não possui armazenamento de *logs* acaba por ser obrigada a implementar a função `GetLogs()`.
 Essa estrutura não está violando somente *Interface Segregation Principle*, ela também viola o *Liskov Substitution Principle*.
 
 ### Aplicando ISP
@@ -357,7 +359,7 @@ class EventLogger : IDbLogger
     }
 }
 ```
-No exemplo acima, removemos o método **GetLogs()** da interface **ILogger** e adicionamos em uma interface derivada **IDbLogger**. Essa alteração nos possibilita 
+No exemplo acima, **removemos** o método `GetLogs()` da interface `ILogger` e **adicionamos** em uma interface derivada `IDbLogger`. Essa alteração nos possibilita 
 isolar os comportamentos das classes *logger* respeitando o príncipio ISP.
 
 ## DIP - Princípio da inversão da depêndencia
