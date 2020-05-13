@@ -141,10 +141,10 @@ O que ele quer dizer é:
 
 ### Aplicando OCP
 
-Olhando para o nosso exemplo, podemos concluir que o nosso problema é, que para cada novo tipo de veiculo iremos adicionar um novo `if` no programa. Aplicando o OCP e isolando esse comportamento **extensível** atrás de uma interface,
+Olhando para o nosso exemplo, podemos concluir que o nosso problema é, que **para cada novo tipo de veiculo** iremos adicionar um novo `if` no programa. Aplicando o OCP e **isolando** esse comportamento **extensível** atrás de uma interface,
 podemos criar uma interface com o nome de `IVehicleFare` contendo o método `Calculate(double distance)`. 
 
-Nossa classe `FareService` irá depender de uma abstração `IVehicleFare` ao invés de depender das implementações.
+Nossa classe `FareService` **irá depender de uma abstração** `IVehicleFare` ao invés de depender das implementações.
 
 Código refatorado:
 ```C#
@@ -173,8 +173,9 @@ class FareService
 ```
 
 Com essa alteração, a classe `FareService` não tem mais necessidade de saber qual o tipo de tarifa necessário para chamar o método `Calculate()`. Ela será capaz de calcular a tarifa de qualquer tipo de veículo
-que seja criado no futuro (caminhão, avião, etc) sem qualquer necessidade de alteração do código fonte. Com isso implementamos o príncipio Aberto-Fechado em nosso código!
+que seja criado no futuro (caminhão, avião, etc) sem qualquer necessidade de alteração do código fonte. 
 
+Com isso implementamos o *Open-Closed Principle* em nosso código!
 
 ## LSP - Princípio da substituição de Liskov
 > "Objetos em um programa devem ser substituíveis por instâncias de seus subtipos, sem alterar a funcionalidade do programa"
@@ -185,8 +186,9 @@ A definição formal de Liskov sobre o príncipio diz que:
 > Se para cada objeto o1 do tipo S há um objeto o2 do tipo T de forma que, para todos os programas P definidos em termos de T, 
 o comportamento de P é inalterado quando o1 é substituído por o2 então S é um subtipo de T
 
-De uma forma mais simples, ela tenta dizer que em uma situação onde você tem uma classe base **ave** e uma derivada **pinguim**, pinguim deve poder executar **todas** as
-ações que uma ave pode, em outras palavras, ele deve ser tradado como uma ave. Se, sob qualquer circunstância, o **pinguim** não puder executar uma ação que uma **ave** pode, isso significará uma violação do *príncipio aberto-fechado*.
+De uma forma mais simples, ela tenta dizer que, em uma situação onde você tem uma classe base **ave** e uma derivada **pinguim**, pinguim deve poder executar **todas** as
+ações que uma **ave** pode, em outras palavras, **o pinguim deve ser tradado como uma ave**. Se, sob qualquer circunstância, o **pinguim** não puder executar uma ação que uma **ave** pode, 
+isso resultará em uma violação do *Liskov Substitution Principle*.
 
 Para facilitar o entendimento, vamos ao exemplo prático:
 ```C#
@@ -218,7 +220,7 @@ class Program
     }
 }
 ```
-Estamos usando a função `GetName()` tanto da `ClasseBase` quanto da `ClasseDerivada` e o código funciona da mesma forma para ambas.
+Estamos usando a função `GetName()` tanto da `ClasseBase` quanto da `ClasseDerivada` e o código funciona da mesma forma para ambas. Neste exemplo não existe violação alguma.
 
 ### Exemplos prático de violações do LSP:
 
@@ -226,9 +228,8 @@ Estamos usando a função `GetName()` tanto da `ClasseBase` quanto da `ClasseDer
 * Lançar uma exceção inesperada;
 * Retornar valores de tipos diferentes da classe base.
 
+Sobrescrevendo um método que não faz nada:
 ```C#
-
-// Sobrescrevendo um método que não faz nada:
 class Penguim : Bird
 {
     public override void Fly()
@@ -236,10 +237,10 @@ class Penguim : Bird
         // Não faz nada
     }
 }
+```
 
-
-
-// Lançando uma exceção inesperada
+Lançando uma exceção inesperada:
+```C#
 class Vehicle
 {
     public void TurnOn()
@@ -255,9 +256,10 @@ class Bike : Vehicle
         throw new Exception("Uma bicicleta não precisa ser ligada");
     }
 }
+```
 
-
-// Retornando valores de tipos diferentes
+Retornando valores de tipos diferentes:
+```C#
 class Security
 {
     public bool Validate()
