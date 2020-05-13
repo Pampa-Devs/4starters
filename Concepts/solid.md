@@ -95,7 +95,7 @@ Por reforçar a modularização, o SRP é considerado um dos princípios mais im
 ## OCP - Príncipio Aberto-Fechado
 > "Entidades de software devem ser abertas para extensão, mas fechadas para modificação."
 
-Pessoalmente o meu príncipio favorito, ele prega que quando novos comportamentos e recursos precisarem ser adicionados no software, devemos **estender** e não modificar o código original.
+O *príncipio aberto-fechado* prega que quando novos comportamentos e recursos forem adicionados no software, se deve **estender** e não modificar o código original.
 
 ### Exemplo prático de uma violação do OCP:
 Suponha que temos um sistema de tarifas por km percorrido para bicicletas e carros. 
@@ -127,21 +127,20 @@ class FareService
     }
 }
 ```
-A classe *FareService*, para cara tipo diferente de veiculo, possui uma classe de calculo diferente. Caso surja a necessidade de adicionar suporte a outros veiculos, obviamente teríamos de modificar essa classe, assim violando o princípio Aberto-Fechado do SOLID.
+A classe *FareService*, para cada tipo diferente de veiculo, possui uma classe de calculo diferente. Caso surja a necessidade de adicionar suporte a outros veiculos, obviamente teríamos de modificar essa classe, assim violando o princípio Aberto-Fechado do SOLID.
 **O principal problema** de alterar uma classe já em funcionamento é a introdução de novos bugs.
 
 Existe uma frase no artigo do **Uncle Bob** que é o seguinte:
-> Separate extensible behavioor behind an interface, and flip the dependencies.
-
-Que traduzindo fica:
 > Separe o comportamento extensível por trás de uma interface e inverta as dependências
 
-Caso a interface seja bem definida, conseguimos extrair da classe *FareService* a implementação dos tipos de tarifa e chamar somente a **Calculate**.
+O que ele quer dizer é:
+* Isole a lógica que é extensível em classes separadas, no nosso caso seriam os métodos **CalculateBikeFare** e **CalculateCarFare**.
+* Com *inverta as dependências*, o **Uncle Bob** tenta nos dizer para não depender da implementação das classes **BikeFare** e **CarFare** e sim da da abstração.
 
 ### Aplicando OCP
 
 Olhando para o nosso exemplo, podemos concluir que o nosso problema é, que para cada novo tipo de veiculo iremos adicionar um novo `if` no programa. Aplicando o OCP e isolando esse comportamento **extensível** atrás de uma interface,
-podemos criar uma interface com o nome de **IVehicleFare** contendo o método **Calculate(double distance)**.
+podemos criar uma interface com o nome de **IVehicleFare** contendo o método **Calculate(double distance)**. A nossa classe **FareService** irá depender de uma abstração IVehicleFare ao invés de depender das implementações.
 
 Código refatorado:
 ```C#
@@ -176,10 +175,14 @@ que seja criado no futuro (caminhão, avião, etc) sem qualquer necessidade de a
 ## LSP - Princípio da substituição de Liskov
 > "Objetos em um programa devem ser substituíveis por instâncias de seus subtipos, sem alterar a funcionalidade do programa"
 
-Este princípio foi apresentado por [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), também recebeu o prêmio [Turing Award](https://en.wikipedia.org/wiki/Turing_Award) pelas suas contribuições.
+Este princípio foi apresentado por [Barbara Liskov](https://en.wikipedia.org/wiki/Barbara_Liskov), que também recebeu o prêmio [Turing Award](https://en.wikipedia.org/wiki/Turing_Award) pelas suas contribuições.
+
 A definição formal de Liskov sobre o príncipio diz que:
 > Se para cada objeto o1 do tipo S há um objeto o2 do tipo T de forma que, para todos os programas P definidos em termos de T, 
 o comportamento de P é inalterado quando o1 é substituído por o2 então S é um subtipo de T
+
+De uma forma mais simples, ela tenta dizer que em uma situação onde você tem uma classe base **ave** e uma derivada **pinguim**, pinguim deve poder executar **todas** as
+ações que uma ave pode, em outras palavras, ele deve ser tradado como uma ave. Se, sob qualquer circunstância, o **pinguim** não puder executar uma ação que uma **ave** pode, isso significará uma violação do *príncipio aberto-fechado*.
 
 Para facilitar o entendimento, vamos ao exemplo prático:
 ```C#
@@ -235,7 +238,7 @@ class Penguim : Bird
 // Lançando uma exceção inesperada
 class Vehicle
 {
-    public void Ligar()
+    public void TurnOn()
     {
         // Liga o veículo
     }
@@ -243,7 +246,7 @@ class Vehicle
 
 class Bike : Vehicle
 {
-    public new void Ligar()
+    public new void TurnOn()
     {
         throw new Exception("Uma bicicleta não precisa ser ligada");
     }
@@ -273,9 +276,90 @@ class ApiSecurity : Security
 Ao seguir o **LSP** ganhamos mais confiança para usar polimorfismo por exemplo. Não precisamos nos preocupar com resultados inesperados.
 
 ## ISP - Princípio da segregação da interface
+> "Muitas interfaces de clientes específicas, são melhores do que uma para todos propósitos"
+
+Basicamente, esse príncipio diz que é melhor ter várias interfaces especificas do que forçar uma classe a implementar interfaces e métodos que não irá utilizar.
+
+### Exemplo prático de uma violação do ISP:
+```C#
+interface ILogger
+{
+    void Log(string message);
+    List<string> GetLogs();
+}
+
+class ConsoleLogger : ILogger
+{
+    public void Log(string message) 
+    {
+        Console.WriteLine(message);
+    }
+
+    public List<string> GetLogs() 
+    {
+        throw new NotImplementedException();
+    }
+}
+
+class EventLogger : ILogger
+{
+    public EventDbContext context = new EventDbContext();
+
+    public void Log(string message) 
+    {
+        context.Events.Add(message);
+    }
+
+    public List<string> GetLogs() 
+    {
+        return context.Events.GetAll();
+    }
+}
+```
+Perceba que ao implementar a interface **ILogger**, a classe *ConsoleLogger* que não possui armazenamento de *logs* acaba por ser obrigada a implementar a função **GetLogs()**.
+Essa estrutura não está violando somente *Interface Segregation Principle*, ela também viola o *Liskov Substitution Principle*.
+
+### Aplicando ISP
+Esse problema é facilmente resolvido criando interfaces mais específicas, veja:
+```C#
+interface ILogger
+{
+    void Log(string message);
+}
+
+interface IDbLogger : ILogger
+{
+    void List<string> GetLogs();
+}
+
+class ConsoleLogger : ILogger
+{
+    public void Log(string message) 
+    {
+        Console.WriteLine(message);
+    }
+}
+
+class EventLogger : IDbLogger
+{
+    public EventDbContext context = new EventDbContext();
+
+    public void Log(string message) 
+    {
+        context.Events.Add(message);
+    }
+
+    public List<string> GetLogs() 
+    {
+        return context.Events.GetAll();
+    }
+}
+```
+No exemplo acima, removemos o método **GetLogs()** da interface **ILogger** e adicionamos em uma interface derivada **IDbLogger**. Essa alteração nos possibilita 
+isolar os comportamentos das classes *logger* respeitando o príncipio ISP.
 
 ## DIP - Princípio da inversão da depêndencia
-
+> "Deve-se depender de abstrações, não de objetos concretos"
 
 # Referências
 * http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
