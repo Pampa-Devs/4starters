@@ -102,7 +102,7 @@ Console.WriteLine(16.8d / 4.1d);   // Resultado: 4.09756097560976
 Console.WriteLine(16.8m / 4.1m);   // Resultado: 4.0975609756097560975609756098
 ```
 
-### Operador de resto %
+## Operador de resto %
 O operador de resto `%` calcula o resto após dividir o operando á esquerda pelo da direita.
 ```C#
 Console.WriteLine(5 % 4);			// Resultado: 1
@@ -111,7 +111,7 @@ Console.WriteLine(-5 % 4);			// Resultado: -1
 Console.WriteLine(-5 % -4);			// Resultado: -1
 ```
 
-### Operador de adição +
+## Operador de adição +
 O operador `+` calcula a soma dos operandos:
 ```C#
 Console.WriteLine(10 + 10);			// Resultado: 20
@@ -119,7 +119,7 @@ Console.WriteLine(10 + 10.5);			// Resultado: 20.5
 Console.WriteLine(8.2m + 4.2m);			// Resultado: 12.4
 ```
 
-### Operador de subtração -
+## Operador de subtração -
 O operador `-` calcula a subtração dos operandos:
 ```C#
 Console.WriteLine(10 - 10);			// Resultado: 0
@@ -127,7 +127,7 @@ Console.WriteLine(10 - 10.5);			// Resultado: -0.5
 Console.WriteLine(8.2m - 4.2m);			// Resultado: 4
 ```
 
-### Atribuição composta
+## Atribuição composta
 
 Para operador binário `op`, uma expressão de atribuição
 ```
