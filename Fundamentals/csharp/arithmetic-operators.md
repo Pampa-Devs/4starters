@@ -165,9 +165,9 @@ A seguinte lista ordena os operadores aritiméticos da precedência mais alta pa
 4. Operadores de adição `=` e `-`
 
 ```C#
-Console.WriteLine(2 + 2 * 2);	// Resultado: 6
-Console.WriteLine((2 + 2) * 2);	// Resultado: 8
+Console.WriteLine(2 + 2 * 2);		// Resultado: 6
+Console.WriteLine((2 + 2) * 2);		// Resultado: 8
 
-Console.WriteLine(9 / 5 / 2);	// Resultado: 0
-Console.WriteLine(9 / (5 / 2));	// Resultado: 4
+Console.WriteLine(9 / 5 / 2);		// Resultado: 0
+Console.WriteLine(9 / (5 / 2));		// Resultado: 4
 ```
