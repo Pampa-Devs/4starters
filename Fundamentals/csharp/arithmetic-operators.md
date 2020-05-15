@@ -2,8 +2,8 @@
 
 São os operadores que executam operações aritméticas utilizando-se de tipos númericos:
 
-* Operadores unários ++ (incrementar), -- (decrementar), + (soma) e - subtração
-* Operadores binário \* (multiplicação), / (divisão), % (resto), + (adição), - (subtração)
+* Operadores unários [++ (incrementar)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operadores-de-incremento--e-decremento---), [-- (decrementar)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operadores-de-incremento--e-decremento---), [+ (soma)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operadores-de-incremento--e-decremento---) e [- subtração](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operadores-de-incremento--e-decremento---)
+* Operadores binário [\* (multiplicação)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-multiplica%C3%A7%C3%A3o-), [/ (divisão)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-divis%C3%A3o-), [% (resto)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-divis%C3%A3o-), [+ (adição)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-adi%C3%A7%C3%A3o-), [- (subtração)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-subtra%C3%A7%C3%A3o--)
 
 ## Operadores de incremento ++ e decremento --
 
@@ -64,7 +64,7 @@ uint a = 20;
 var b = -a;
 
 Console.WriteLine(b);			// Resultado: -20
-Console.WriteLine(b.GetType());		 // Resultado: System.Int64
+Console.WriteLine(b.GetType());	// Resultado: System.Int64
 ```
 
 ## Operador de multiplicação *
@@ -129,7 +129,7 @@ Console.WriteLine(8.2m - 4.2m);			// Resultado: 4
 
 ### Atribuição composta
 
-Para operador binário **op**, uma expressão de atribuição
+Para operador binário `op`, uma expressão de atribuição
 ```
 x op= y;
 ```
