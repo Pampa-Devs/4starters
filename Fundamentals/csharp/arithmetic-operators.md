@@ -156,3 +156,18 @@ Console.WriteLine(a);			// Resultado: 5
 a %= 3;
 Console.WriteLine(a);			// Resultado: 2
 ```
+
+## Ordem de execução de operador
+A seguinte lista ordena os operadores aritiméticos da precedência mais alta para a mais baixa:
+1. Operadores sufixo`x++` e `x--`
+2. Operadores prefixo `--x` e `--x` e operadores unários `+` e `-`
+3. Operadores de multiplicação `*`, `/` e `%`
+4. Operadores de adição `=` e `-`
+
+```C#
+Console.WriteLine(2 + 2 * 2);	// Resultado: 6
+Console.WriteLine((2 + 2) * 2);	// Resultado: 8
+
+Console.WriteLine(9 / 5 / 2);	// Resultado: 0
+Console.WriteLine(9 / (5 / 2));	// Resultado: 4
+```
