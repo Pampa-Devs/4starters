@@ -56,7 +56,7 @@ A violação deste príncipio pode resultar nos seguintes problemas:
 * **Falta de coesão** - Uma classe não deve assumir responsabilidades que não são suas
 * **Alto acoplamento** - Quanto maior o número de responsabilidades, maior o número de dependências.
 * **Dificuldade na implementação de testes automatizados** - É díficil de criar uma *"versão de testes"* dessa classe
-* **Dificuldades para reaproveitação do código** - Por ter várias responsabilidades, provavelmente não irá ser reaproveitada em um projeto diferente
+* **Dificuldades para reaproveitamento do código** - Por ter várias responsabilidades, provavelmente não irá ser reaproveitada em um projeto diferente
 
 ### Aplicando SRP na classe *customer*:
 ```C#
@@ -90,7 +90,7 @@ class CustomerRepository
 ```
 Perceba que conseguimos **quebrar** a classe `customer` em quatro diferentes classes, onde cada uma tem sua própria responsabilidade.
 
-Por reforçar a modularização, o SRP é considerado um dos princípios mais importantes. Ele também é a base para outros princípios e padrões, pois lida com questões de coesão e acoplamento, coisa que todo desenvolvedor deve saber aplicar.
+Por reforçar a modularização, o SRP é considerado um dos princípios mais importantes. Ele também é a base para outros princípios e padrões, pois lida com questões de coesão e acoplamento, coisa que todo bom desenvolvedor deve saber aplicar.
 
 ## OCP - Príncipio Aberto-Fechado
 > "Entidades de software devem ser abertas para extensão, mas fechadas para modificação."
@@ -279,7 +279,7 @@ class ApiSecurity : Security
 }
 ```
 
-Ao seguir o **LSP** ganhamos mais confiança para usar polimorfismo por exemplo. Não precisamos nos preocupar com resultados inesperados.
+Ao seguir o **LSP** ganhamos mais confiança para usar [polimorfismo](https://www.devmedia.com.br/conceitos-e-exemplos-polimorfismo-programacao-orientada-a-objetos/18701) por exemplo. Não precisamos nos preocupar com resultados inesperados.
 
 ## ISP - Princípio da segregação da interface
 > "Muitas interfaces de clientes específicas, são melhores do que uma para todos propósitos"
@@ -323,7 +323,7 @@ class EventLogger : ILogger
 }
 ```
 Perceba que ao implementar a interface `ILogger`, a classe `ConsoleLogger` que não possui armazenamento de *logs* acaba por ser obrigada a implementar a função `GetLogs()`.
-Essa estrutura não está violando somente *Interface Segregation Principle*, ela também viola o *Liskov Substitution Principle*.
+Essa estrutura não está violando somente *Interface Segregation Principle*, ela também viola o *Liskov Substitution Principle* pois a classe `ConsoleLogger` não implementa todas as funcionalidades de `ILogger`.
 
 ### Aplicando ISP
 Esse problema é facilmente resolvido criando interfaces mais específicas, veja:
@@ -442,6 +442,14 @@ Ou seja, não estamos mais violando o **DIP**, ambas as classes estão desacopla
 ## Conclusão
 
 Somente por respeitar os princípios defendidos pelo **SOLID**, obtemos um software escalável, flexível, robusto e modular. Além disso, realizar manutenções e testes no sistema se torna uma atividade trivial.
+
+
+
+## Agradecimentos
+
+* Minha irmã, Thais de Almeida - Pela formatação e correção do texto.
+* [crejaneogomes](https://github.com/crejaneogomes) - Pela revisão do ponto de vista técnico.
+
 
 # Referências
 * http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
