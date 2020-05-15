@@ -2,8 +2,8 @@
 
 São os operadores que executam operações aritméticas utilizando-se de tipos númericos:
 
-* Operadores unários [++ (incrementar)](), [-- (decrementar)](), [+ (soma)]() e [- subtração]()
-* Operadores binário [\* (multiplicação)](/ (divisão)), [% (resto)](), [+ (adição)](), [+ (subtração)]()
+* Operadores unários ++ (incrementar), -- (decrementar), + (soma) e - subtração
+* Operadores binário \* (multiplicação), / (divisão), % (resto), + (adição), - (subtração)
 
 ## Operadores de incremento ++ e decremento --
 
@@ -58,13 +58,13 @@ O operador unário `+` retorna o próprio valor da váriavel. O operador unário
 ```C#
 Console.WriteLine(+10);			 // Resultado: 10
 Console.WriteLine(-10);			 // Resultado: -4
-Console.WriteLine(-(-10));			 // Resultado: 10
+Console.WriteLine(-(-10));		 // Resultado: 10
 
 uint a = 20;
 var b = -a;
 
 Console.WriteLine(b);			// Resultado: -20
-Console.WriteLine(b.GetType());			 // Resultado: System.Int64
+Console.WriteLine(b.GetType());		 // Resultado: System.Int64
 ```
 
 ## Operador de multiplicação *
