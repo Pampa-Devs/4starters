@@ -22,11 +22,11 @@ Exemplos de linguagem estática: `C`, `C++`, `Java`, `Rust`, `Go`, `Scala`
 Exemplo em **Java**:
 ```Java
 public class MyClass {
-	public static void main(String args[]) {
-		int valor = 10; // Váriavel valor é um tipo Inteiro com um valor de 10.
+    public static void main(String args[]) {
+        int valor = 10; // Váriavel valor é um tipo Inteiro com um valor de 10.
 		
-		valor = "Felipe Almeida"; // error: incompatible types: String cannot be converted to int
-	}
+        valor = "Felipe Almeida"; // error: incompatible types: String cannot be converted to int
+    }
 }
 ```
 
@@ -70,12 +70,12 @@ using System;
 
 public class Program
 {
-	public static void Main()
-	{
-		var variavel = "Minha string"; // Variavel declarada como String
+    public static void Main()
+    {
+        var variavel = "Minha string"; // Variavel declarada como String
 		
-		variavel = 28; // Compilation error (line 9, col 14): Cannot implicity convert type 'int' to 'string'
-	}
+        variavel = 28; // Compilation error (line 9, col 14): Cannot implicity convert type 'int' to 'string'
+    }
 }
 ```
 
