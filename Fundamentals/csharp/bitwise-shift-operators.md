@@ -2,8 +2,8 @@
 
 Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos de tipo [numéricos integrais](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#1-tipos-num%C3%A9ricos-integrais) ou no tipo [char](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#4-tipos-char):
 
-* Operador unário [~ inversão de bits]()
-* Operadores de deslocamento binário [<< (left-shift)]() e [>> (right-shift)]()
+* Operador unário [~ inversão de bits](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#operador-bitwise-de-invers%C3%A3o-de-bits-)
+* Operadores de deslocamento binário [<< (left-shift)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#operador-de-deslocamento-%C3%A0-esquerda-left-shift-) e [>> (right-shift)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#operador-de-deslocamento-%C3%A0-direita-right-shift-)
 * Operadores binários [& (AND lógico)](), [OR lógico]() e [XOR lógico]
 
 Estes operadores são definidos para operações com os tipos `int`, `uint`, `long`, `ulong`. Quando ambos os operandos
@@ -27,7 +27,7 @@ Console.WriteLine(Convert.ToString(b, toBase: 2));
 
 ## Operador de deslocamento à esquerda (left-shift) <<
 
-O operador `<<` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando]().
+O operador `<<` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#contagem-de-deslocamento-dos-operadores--e-).
 
 Exemplos:
 ```C#
@@ -54,7 +54,7 @@ Console.WriteLine(Convert.ToString(a, toBase: 2));
 
 ## Operador de deslocamento à direita (right-shift) >>
 
-O operador `>>` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando]().
+O operador `>>` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#contagem-de-deslocamento-dos-operadores--e-).
 
 Exemplos:
 ```C#
