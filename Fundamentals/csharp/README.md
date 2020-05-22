@@ -30,7 +30,7 @@ Com ele você pode desenvolver:
 * Aparelhos com Internet das Coisas (IoT) 
 * Video Games
 * E muito mais
-	
+
 ### Mercado
 
 C# é uma das linguagens **mais utilizadas no mundo**, com uma breve busca no LinkedIn você encontra diversos empregos para quem trabalha com ela.
@@ -46,3 +46,22 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 * http://www.macoratti.net/08/08/c_bas1.htm
 * https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/
 * https://www.udemy.com/pt/topic/c-sharp/free/
+
+### Fundamentos
+
+Aqui iremos apresentar os conceitos básicos e elementares de programação e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de programação.
+
+1. [**Tipos e Variáveis**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/variables.md)
+2. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/arithmetic-operators.md)
+3. [**Operadores Lógicos e de Comparação**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/logical-comparison-operators.md)
+4. [TO DO] [**Estruturas Condicionais**]()
+5. [TO DO] [**Estruturas de Repetição**]()
+6. [TO DO] [**Métodos**]()
+7. [TO DO] [**Arrays**]()
+8. [TO DO] [**Listas**]()
+9. [TO DO] [**HashMaps**]()
+10. [TO DO] [**Modificadores**]()
+11. [TO DO] [**Exceções**]()
+
+### Tutoriais
+

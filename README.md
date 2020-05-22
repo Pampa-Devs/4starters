@@ -10,17 +10,7 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 
 Aqui iremos apresentar os conceitos básicos e elementares de **programação** e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de **programação**.
 
-1. [**Tipos e Variáveis**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
-2. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/arithmetic-operators.md)
-3. [**Operadores Lógicos e de Comparação**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/logical-comparison-operators.md)
-4. [TO DO] [**Estruturas Condicionais**]()
-5. [TO DO] [**Estruturas de Repetição**]()
-6. [TO DO] [**Métodos**]()
-7. [TO DO] [**Arrays**]()
-8. [TO DO] [**Listas**]()
-9. [TO DO] [**HashMaps**]()
-10. [TO DO] [**Modificadores**]()
-11. [TO DO] [**Exceções**]()
+* [Introdução ao C#](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/README.md)
 
 # Artigos
 

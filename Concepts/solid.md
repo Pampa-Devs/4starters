@@ -443,13 +443,13 @@ Ou seja, não estamos mais violando o **DIP**, ambas as classes estão desacopla
 
 Somente por respeitar os princípios defendidos pelo **SOLID**, obtemos um software escalável, flexível, robusto e modular. Além disso, realizar manutenções e testes no sistema se torna uma atividade trivial.
 
-
+# Autores
+* [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador do PampaDevs e Engenheiro de Software
 
 ## Agradecimentos
 
 * Minha irmã, Thais de Almeida - Pela formatação e correção do texto.
 * [crejaneogomes](https://github.com/crejaneogomes) - Pela revisão do ponto de vista técnico.
-
 
 # Referências
 * http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
