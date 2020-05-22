@@ -12,7 +12,7 @@ Aqui iremos apresentar os conceitos básicos e elementares de **programação** 
 
 1. [**Tipos e Variáveis**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/variables.md)
 2. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/arithmetic-operators.md)
-3. [TO DO] [**Operadores Lógicos e de Comparação**]()
+3. [**Operadores Lógicos e de Comparação**](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/logical-comparison-operators.md)
 4. [TO DO] [**Estruturas Condicionais**]()
 5. [TO DO] [**Estruturas de Repetição**]()
 6. [TO DO] [**Métodos**]()

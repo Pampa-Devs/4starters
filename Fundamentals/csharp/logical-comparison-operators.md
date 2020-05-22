@@ -3,10 +3,8 @@
 Os operadores que iremos apresentar neste artigo executam operações lógicas e de comparação com operandos [bool](https://devblogs.microsoft.com/aspnet/blazor-webassembly-3-2-0-now-available/?fbclid=IwAR0brw10DyJrB4RhHmu_HwIGVIhloqUe-wdsHhQx9pNuKw4idkHgt4NPxnE)
 
 * Operador unário [! (negação lógica)]()
-* Operadores Binários [& ('E' lógico)](), [| ('OU' lógico)]() e [^ ('OU' exclusivo lógico)](). Esses operadores **sempre** avaliam os dois operandos.
-* Operadores Binários [&& ('E' lógico condicional)]() e [|| ('OU' lógico condicional)](). Esses operadores avaliam o operando à direita **somente se necessário**.
-
-Os operadores `&`, `|` e `^` realizam operações lógicas bitwise. Para mais informações, olhe o artigo [Operadores Bitwise e Shift]().
+* Operadores Binários [& ('AND' lógico)](), [| ('OR' lógico)]() e [^ ('XOR' lógico)](). Esses operadores **sempre** avaliam os dois operandos.
+* Operadores Binários [&& ('AND' lógico condicional)]() e [|| ('OR' lógico condicional)](). Esses operadores avaliam o operando à direita **somente se necessário**.
 
 ## Operador de negação lógica !
 
@@ -16,30 +14,174 @@ O sufixo unário `!` computa a negação lógica de seu operando. Ou seja, se o 
 bool IsComplete = true;
 
 Console.WriteLine(!IsComplete); 	// Resultado: False
-Console.WriteLine(!false);			// Resultado: True
+Console.WriteLine(!false);		// Resultado: True
 ```
 
-## Operador E lógico
+## Operador AND lógico
 
-O operador `&` computa o **E** lógico de seus operandos. O resultado de `x & y` será `true` se ambos `x` e `y` forem `true`. Caso contrário, o resultado será `false`.
+O operador `&` computa o **AND** lógico de seus operandos. O resultado de `x & y` será `true` **se ambos** `x` e `y` forem `true`. Caso contrário, o resultado será `false`.
 
 O operador `&` verifica **os dois operandos** mesmo se o operador da esquerda for avaliado como `false`.
 
 Confira o exemplo a seguir:
 
 ```C#
-bool SecondOperator()
+bool SecondOperand()
 {
-    Console.WriteLine("Segundo operador avaliado");
+    Console.WriteLine("Segundo operando avaliado");
     return true;
 }
 
-bool a = false & SecondOperator();
+bool a = false & SecondOperand();
 Console.WriteLine(a);
 // Resultado: false
-// Ambos os operadores 'false' e 'SecondOperador()' são avaliados.
+// Ambos os operandos 'false' e 'SecondOperand()' são avaliados.
 
-bool b = true & SecondOperador();
+bool b = true & SecondOperand();
 // Resultado: true
-// Ambos os operadores 'true' e 'SecondOperador()' são avaliados.
+// Ambos os operandos 'true' e 'SecondOperand()' são avaliados.
+```
+
+## Operador AND lógico condicional
+
+O operador `&&`, assim como o operador `&`, computa o **AND** lógico de seus operandos. O resultado de `x & y` será `true` **se ambos** `x` e `y` forem `true`. Caso contrário, o resultado será `false`.
+
+O operador `&&`, diferentemente do `&`, irá computar todos os operandos **somente se os mesmos forem** `true`. Caso `x` seja `false`, `y` não irá ser computado.
+
+Confira o exemplo a seguir:
+```C#
+bool SecondOperand()
+{
+    Console.WriteLine("Segundo operando avaliado");
+    return true;
+}
+
+bool a = false && SecondOperand();
+Console.WriteLine(a);
+// Resultado: false
+// Somente o operandos 'false' é avaliado.
+
+bool b = true && SecondOperand();
+// Resultado: true
+// Ambos os operandos 'true' e 'SecondOperand()' são avaliados.
+```
+
+## Operador OR lógico
+
+O operador `|` computa o **OR** lógico de seus operandos. Ou seja, o resultado de `x | y` será `true` **se qualquer um dos operandos**, `x` ou `y`, for `true`. Caso ambos `x` e `y` sejam `false`, o resultado será `false`.
+
+O operador `|` verifica **os dois operandos** mesmo se o operador da esquerda for avaliado como `true`.
+
+Exemplo operador `|`:
+```C#
+bool SecondOperand()
+{
+    Console.WriteLine("Segundo operando avaliado");
+    return true;
+}
+
+bool a = false | SecondOperand();
+Console.WriteLine(a);
+// Resultado: true
+// Ambos os operandos 'false' e 'SecondOperand()' são avaliados.
+
+bool b = true | SecondOperand();
+// Resultado: true
+// Ambos os operandos 'true' e 'SecondOperand()' são avaliados.
+```
+
+## Operador OR lógico condicional
+
+O operador `||`, assim como o operador `|`, computa o **OR** lógico de seus operandos. Ou seja, o resultado de `x || y` será `true` **se qualquer um dos operandos**, `x` ou `y`, for `true`. Caso ambos `x` e `y` sejam `false`, o resultado será `false`.
+
+O operador `||`, diferentemente do `|`, **irá computar primeiro** o `x`, caso este seja `true` o `y` não será computado.
+
+Exemplo operador `||`:
+```C#
+bool SecondOperand()
+{
+    Console.WriteLine("Segundo operando avaliado");
+    return true;
+}
+
+bool a = false || SecondOperand();
+Console.WriteLine(a);
+// Resultado: true
+// Ambos os operandos 'false' e 'SecondOperand()' são avaliados.
+
+bool b = true || SecondOperand();
+// Resultado: true
+// Somente o operando 'true' é computado.
+```
+
+## Operador XOR lógico
+
+O operador `^` computa o **XOR** lógico de seus operandos. Ou seja, o resultado de `x ^ y` será `true` se `x` for `true` e `y`, for `false`, ou `x` for `false` e `y` for `true`.
+
+Exemplo:
+```
+Console.WriteLine(true ^ true);    // Resultado: False
+Console.WriteLine(true ^ false);   // Resultado: True
+Console.WriteLine(false ^ true);   // Resultado: True
+Console.WriteLine(false ^ false);  // Resultado: False
+```
+
+## Atribuição composta
+
+Para qualquer operador binário (representado aqui por `op`), uma expressão de atribuição composta no seguinte formato
+```C#
+x op= y;
+```
+é equivalente a
+```C#
+x = x op y;
+```
+
+Exemplos:
+```C#
+bool test = true;
+test &= false;
+Console.WriteLine(test);  // Resultado: False
+
+test |= true;
+Console.WriteLine(test);  // Resultado: True
+
+test ^= false;
+Console.WriteLine(test);  // Resultado: True
+```
+
+## Precedência dos operadores
+
+A lista a seguir ordena os operadores lógicos, começando da mais alta precedência até a mais baixa:
+1. Operador de negação lógico `!`
+2. Operador AND lógico `&`
+3. Operador OR exclusivo lógico `^`
+4. Operador OR lógico `|`
+5. Operador AND lógico condicional `&&`
+6. Operador OR lógico condicional `||`
+
+Use parênteses, `()`, para alterar a ordem de avaliação imposta pela precedência do operador:
+
+```C#
+Console.WriteLine(true | true & false);   // Resultado: True
+Console.WriteLine((true | true) & false); // Resultado: False
+
+bool Operand(string name, bool value)
+{
+    Console.WriteLine($"Operador {name} é avaliado.");
+    return value;
+}
+
+var byDefaultPrecedence = Operand("A", true) || Operand("B", true) && Operand("C", false);
+Console.WriteLine(byDefaultPrecedence);
+// Resultado:
+// Operand A is evaluated.
+// True
+
+var changedOrder = (Operand("A", true) || Operand("B", true)) && Operand("C", false);
+Console.WriteLine(changedOrder);
+// Resultado:
+// Operador A é avaliado.
+// Operand C é avaliado.
+// False
 ```
