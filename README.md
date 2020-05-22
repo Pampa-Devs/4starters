@@ -4,9 +4,13 @@
 
 # **4Starters** - Fundamentos e Conceitos de Programação
 
-Este repositório tem como objetivo compartilhar exemplos práticos e tutoriais sobre conceitos e fundamentos gerais da arte da programação.
-Iremos ir atualizando este repositório mensalmente. Você também pode contribuir com o seu tutorial entrando em contato com nossos **moderadores** no nosso servidor do [discord](https://discord.gg/FvkzVcr).
+Bem vindo iniciante! Neste repositório você além de aprender o básico necessário para aprender a programar, também poderá escolher a linguagem em que irá iniciar!
+Espero que aproveite o material aqui da melhor forma possível, iremos adicionando material mensalmente para trazer o máximo de conteúdo possível para você.
+
+Caso tenha qualquer dúvida, pode entrar em contato com a gente no nosso servidor do [discord](https://discord.gg/FvkzVcr).
 <br>
+
+Chegou a hora, escolha a sua linguagem!
 
 |       | Tutorial | Descrição | Autores
 ------- | ------- | ------- | -------
