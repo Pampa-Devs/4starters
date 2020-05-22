@@ -8,9 +8,9 @@ Este repositório tem como objetivo compartilhar exemplos práticos e tutoriais 
 Iremos ir atualizando este repositório mensalmente. Você também pode contribuir com o seu tutorial entrando em contato com nossos **moderadores** no nosso servidor do [discord](https://discord.gg/FvkzVcr).
 <br>
 
-Tutorial | Autores
-------- | -------
-[Introdução ao C#](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/README.md) | [felipe-allmeida](https://github.com/felipe-allmeida)
+ | Tutorial | Descrição | Autores
+------- | ------- | ------- | -------
+<img src="/Images/csharp_logo.png" width="50px" /> | [Introdução ao C#](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/README.md) | Aprenda os fundamentos e conceitos básicos do C# e ao final criaremos a sua primeira aplicação em C# do zero! | [felipe-allmeida](https://github.com/felipe-allmeida)
 
 # Artigos
 
