@@ -7,7 +7,7 @@
 
 ## O que é C#?
 
-C# é uma linguagem de programação, multiparadigma, de [tipagem forte](https://github.com/Pampa-Devs/programming-concepts-tutorial/blob/master/Concepts/typing.md)
+C# é uma linguagem de programação, multiparadigma, de [tipagem forte](https://github.com/Pampa-Devs/articles/blob/master/typing.md)
 desenvolvida pela **Microsoft** como parte da **plataforma .NET**. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens
 de programação, como Object Pascal e, principalmente, Java.
 
