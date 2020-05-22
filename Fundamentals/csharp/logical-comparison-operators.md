@@ -119,7 +119,7 @@ bool b = true || SecondOperand();
 O operador `^` computa o **XOR** lógico de seus operandos. Ou seja, o resultado de `x ^ y` será `true` se `x` for `true` e `y`, for `false`, ou `x` for `false` e `y` for `true`.
 
 Exemplo:
-```
+```C#
 Console.WriteLine(true ^ true);    // Resultado: False
 Console.WriteLine(true ^ false);   // Resultado: True
 Console.WriteLine(false ^ true);   // Resultado: True
