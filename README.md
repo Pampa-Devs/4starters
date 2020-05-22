@@ -10,7 +10,7 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 
 |       | Tutorial | Descrição | Autores
 ------- | ------- | ------- | -------
-<img src="/Images/csharp_logo.png" width="50px" /> | [Introdução ao C#](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/README.md) | Aprenda os fundamentos e conceitos básicos do C# e ao final criaremos a sua primeira aplicação em C# do zero! | [felipe-allmeida](https://github.com/felipe-allmeida)
+<img src="/Images/csharp_logo.png" width="50px" /> | [Introdução ao C#](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/README.md) | Aprenda os fundamentos e conceitos básicos do C#! | [felipe-allmeida](https://github.com/felipe-allmeida)
 
 # Artigos
 
