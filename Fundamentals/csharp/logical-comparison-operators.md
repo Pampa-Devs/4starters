@@ -17,7 +17,7 @@ Console.WriteLine(!IsComplete); 	// Resultado: False
 Console.WriteLine(!false);		// Resultado: True
 ```
 
-## Operador AND lógico
+## Operador AND lógico &
 
 O operador `&` computa o **AND** lógico de seus operandos. O resultado de `x & y` será `true` **se ambos** `x` e `y` forem `true`. Caso contrário, o resultado será `false`.
 
@@ -42,7 +42,7 @@ bool b = true & SecondOperand();
 // Ambos os operandos 'true' e 'SecondOperand()' são avaliados.
 ```
 
-## Operador AND lógico condicional
+## Operador AND lógico condicional &&
 
 O operador `&&`, assim como o operador `&`, computa o **AND** lógico de seus operandos. O resultado de `x & y` será `true` **se ambos** `x` e `y` forem `true`. Caso contrário, o resultado será `false`.
 
@@ -66,7 +66,7 @@ bool b = true && SecondOperand();
 // Ambos os operandos 'true' e 'SecondOperand()' são avaliados.
 ```
 
-## Operador OR lógico
+## Operador OR lógico |
 
 O operador `|` computa o **OR** lógico de seus operandos. Ou seja, o resultado de `x | y` será `true` **se qualquer um dos operandos**, `x` ou `y`, for `true`. Caso ambos `x` e `y` sejam `false`, o resultado será `false`.
 
@@ -90,7 +90,7 @@ bool b = true | SecondOperand();
 // Ambos os operandos 'true' e 'SecondOperand()' são avaliados.
 ```
 
-## Operador OR lógico condicional
+## Operador OR lógico condicional ||
 
 O operador `||`, assim como o operador `|`, computa o **OR** lógico de seus operandos. Ou seja, o resultado de `x || y` será `true` **se qualquer um dos operandos**, `x` ou `y`, for `true`. Caso ambos `x` e `y` sejam `false`, o resultado será `false`.
 
@@ -114,7 +114,7 @@ bool b = true || SecondOperand();
 // Somente o operando 'true' é computado.
 ```
 
-## Operador XOR lógico
+## Operador XOR lógico ^
 
 O operador `^` computa o **XOR** lógico de seus operandos. Ou seja, o resultado de `x ^ y` será `true` se `x` for `true` e `y`, for `false`, ou `x` for `false` e `y` for `true`.
 
