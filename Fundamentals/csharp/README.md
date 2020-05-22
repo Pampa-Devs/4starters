@@ -1,5 +1,5 @@
 <p align="center">
-     <img src="/imagens/csharp_logo.png" alt="C#" width="250px" />
+     <img src="/Images/csharp_logo.png" alt="C#" width="250px" />
 </p>
 
 # .NET - Introdução ao C# 
