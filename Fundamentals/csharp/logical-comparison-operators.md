@@ -2,9 +2,9 @@
 
 Os operadores que iremos apresentar neste artigo executam operações lógicas e de comparação com operandos [bool](https://devblogs.microsoft.com/aspnet/blazor-webassembly-3-2-0-now-available/?fbclid=IwAR0brw10DyJrB4RhHmu_HwIGVIhloqUe-wdsHhQx9pNuKw4idkHgt4NPxnE)
 
-* Operador unário [! (negação lógica)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/arithmetic-operators.md)
-* Operadores Binários [& ('AND' lógico)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/arithmetic-operators.md), [| ('OR' lógico)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/arithmetic-operators.md) e [^ ('XOR' lógico)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/arithmetic-operators.md). Esses operadores **sempre** avaliam os dois operandos.
-* Operadores Binários [&& ('AND' lógico condicional)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/arithmetic-operators.md) e [|| ('OR' lógico condicional)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/arithmetic-operators.md). Esses operadores avaliam o operando à direita **somente se necessário**.
+* Operador unário [! (negação lógica)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-de-nega%C3%A7%C3%A3o-l%C3%B3gica-)
+* Operadores Binários [& ('AND' lógico)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-and-l%C3%B3gico), [| ('OR' lógico)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-and-l%C3%B3gico) e [^ ('XOR' lógico)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-and-l%C3%B3gico). Esses operadores **sempre** avaliam os dois operandos.
+* Operadores Binários [&& ('AND' lógico condicional)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-and-l%C3%B3gico) e [|| ('OR' lógico condicional)](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-or-l%C3%B3gico-condicional). Esses operadores avaliam o operando à direita **somente se necessário**.
 
 ## Operador de negação lógica !
 
