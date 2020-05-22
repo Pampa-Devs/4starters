@@ -12,7 +12,7 @@ Aqui iremos apresentar os conceitos básicos e elementares de **programação** 
 
 Tutorial | Autores
 ------- | -------
-* [Introdução ao C#](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/README.md) | [felipe-allmeida](https://github.com/felipe-allmeida)
+[Introdução ao C#](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/README.md) | [felipe-allmeida](https://github.com/felipe-allmeida)
 
 # Artigos
 
