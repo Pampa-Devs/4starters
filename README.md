@@ -10,7 +10,9 @@ Iremos ir atualizando este repositório mensalmente. Você também pode contribu
 
 Aqui iremos apresentar os conceitos básicos e elementares de **programação** e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de **programação**.
 
-* [Introdução ao C#](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/README.md)
+Tutorial | Autores
+------- | -------
+* [Introdução ao C#](https://github.com/Pampa-Devs/concepts/blob/master/Fundamentals/csharp/README.md) | [felipe-allmeida](https://github.com/felipe-allmeida)
 
 # Artigos
 
