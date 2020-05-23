@@ -23,5 +23,12 @@ string MyName()
 }
 ```
 
+E no exemplo a seguir, atribuimos o valores dos métodos `MyAge` e `MyName` as váriaveis `age` e `name`:
+```C#
+int age = MyAge();
+
+string name = MyName();
+```
+
 # Referência
 * [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/classes#methods)
