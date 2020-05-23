@@ -2,8 +2,10 @@
 
 São os operadores que executam checam se seus operandos são iguais ou não:
 
-* Operador de igualdade [==](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md#operador-de-igualdade-)
-* Operador de desigualdade [!=](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md#operador-de-desigualdade-)
+| Nome | Expressão | Categoria |
+| :--- | :---: | :---: |
+**Igualdade ==** | `a == b` | Binário
+**Desigualdade !=** | `a != b` | Binário
 
 ## Operador de igualdade ==
 
