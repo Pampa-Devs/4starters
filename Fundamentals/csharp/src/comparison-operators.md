@@ -49,6 +49,6 @@ Console.WriteLine(5.0 >= 5.0);	// Resultado: True
 
 # Referências
 
-* [C# reference](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/)
-* [C# operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/)
+* [C# reference](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/)
+* [C# operators](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/operators/)
 * [IComparable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable-1?view=netcore-3.1)

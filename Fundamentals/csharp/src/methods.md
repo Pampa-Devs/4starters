@@ -31,4 +31,4 @@ string name = MyName();
 ```
 
 # Referência
-* [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/classes#methods)
+* [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/language-specification/classes#methods)

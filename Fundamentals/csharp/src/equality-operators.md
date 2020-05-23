@@ -13,7 +13,7 @@ O operador `==` retornará `true` se seus operandos forem iguais, caso contrári
 
 ### Igualdade entre tipos de valor
 
-Operandos dos [tipos internos](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types#built-in-value-types) serão iguais se seus valores forem iguais:
+Operandos dos [tipos internos](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/builtin-types/value-types#built-in-value-types) serão iguais se seus valores forem iguais:
 ```C#
 int a = 3 + 3;
 int b = 6;
@@ -82,5 +82,5 @@ Console.WriteLine(obj1 != obj2);	// Resultado: True
 * [System.IQuatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1?view=netcore-3.1)
 * [Object.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.object.equals?view=netcore-3.1)
 * [Object.ReferenceEquals](https://docs.microsoft.com/en-us/dotnet/api/system.object.referenceequals?view=netcore-3.1)
-* [Equality comparisons](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/equality-comparisons)
-* [Comparison operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/comparison-operators)
+* [Equality comparisons](https://docs.microsoft.com/en-us/dotnet/csharp/src/programming-guide/statements-expressions-operators/equality-comparisons)
+* [Comparison operators](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/operators/comparison-operators)

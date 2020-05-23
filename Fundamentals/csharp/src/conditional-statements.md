@@ -79,7 +79,7 @@ switch(number)
 // Case 1
 ```
 
-A estrutura condicional `switch` geralmente é utilizada como uma alternativa para o [if-else](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md#if-else) quando uma única expressão tem mais de três resultados possíveis.
+A estrutura condicional `switch` geralmente é utilizada como uma alternativa para o [if-else](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md#if-else) quando uma única expressão tem mais de três resultados possíveis.
 ```C#
 WeekDay day = WeekDay.Friday;
 
@@ -141,8 +141,8 @@ switch (person)
 ```
 
 # Referências
-* [C# reference](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/)
-* [C# programming guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
-* [C# Keywords](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)
-* [?: operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator)
-* [switch](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/switch)
+* [C# reference](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/)
+* [C# programming guide](https://docs.microsoft.com/en-us/dotnet/csharp/src/programming-guide/)
+* [C# Keywords](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/keywords/)
+* [?: operator](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/operators/conditional-operator)
+* [switch](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/keywords/switch)

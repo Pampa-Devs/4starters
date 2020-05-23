@@ -109,4 +109,4 @@ Console.WriteLine(array[3][2]); // Exibe 9
 
 # Referências
 
-* [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
+* [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/src/programming-guide/arrays/)

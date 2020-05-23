@@ -150,7 +150,7 @@ class Mundo
 
 ## Tipo Interface
 
-Uma interface tem como objetivo definir um contrato, qualquer [class](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variaveis.md#2-tipo-class) ou [struct](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variaveis.md#2-tipo-class)
+Uma interface tem como objetivo definir um contrato, qualquer [class](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variaveis.md#2-tipo-class) ou [struct](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variaveis.md#2-tipo-class)
 que implemente este contrato deve fornecer uma implementação **obrigatória** dos membros definidos na interface. Exemplo:
 ```C#
 interface ICarro
@@ -211,7 +211,7 @@ Nenhuma dessas declarações de membros precisa conter um corpo. Como podemos ob
 Caso seja criado um corpo para uma declaração, este corpo será uma *implementação padrão*.
 
 # Referências
-* https://docs.microsoft.com/pt-br/dotnet/csharp/
+* https://docs.microsoft.com/pt-br/dotnet/csharp/src/
 * https://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=dec
-* https://www.devmedia.com.br/introducao-a-variaveis-e-constantes-no-csharp/29629
+* https://www.devmedia.com.br/introducao-a-variaveis-e-constantes-no-csharp/src/29629
 * http://www.macoratti.net/net_tpdt.htm

@@ -2,7 +2,7 @@
 
 Váriaveis representam locais de armazenamento.
 
-No exemplo abaixo, a váriavel é `number` do tipo [inteiro](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md#-tipos-de-valor#tipos-numéricos-integrais) e possui um valor de `5`.
+No exemplo abaixo, a váriavel é `number` do tipo [inteiro](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/value-types.md#-tipos-de-valor#tipos-numéricos-integrais) e possui um valor de `5`.
 ```C#
 int number = 5;
 ```
@@ -22,4 +22,4 @@ Vamos falar sobre cada um dos tipos apresentados nos próximos cápitulos deste 
 
 # Referência
 
-* [Variables](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/variables)
+* [Variables](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/language-specification/variables)

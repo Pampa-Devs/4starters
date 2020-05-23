@@ -5,7 +5,7 @@ Antes de prosseguir, recomendo fortemente que leiam o seguinte artigo do [Jean M
 
 ## Explicação
 
-Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos de tipo [numéricos integrais](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#1-tipos-num%C3%A9ricos-integrais) ou no tipo [char](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#4-tipos-char):
+Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos de tipo [numéricos integrais](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variables.md#1-tipos-num%C3%A9ricos-integrais) ou no tipo [char](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variables.md#4-tipos-char):
 
 | Nome | Expressão | Categoria |
 | :--- | :---: | :---: |
@@ -37,7 +37,7 @@ Console.WriteLine(Convert.ToString(b, toBase: 2));
 
 ## Operador de deslocamento à esquerda (left-shift) <<
 
-O operador `<<` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#contagem-de-deslocamento-dos-operadores--e-).
+O operador `<<` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md#contagem-de-deslocamento-dos-operadores--e-).
 
 Exemplos:
 ```C#
@@ -64,7 +64,7 @@ Console.WriteLine(Convert.ToString(a, toBase: 2));
 
 ## Operador de deslocamento à direita (right-shift) >>
 
-O operador `>>` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#contagem-de-deslocamento-dos-operadores--e-).
+O operador `>>` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md#contagem-de-deslocamento-dos-operadores--e-).
 
 Exemplos:
 ```C#
@@ -225,8 +225,8 @@ Segue alguns exemplos:
 
 # Referências
 
-* [Bitwise complement operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#bitwise-complement-operator)
-* [Shift operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#shift-operators)
-* [Logical operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#logical-operators)
-* [Compound assignment](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#compound-assignment)
-* [Numeric promotions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#numeric-promotions)
+* [Bitwise complement operator](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/language-specification/expressions#bitwise-complement-operator)
+* [Shift operators](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/language-specification/expressions#shift-operators)
+* [Logical operators](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/language-specification/expressions#logical-operators)
+* [Compound assignment](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/language-specification/expressions#compound-assignment)
+* [Numeric promotions](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/language-specification/expressions#numeric-promotions)

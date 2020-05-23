@@ -164,7 +164,7 @@ while (number < 5)
 
 # Referências
 
-* [The do statement](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/language-specification/statements#the-do-statement)
-* [for](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for)
-* [foreach, in](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/foreach-in)
-* [while](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while)
+* [The do statement](https://docs.microsoft.com/pt-br/dotnet/csharp/src/language-reference/language-specification/statements#the-do-statement)
+* [for](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/keywords/for)
+* [foreach, in](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/keywords/foreach-in)
+* [while](https://docs.microsoft.com/en-us/dotnet/csharp/src/language-reference/keywords/while)
