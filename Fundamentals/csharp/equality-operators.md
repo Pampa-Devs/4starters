@@ -40,9 +40,9 @@ Operandos `string` serão iguais quando ambos forem `null` ou ambas instâncias 
 ```C#
 string s1 = "felipe";
 string s2 = "FELIPE";
-Console.WriteLine(s1 == s2); // Resultado: False
+Console.WriteLine(s1 == s2);	// Resultado: False
 
-string s3 = s2.ToLower(); // Como o nome sugere, troca todas as letras maiusculas por letras minusculas.
+string s3 = s2.ToLower();	// Como o nome sugere, troca todas as letras maiusculas por letras minusculas.
 ```
 
 ### Igualdade entre delegados
