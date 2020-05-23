@@ -136,6 +136,7 @@ x op= y;
 ```C#
 x = x op y;
 ```
+exceto que x é avaliado somente uma vez.
 
 Exemplos:
 ```C#
@@ -150,12 +151,12 @@ test ^= false;
 Console.WriteLine(test);  // Resultado: True
 ```
 
-## Precedência dos operadores
+## Ordem de execução dos operadores
 
-A lista a seguir ordena os operadores lógicos, começando da mais alta precedência até a mais baixa:
+A lista a seguir ordena os operadores lógicos, começando com os de prioridade mais alta até a mais baixa:
 1. Operador de negação lógico `!`
 2. Operador AND lógico `&`
-3. Operador OR exclusivo lógico `^`
+3. Operador XOR exclusivo lógico `^`
 4. Operador OR lógico `|`
 5. Operador AND lógico condicional `&&`
 6. Operador OR lógico condicional `||`

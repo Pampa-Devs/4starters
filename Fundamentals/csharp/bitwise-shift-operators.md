@@ -14,7 +14,7 @@ Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos d
 Estes operadores são definidos para operações com os tipos `int`, `uint`, `long`, `ulong`. Quando ambos os operandos
 são de outros tipos (`sbyte`, `byte`, `short`, `ushort` ou `char`), seus valores são convertidos automaticamente para o tipo `int`.
 
-## Operador bitwise de inversão de bits ~
+## Operador de complemento bitwise (inversão de bits) ~
 
 O operador `~` inverte os bits de seu operando:
 
@@ -69,7 +69,7 @@ Console.WriteLine(Convert.ToString(a, toBase: 2));
 
 a = a >> 1;
 Console.WriteLine(Convert.ToString(a, toBase: 2));
-// 01000000000000000000000000000000 - 1073741824 em binário
+//  1000000000000000000000000000000 - 1073741824 em binário
 
 a = a >> 1;
 Console.WriteLine(Convert.ToString(a, toBase: 2));
@@ -82,6 +82,99 @@ Console.WriteLine(Convert.ToString(a, toBase: 2));
 a = a >> 4;
 Console.WriteLine(Convert.ToString(a, toBase: 2));
 // 0000000000000000000000000010000 - 16 em binário
+```
+
+## Operador AND lógico &
+O operador `&` computa o **AND** lógico **bit a bit** de seus operandos. Ou seja, para cada bit de cada operando, é realizada a operação `bit AND bit`.
+```C#
+uint a = 0b_1111_1000;
+uint b = 0b_1001_1101;
+uint c = a & b;
+
+Console.WriteLine(Convert.ToString(c, toBase: 2));
+// 10011000
+```
+
+## Operador OR lógico |
+O operador `|` computa o **OR** lógico bit a bit de seus operandos. Ou seja, para cada bit de cada operando, é realizada a operação `bit | bit`.
+```C#
+uint a = 0b_1111_1000;
+uint b = 0b_1001_1101;
+uint c = a | b;
+
+Console.WriteLine(Convert.ToString(c, toBase: 2));
+// 11111101
+```
+
+## Operador XOR lógico ^
+O operador `^` computa o **XOR** lógico bit a bit de seus operandos. Ou seja, para cada bit de cada operando, é realizada a operação `bit ^ bit`.
+```C#
+uint a = 0b_1111_1000;
+uint b = 0b_1001_1101;
+uint c = a ^ b;
+
+Console.WriteLine(Convert.ToString(c, toBase: 2));
+// 01100101
+```
+
+## Atribuição composta
+
+Para qualquer operador binário (representado aqui por `op`), uma expressão de atribuição composta no seguinte formato
+```C#
+x op= y;
+```
+é equivalente a
+```C#
+x = x op y;
+```
+exceto que x é avaliado somente uma vez.
+
+Exemplos:
+```C#
+uint a = 0b_1111_1000;
+a &= 0b_1001_1101;
+Console.WriteLine($"{Convert.ToString(a, toBase: 2), 8}"); 
+// Resultado: 10011000
+
+a |= 0b_0011_0001;
+Console.WriteLine($"{Convert.ToString(a, toBase: 2), 8}"); 
+// Resultado: 10111001
+
+a ^= 0b_1000_0000;
+Console.WriteLine($"{Convert.ToString(a, toBase: 2), 8}"); 
+// Resultado:   111001
+
+a <<= 2;
+Console.WriteLine($"{Convert.ToString(a, toBase: 2), 8}"); 
+// Resultado: 11100100
+
+a >>= 4;
+Console.WriteLine($"{Convert.ToString(a, toBase: 2), 8}"); 
+// Resultado:     1110
+```
+
+## Ordem de execução dos operadores
+
+A lista a seguir ordena os operadores bitwise e shift, começando com os de prioridade mais alta até a mais baixa:
+1. Operador de complemento bitwise `~`
+2. Operadores de deslocamento (shift) `<<` e `>>`
+3. Operador AND lógico `&`
+4. Operador XOR lógico `^`
+5. Operador OR lógico `|`
+
+Use parênteses, `()`, para alterar a ordem de avaliação imposta pela precedência do operador:
+```C#
+uint a = 0b_1101;
+uint b = 0b_1001;
+uint c = 0b_1010;
+
+uint d1 = a | b & c;
+Console.WriteLine($"{Convert.ToString(d1, toBase: 2), 4}");
+// Resultado: 1101
+
+uint d2 = (a | b) & c;
+Console.WriteLine($"{Convert.ToString(d2, toBase: 2), 4}");
+// Resultado: 1000
 ```
 
 ## Contagem de deslocamento dos operadores << e >>
