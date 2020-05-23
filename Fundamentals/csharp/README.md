@@ -51,16 +51,16 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 
 Aqui iremos apresentar os conceitos básicos e elementares de programação e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de programação.
 
-### Tipos
+### 1. Tipos
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
 enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos. 
 * Com os **tipos de valor**, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
 * Com os **tipos de referência** é possível que duas variáveis diferentes referenciem o mesmo objeto, ou seja, alterar uma delas irá alterar o valor da outra.
 
-1. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md)
-2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
+🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md)
+🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
 
-### Operadores
+### 2. Operadores
 
 Operadores são os símbolos utilizados para realizar operações em váriaveis. Iremos realizar a soma de **2** e **5** e armazenar o resultado na váriavel **a**.
 ```C#
@@ -69,13 +69,13 @@ int a = 2 + 5;
 No exemplo acima o `+` é o operador, `2` e `5` são os operandos.
 
 
-1. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
-2. [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
-3. [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
-4. [TO DO] [**Operadores de Comparação**]()
-5. [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
+➕➖ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
+⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
+✔️❌ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
+⚖️ [TO DO] [**Operadores de Comparação**]()
+👨🏿‍💻 [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
 
-### Estruturas
+### 3. Estruturas
 7. [TO DO] [**Estruturas Condicionais**]()
 8. [TO DO] [**Estruturas de Repetição**]()
 9. [TO DO] [**Métodos**]()
@@ -83,11 +83,11 @@ No exemplo acima o `+` é o operador, `2` e `5` são os operandos.
 11. [TO DO] [**Listas**]()
 12. [TO DO] [**HashMaps**]()
 
-### Modificadores de acesso
+### 4. Modificadores de acesso
 13. [TO DO] [**Modificadores**]()
 
-### Exceções
+### 5. Exceções
 14. [TO DO] [**Exceções**]()
 
-### Tutoriais
+### Exercícios
 
