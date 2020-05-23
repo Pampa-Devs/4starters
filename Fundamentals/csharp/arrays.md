@@ -63,3 +63,23 @@ Console.WriteLine(array[3, 1]); // Exibe 8
 ```
 
 ### Matrizes *denteadas*:
+Também conhecidas como matriz de matrizes.
+
+Declaração de uma matriz *denteada*:
+```C#
+int [4][] array = new int [4][];
+```
+
+Declaração de uma matriz denteada populada
+| | | |
+| :---: | :---: | :---: |
+| <ul><li>1</li><li>2</li><li>3</li><li>4</li></ol> | <ul><li>5</li></ul> | 5 |
+
+```C#
+int [][] jaggedArray = new int[3][];
+
+jaggedArray[0] = new int[4] { 1, 2, 3, 4};
+jaggedArray[1] = new int[1] { 5 };
+jaggedArray[2] = new int[5] { 6, 7, 8, 9, 10 };
+jaggedArray[3] = new int[2] { 11, 12 };
+```
