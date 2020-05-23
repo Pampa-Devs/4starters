@@ -64,8 +64,18 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 
 O C# oferece vários operadores predefinidos: 
 
-[Operadores Aritiméticos](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
-[Operadores](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md) | Expressão | Categoria
+[Operadores Aritiméticos](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md) | Expressão | Categoria
+--------- | --------- | ---------
+**Incremento** | `x++`, `++x`, `x--`, `--x` | Unário
+**Soma** | `+ a` | Unário
+**Soma** | `a + b` | Binário
+**Subtração** | `- a` | Unário
+**Subtração** | `a - b` | Binário
+**Multiplicação** | `a * b` | Binário
+**Divisão** | `a / b` | Binário
+**Resto** | `a % b` | Binário
+
+[Operadores Aritiméticos](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md) | Expressão | Categoria
 --------- | --------- | ---------
 **Incremento** | `x++`, `++x`, `x--`, `--x` | Unário
 **Soma** | `+ a` | Unário
