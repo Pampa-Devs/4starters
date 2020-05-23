@@ -1,6 +1,6 @@
-## Tipos de Referência
+# 🟢 Tipos de Referência
 
-###  Tipo String
+## Tipo String
 
 O tipo `string` é uma cadeira de caracteres que representa uma sequência de um ou mais caracteres Unicode. `string` é um alias de [System.String](https://docs.microsoft.com/pt-br/dotnet/api/system.string?view=netcore-3.1).
 
@@ -35,7 +35,7 @@ Console.WriteLine(caracter);
 ```
 O resultado irá imprimir a letra **F** como resultado;
 
-## 2. Tipo Class
+## Tipo Class
 
 Class é um objeto que é declarado usando o alias `class`. Uma classe é uma estrutura de dados que combina ações e estados em uma única unidade. 
 ```C#
