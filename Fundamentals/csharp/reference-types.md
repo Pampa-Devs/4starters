@@ -1,6 +1,6 @@
-## B) Tipos de Referência
+## Tipos de Referência
 
-### 1. Tipo String
+###  Tipo String
 
 O tipo `string` é uma cadeira de caracteres que representa uma sequência de um ou mais caracteres Unicode. `string` é um alias de [System.String](https://docs.microsoft.com/pt-br/dotnet/api/system.string?view=netcore-3.1).
 
@@ -146,7 +146,7 @@ class Mundo
 }
 ```
 
-### 3. Tipo Interface
+## Tipo Interface
 
 Uma interface tem como objetivo definir um contrato, qualquer [class](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variaveis.md#2-tipo-class) ou [struct](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variaveis.md#2-tipo-class)
 que implemente este contrato deve fornecer uma implementação **obrigatória** dos membros definidos na interface. Exemplo:

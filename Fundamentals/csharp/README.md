@@ -76,7 +76,7 @@ int a = 2 + 5;
 8. 🔄 [TO DO] [**Estruturas de Repetição**]()
 9. ▶️ [TO DO] [**Métodos**]()
 10. 🔠[TO DO] [**Arrays**]()
-11. [TO DO] [**Listas**]()
+11. [TO DO] [**Listas**]()
 12. [TO DO] [**HashMaps**]()
 
 ### Modificadores de acesso
