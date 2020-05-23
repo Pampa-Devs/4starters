@@ -99,8 +99,8 @@ jaggedArray[3] = new int[2] { 11, 12 };
 
 Console.WriteLine(array[0][0]); // Exibe 1
 Console.WriteLine(array[0][1]); // Exibe 2
-Console.WriteLine(array[1][0]); // Exibe 3
-Console.WriteLine(array[3][1]); // Exibe 8
+Console.WriteLine(array[1][0]); // Exibe 5
+Console.WriteLine(array[3][2]); // Exibe 9
 ```
 
 # Referências
