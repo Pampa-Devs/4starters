@@ -66,7 +66,7 @@ int a = 2 + 5;
 1. ➕ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
 2. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
 3. ✔️ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
-4. ⚖️ [TO DO] [**Operadores de Comparação**]()
+4. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/comparison-operators.md)
 5. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
 
 ### Estruturas
