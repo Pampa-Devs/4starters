@@ -64,6 +64,9 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
 3. 🔢 [**Coleções de Tipos**]()
 
+### Modificadores de acesso
+1. 🚦 [TO DO] [**Modificadores**]()
+
 ### Operadores
 
 Operadores são os símbolos utilizados para realizar operações em váriaveis. No exemplo abaixo o `+` é o operador, `2` e `5` são os operandos.
@@ -77,22 +80,16 @@ int a = 2 + 5;
 4. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/comparison-operators.md)
 5. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
 
+### Exceções
+1. ❌[TO DO] [**Exceções**]()
+
 ### Estruturas
 
 As estruturas são instruçõoes do nosso programa que realizam funções específicas.
 
-7. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md)
-8. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/iteration-statements.md)
-9. [TO DO] [**Estruturas de Tatamento de Exceções**]()
-10. 🔠[TO DO] [**Arrays**]()
-11. [TO DO] [**Listas**]()
-12. [TO DO] [**HashMaps**]()
-
-### Modificadores de acesso
-13. 🚦 [TO DO] [**Modificadores**]()
-
-### Exceções
-14. ❌[TO DO] [**Exceções**]()
+1. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md)
+2. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/iteration-statements.md)
+3. 🛑 [TO DO] [**Estruturas de Tatamento de Exceções**]()
 
 ### Exercícios
 
