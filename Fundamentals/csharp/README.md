@@ -70,11 +70,14 @@ int a = 2 + 5;
 5. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
 
 ### Estruturas
+
+As estruturas são instruçõoes do nosso programa que realizam funções específicas.
+
 7. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md)
 8. 🔄 [TO DO] [**Estruturas de Repetição**]()
 9. ▶️ [TO DO] [**Métodos**]()
 10. 🔠[TO DO] [**Arrays**]()
-11. [TO DO] [**Listas**]()
+11. [TO DO] [**Listas**]()
 12. [TO DO] [**HashMaps**]()
 
 ### Modificadores de acesso
