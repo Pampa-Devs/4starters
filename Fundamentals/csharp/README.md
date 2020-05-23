@@ -70,7 +70,7 @@ int a = 2 + 5;
 5. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
 
 ### Estruturas
-7. 🔀 [TO DO] [**Estruturas Condicionais**]()
+7. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md)
 8. 🔄 [TO DO] [**Estruturas de Repetição**]()
 9. ▶️ [TO DO] [**Métodos**]()
 10. 🔠[TO DO] [**Arrays**]()

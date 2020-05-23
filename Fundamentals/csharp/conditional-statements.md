@@ -2,6 +2,11 @@
 
 *Estruturas condicionais* executam um instrução de código caso uma condição booliana sejá atendida. Elas permitem que o desenvolvedor realize desde as mais simples as mais complexas verificações de código.
 
+Nome | Palavra-Chaves
+--------- | ---------
+**if-else** | `if`, `else`, `else if`, `?:`
+**switch** | `switch`, `case`, `default`, `when`
+
 ## if-else
 
 O `if` verifica qual instrução deve ser executada com base em um valor booliano. No exemplo abaixo, a váriavel `condition`, onde o resultado será **A condição é verdadeira**.
@@ -102,7 +107,7 @@ switch(devType)
 // "Dia de trabalhar, porém tem festa depois do expediente"
 ```
 
-Também podemos verificar **tipos** usando o `switch`
+Também podemos verificar **tipos** usando o `switch` e propriedades destes tipos usando a palavra-chave `when`;
 ```C#
 Person person = new Developer("Felipe", "dotnet");
 
