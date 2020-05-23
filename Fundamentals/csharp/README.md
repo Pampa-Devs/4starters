@@ -47,11 +47,11 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 * https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/
 * https://www.udemy.com/pt/topic/c-sharp/free/
 
-### Fundamentos
+## Fundamentos
 
 Aqui iremos apresentar os conceitos básicos e elementares de programação e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de programação.
 
-#### Tipos
+### Tipos
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
 enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos. 
 * Com os **tipos de valor**, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
@@ -60,7 +60,7 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 1. [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md)
 2. [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
 
-#### Operadores
+### Operadores
 
 Operadores são os símbolos utilizados para realizar operações em váriaveis. Iremos realizar a soma de **2** e **5** e armazenar o resultado na váriavel **a**.
 ```C#
@@ -75,7 +75,7 @@ No exemplo acima o `+` é o operador, `2` e `5` são os operandos.
 4. [TO DO] [**Operadores de Comparação**]()
 5. [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
 
-#### Estruturas
+### Estruturas
 7. [TO DO] [**Estruturas Condicionais**]()
 8. [TO DO] [**Estruturas de Repetição**]()
 9. [TO DO] [**Métodos**]()
@@ -83,10 +83,10 @@ No exemplo acima o `+` é o operador, `2` e `5` são os operandos.
 11. [TO DO] [**Listas**]()
 12. [TO DO] [**HashMaps**]()
 
-#### Modificadores de acesso
+### Modificadores de acesso
 13. [TO DO] [**Modificadores**]()
 
-#### Exceções
+### Exceções
 14. [TO DO] [**Exceções**]()
 
 ### Tutoriais
