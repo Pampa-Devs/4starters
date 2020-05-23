@@ -62,7 +62,7 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 
 1. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md)
 2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
-3. 🔢 [**Coleções de Tipos Comuns**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/collections.md)
+3. 🔢 [**Coleções de Tipos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/collections.md)
 
 ### Modificadores de acesso
 1. 🚦 [TO DO] [**Modificadores**]()

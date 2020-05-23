@@ -52,9 +52,9 @@ int [,] array1 = new int [2, 3];
 Declaração de uma matriz multidimensional 4 por 2 populada
 | 1 | 2 |
 | :---: | :---: |
-| 3 | 4 |
-| 5 | 6 |
-| 7 | 8 |
+| **3** | **4** |
+| **5** | **6** |
+| **7** | **8** |
 ```C#
 int[,] array2 = new int[4, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
 ```
