@@ -49,6 +49,13 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 
 Aqui iremos apresentar os conceitos básicos e elementares de programação e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de programação.
 
+### Básico
+
+Conceitos básicos que devemos saber prosseguir com o tutorial:
+
+1. 🎲 [**O que é uma váriavel?**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md)
+2. 📦 [**O que são métodos?**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/methods.md)
+
 ### Tipos
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
 enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos.
@@ -74,7 +81,7 @@ int a = 2 + 5;
 As estruturas são instruçõoes do nosso programa que realizam funções específicas.
 
 7. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md)
-8. 🔄 [TO DO] [**Estruturas de Repetição**]()
+8. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/iteration-statements.md)
 9. ▶️ [TO DO] [**Métodos**]()
 10. 🔠[TO DO] [**Arrays**]()
 11. [TO DO] [**Listas**]()
