@@ -65,14 +65,14 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 O C# oferece vários operadores predefinidos: 
 
 [Operadores Aritiméticos](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
-Expressão | Operador | Categoria
+Nome [Operador](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md) | Expressão | Categoria
 --------- | --------- | ---------
-`x++`, `++x`, `x--`, `--x` | Incremento
-`+ a`, `a + b` | Adição
-`- a`, `a - b` | Subtração
-`a * b` | Multiplicação
-`a / b` | Divisão
-`a % b` | Resto
+Incremento | `x++`, `++x`, `x--`, `--x` | unário
+`a + b` | Adição | Binário
+`a - b` | Subtração | Binário
+`a * b` | Multiplicação | Binário
+`a / b` | Divisão | Binário
+`a % b` | Resto | Binário
 
 2. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
 3. [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
