@@ -1,5 +1,10 @@
 # Operadores Bitwise e Shift
 
+Antes de prosseguir, recomendo fortemente que leiam o seguinte artigo do [Jean Martins](https://github.com/jeanfmc).
+[Sinal Magnitude: bit de sinal, complemento de 1 e complemento de 2](https://link.medium.com/z9f1mS1dI6)
+
+## Explicação
+
 Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos de tipo [numéricos integrais](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#1-tipos-num%C3%A9ricos-integrais) ou no tipo [char](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#4-tipos-char):
 
 * Operador unário [~ inversão de bits](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#operador-bitwise-de-invers%C3%A3o-de-bits-)
