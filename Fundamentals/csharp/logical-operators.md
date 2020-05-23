@@ -11,8 +11,8 @@ Os operadores que iremos apresentar neste artigo executam operações lógicas e
 **Negação Lógica !** | `!condition` | Unário
 **AND Lógico &** | `a & b` | Binário
 **AND Lógico Condicional &&** | `a && b` | Binário
-**OR Lógico \|** | `a | b` | Binário
-**OR Lógico Condicional \|** | `a || b` | Binário
+**OR Lógico \|** | `a \| b` | Binário
+**OR Lógico Condicional \|** | `a \|\| b` | Binário
 **XOR Lógico ^** | `a ^ b` | Binário
 
 ## Operador de negação lógica !
