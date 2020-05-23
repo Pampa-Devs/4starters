@@ -74,7 +74,7 @@ Declaração de uma matriz *denteada*:
 int [4][] array = new int [4][];
 ```
 
-Declaração de uma matriz denteada populada
+Populando uma matriz denteada populada
 ```C#
 int [][] jaggedArray = new int[3][];
 
