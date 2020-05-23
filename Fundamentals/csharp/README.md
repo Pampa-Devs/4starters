@@ -51,12 +51,10 @@ Aqui iremos apresentar os conceitos básicos e elementares de programação e de
 
 ### Tipos
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
-enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos. 
-* Com os **tipos de valor**, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
-* Com os **tipos de referência** é possível que duas variáveis diferentes referenciem o mesmo objeto, ou seja, alterar uma delas irá alterar o valor da outra.
+enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos.
 
-1. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/development/Fundamentals/csharp/value-types.md)
-2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/development/Fundamentals/csharp/reference-types.md)
+1. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md)
+2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
 
 ### Operadores
 
