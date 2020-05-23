@@ -6,6 +6,15 @@ Os operadores que iremos apresentar neste artigo executam operações lógicas e
 * Operadores Binários [& (AND lógico)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-and-l%C3%B3gico), [| (OR lógico)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-or-l%C3%B3gico-condicional) e [^ (XOR lógico)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-or-l%C3%B3gico-condicional). Esses operadores **sempre** avaliam os dois operandos.
 * Operadores Binários [&& (AND lógico condicional)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-or-l%C3%B3gico-condicional) e [|| (OR lógico condicional)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-comparison-operators.md#operador-or-l%C3%B3gico-condicional). Esses operadores avaliam o operando à direita **somente se necessário**.
 
+| Nome | Expressão | Categoria |
+| :--- | :---: | :---: |
+**Negação Lógica !** | `!condition` | Unário
+**AND Lógico &** | `a & b` | Binário
+**AND Lógico Condicional &&** | `a && b` | Binário
+**OR Lógico |** | `a | b` | Binário
+**OR Lógico Condicional ||** | `a || b` | Binário
+**XOR Lógico ^** | `a ^ b` | Binário
+
 ## Operador de negação lógica !
 
 O sufixo unário `!` computa a negação lógica de seu operando. Ou seja, se o valor do operando for `true`, então o resultado será `false`.
