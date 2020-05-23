@@ -73,7 +73,7 @@ No exemplo acima o `+` é o operador, `2` e `5` são os operandos.
 2. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
 3. ✔️ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
 4. ⚖️ [TO DO] [**Operadores de Comparação**]()
-5. 👨🏿‍💻 [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
+5. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
 
 ### Estruturas
 7. 🔀 [TO DO] [**Estruturas Condicionais**]()
