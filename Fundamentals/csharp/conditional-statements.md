@@ -79,7 +79,7 @@ switch(number)
 // Case 1
 ```
 
-A estrutura condicional `switch` geralmente é utilizada como uma alternativa para o [if-else]() quando uma única expressão tem mais de três resultados possíveis.
+A estrutura condicional `switch` geralmente é utilizada como uma alternativa para o [if-else](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md#if-else) quando uma única expressão tem mais de três resultados possíveis.
 ```C#
 WeekDay day = WeekDay.Friday;
 

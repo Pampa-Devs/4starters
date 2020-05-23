@@ -2,8 +2,8 @@
 
 São os operadores que executam operações aritméticas utilizando-se de tipos númericos:
 
-Nome | Expressão | Categoria
---------- | --------- | ---------
+| Nome | Expressão | Categoria |
+| :--- | :---: | :---: |
 **Incremento** | `x++`, `++x` | Unário
 **Decremento** | `x--`, `--x` | Unário
 **Soma** | `+ a` | Unário
