@@ -23,9 +23,9 @@ Declaração e população da matriz com elementos
 int [] array2 = new int[] { 1, 3, 5, 7, 9};
 ```
 
-| | Posição 0 | Posição 1 | Posição 2 | Posição 3 | Posição 4 |
+| Posição | 0 | 1 | 2 | 3 | 4 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| Elementos | 1 | 3 | 5 | 7 | 9 |
+| **Elementos** | 1 | 3 | 5 | 7 | 9 |
 
 Sintaxe alternativa para popular a matriz com elementos
 ```C#
