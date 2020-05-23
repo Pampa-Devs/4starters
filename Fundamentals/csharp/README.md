@@ -53,16 +53,18 @@ Aqui iremos apresentar os conceitos básicos e elementares de programação e de
 
 1. [**Tipos e Variáveis**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md)
 2. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
-3. [**Operadores Lógicos e de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-comparison-operators.md)
-4. [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
-5. [TO DO] [**Estruturas Condicionais**]()
-6. [TO DO] [**Estruturas de Repetição**]()
-7. [TO DO] [**Métodos**]()
-8. [TO DO] [**Arrays**]()
-9. [TO DO] [**Listas**]()
-10. [TO DO] [**HashMaps**]()
-11. [TO DO] [**Modificadores**]()
-12. [TO DO] [**Exceções**]()
+3. [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
+4. [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
+5. [TO DO] [**Operadores de Comparação**]()
+6. [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
+7. [TO DO] [**Estruturas Condicionais**]()
+8. [TO DO] [**Estruturas de Repetição**]()
+9. [TO DO] [**Métodos**]()
+10. [TO DO] [**Arrays**]()
+11. [TO DO] [**Listas**]()
+12. [TO DO] [**HashMaps**]()
+13. [TO DO] [**Modificadores**]()
+14. [TO DO] [**Exceções**]()
 
 ### Tutoriais
 

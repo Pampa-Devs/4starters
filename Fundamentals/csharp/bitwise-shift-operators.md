@@ -217,3 +217,11 @@ Segue alguns exemplos:
 // Saída
 00000000000000000000000000000001
 ```
+
+# Referências
+
+* [Bitwise complement operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#bitwise-complement-operator)
+* [Shift operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#shift-operators)
+* [Logical operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#logical-operators)
+* [Compound assignment](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#compound-assignment)
+* [Numeric promotions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#numeric-promotions)

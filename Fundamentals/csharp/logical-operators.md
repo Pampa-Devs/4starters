@@ -186,3 +186,10 @@ Console.WriteLine(changedOrder);
 // Operand C é avaliado.
 // False
 ```
+
+# Referências
+
+* [Logical negation operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#logical-negation-operator)
+* [Logical operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#logical-operators)
+* [Conditional logical operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#conditional-logical-operators)
+* [Compound assignment](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#compound-assignment)

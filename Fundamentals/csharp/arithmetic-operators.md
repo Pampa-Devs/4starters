@@ -171,3 +171,18 @@ Console.WriteLine((2 + 2) * 2);		// Resultado: 8
 Console.WriteLine(9 / 5 / 2);		// Resultado: 0
 Console.WriteLine(9 / (5 / 2));		// Resultado: 4
 ```
+
+# Referências
+
+* [Postfix increment and decrement operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#postfix-increment-and-decrement-operators)
+* [Prefix increment and decrement operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#prefix-increment-and-decrement-operators)
+* [Unary plus operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#unary-plus-operator)
+* [Unary minus operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#unary-minus-operator)
+* [Multiplication operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#multiplication-operator)
+* [Division operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#division-operator)
+* [Remainder operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#remainder-operator)
+* [Addition operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#addition-operator)
+* [Subtraction operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#subtraction-operator)
+* [Compound assignment](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#compound-assignment)
+* [The checked and unchecked operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#the-checked-and-unchecked-operators)
+* [Numeric promotions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/expressions#numeric-promotions)
