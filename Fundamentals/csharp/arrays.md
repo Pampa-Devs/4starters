@@ -80,7 +80,7 @@ jaggedArray[2] = new int[5] { 6, 7, 8, 9, 10 };
 jaggedArray[3] = new int[2] { 11, 12 };
 ```
 
-| Posição | Matriz 0 | Matriz 1 | Matriz 2 | Matriz 3 |
+| # | Matriz 0 | Matriz 1 | Matriz 2 | Matriz 3 |
 | :---: | :---: | :---: | :---: | :---: |
 | **0** | 1 | 5 | 6 | 11 |
 | **1** | 2 | - | 7 | 12 |
@@ -102,3 +102,7 @@ Console.WriteLine(array[0][1]); // Exibe 2
 Console.WriteLine(array[1][0]); // Exibe 3
 Console.WriteLine(array[3][1]); // Exibe 8
 ```
+
+# Referências
+
+* [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
