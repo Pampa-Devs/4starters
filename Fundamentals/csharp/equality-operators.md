@@ -2,8 +2,8 @@
 
 São os operadores que executam checam se seus operandos são iguais ou não:
 
-* Operador de igualdade [==]()
-* Operador de desigualdade [!=]()
+* Operador de igualdade [==](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md#operador-de-igualdade-)
+* Operador de desigualdade [!=](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md#operador-de-igualdade-)
 
 ## Operador de igualdade ==
 
@@ -15,11 +15,11 @@ Operandos dos [tipos internos](https://docs.microsoft.com/en-us/dotnet/csharp/la
 ```C#
 int a = 3 + 3;
 int b = 6;
-Console.WriteLine(a == b); // Resultado: True
+Console.WriteLine(a == b);	// Resultado: True
 
 char c1 = 'f';
 char c2 = 'F';
-Console.WriteLine(c1 == c2); // Resultado: False
+Console.WriteLine(c1 == c2);	// Resultado: False
 ```
 
 ### Igualdade entre tipos de referência
@@ -28,10 +28,10 @@ Operandos do tipo de referência são iguais quando se referem ao mesmo objeto:
 ```C#
 var a = new object();
 var b = new object();
-Console.WriteLine(a == b); // Resultado: False
+Console.WriteLine(a == b);	// Resultado: False
 
 var c = a;
-Console.WriteLine(a == c); // Resultado: True
+Console.WriteLine(a == c);	// Resultado: True
 ```
 
 ### Igualdade entre uma cadeia de caracteres (strings)
@@ -52,7 +52,7 @@ Dois operandos `delegate` são iguais quando ambos forem `null` ou se suas lista
 Action a = () => Console.WriteLine("HelloWorld");
 Action b = () => Console.WriteLine("HelloWorld");
 
-Console.WriteLine(a == b);			// Resultado: False
+Console.WriteLine(a == b);		// Resultado: False
 Console.WriteLine(a + b == a + b);	// Resultado: True
 Console.WriteLine(a + b == b + a);	// Resultado: False
 ```
@@ -68,7 +68,7 @@ Console.WriteLine(a != b);		// Resultado: True
 
 string s1 = "Hello";
 string s2 = "Hello";
-Console.WriteLine(s1 != s2);	// Resultado: False
+Console.WriteLine(s1 != s2);		// Resultado: False
 
 object obj1 = new object();
 object obj2 = new object();
