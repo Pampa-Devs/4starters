@@ -62,35 +62,18 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 
 #### Operadores
 
-O C# oferece vários operadores predefinidos: 
+Operadores são os símbolos utilizados para realizar operações em váriaveis. Iremos realizar a soma de **2** e **5** e armazenar o resultado na váriavel **a**.
+```C#
+int a = 2 + 5;
+```
+No exemplo acima o `+` é o operador, `2` e `5` são os operandos.
 
-[Operadores Aritiméticos](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md) | Expressão | Categoria
---------- | --------- | ---------
-**Incremento** | `x++`, `++x`, `x--`, `--x` | Unário
-**Soma** | `+ a` | Unário
-**Soma** | `a + b` | Binário
-**Subtração** | `- a` | Unário
-**Subtração** | `a - b` | Binário
-**Multiplicação** | `a * b` | Binário
-**Divisão** | `a / b` | Binário
-**Resto** | `a % b` | Binário
 
-[Operadores Aritiméticos](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md) | Expressão | Categoria
---------- | --------- | ---------
-**Incremento** | `x++`, `++x`, `x--`, `--x` | Unário
-**Soma** | `+ a` | Unário
-**Soma** | `a + b` | Binário
-**Subtração** | `- a` | Unário
-**Subtração** | `a - b` | Binário
-**Multiplicação** | `a * b` | Binário
-**Divisão** | `a / b` | Binário
-**Resto** | `a % b` | Binário
-
-2. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
-3. [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
-4. [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
-5. [TO DO] [**Operadores de Comparação**]()
-6. [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
+1. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
+2. [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
+3. [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
+4. [TO DO] [**Operadores de Comparação**]()
+5. [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
 
 #### Estruturas
 7. [TO DO] [**Estruturas Condicionais**]()
