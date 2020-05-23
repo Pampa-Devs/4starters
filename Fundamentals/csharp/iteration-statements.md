@@ -12,7 +12,7 @@ São instruções que executam o **mesmo bloco de código *N* vezes**.
 ## do 
 
 A instrução `do` executa um bloco de código **enquanto uma condição** for avaliada como `true`.
-A qualquer momento do bloco de código é possível interromper o loop (repetição) utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`;
+A qualquer momento do bloco de código é possível interromper o loop (repetição) utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`.
 
 ### Estrutura da instrução `do`
 O corpo do loop é uma linha ou bloco de código.
@@ -48,7 +48,7 @@ Resultado:
 ## for
 
 A instrução `for` executa um bloco de código **enquanto uma condição** for avaliada como `true`.
-A qualquer momento do bloco de código é possível interromper o loop (repetição) utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`;
+A qualquer momento do bloco de código é possível interromper o loop (repetição) utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`.
 
 ### Estrutura da instrução `for`
 Todas as três seções são opcionais. O corpo do loop é uma linha ou bloco de código.
@@ -108,5 +108,5 @@ i++
 
 # Referências
 
-[The do statement](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/language-specification/statements#the-do-statement)
-[foreach, in](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/foreach-in)
+* [The do statement](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/language-specification/statements#the-do-statement)
+* [foreach, in](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/foreach-in)
