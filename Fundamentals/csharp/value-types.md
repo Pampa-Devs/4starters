@@ -1,4 +1,4 @@
-# Tipos de Valor
+# 🔵 Tipos de Valor
 Com os tipos de valor, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
 
 ## Tipos numéricos integrais
