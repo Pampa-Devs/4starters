@@ -13,7 +13,7 @@ Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos d
 **Left-Shift** | `a << 1` | Binário
 **Right-Shift** | `a >> 1` | Binário
 **AND lógico** | `a & b` | Binário
-**OR lógico** | `a | b` | Binário
+**OR lógico** | `a \| b` | Binário
 **XOR lógico** | `a ^ b` | Binário
 
 Estes operadores são definidos para operações com os tipos `int`, `uint`, `long`, `ulong`. Quando ambos os operandos
