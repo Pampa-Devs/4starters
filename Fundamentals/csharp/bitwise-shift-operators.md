@@ -7,8 +7,8 @@ Antes de prosseguir, recomendo fortemente que leiam o seguinte artigo do [Jean M
 
 Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos de tipo [numéricos integrais](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#1-tipos-num%C3%A9ricos-integrais) ou no tipo [char](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#4-tipos-char):
 
-Nome | Expressão | Categoria
---------- | --------- | ---------
+| Nome | Expressão | Categoria |
+| :--- | :---: | :---: |
 **Complemento bitwise** | ~a | Unário
 **Left-Shift** | `a << 1` | Binário
 **Right-Shift** | `a >> 1` | Binário
