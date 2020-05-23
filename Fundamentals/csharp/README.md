@@ -62,7 +62,14 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 
 1. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md)
 2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
-3. 🔢 [**Coleções de Tipos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/collections.md)
+
+### Coleções de Tipos
+
+Em diversas situações, você irá necessitar gerenciar um grupo de objetos. Abaixo algumas formas de como fazer isso no C#:
+
+1. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arrays.md)
+2. 🔢 [**Listas**]
+3. 🔠 [**Dicionários**]
 
 ### Modificadores de acesso
 1. 🚦 [TO DO] [**Modificadores**]()
