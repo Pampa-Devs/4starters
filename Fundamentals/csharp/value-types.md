@@ -1,13 +1,7 @@
-# Tipos e Variáveis
+# 🔵 Tipos de Valor
+Com os tipos de valor, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
 
-No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
-enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos. 
-* Com os **tipos de valor**, as váriaveis possuem sua própria cópia de dados, e não é possível que as operações em uma variavel afetem outra.
-* Com os **tipos de referência** é possível que duas variáveis diferentes referenciem o mesmo objeto, ou seja, alterar uma delas irá alterar o valor da outra.
-
-## A) Tipos de Valor
-
-### 1. Tipos numéricos integrais
+## Tipos numéricos integrais
 
 Como o nome já diz, os *tipos numéricos integrais* representam **números inteiros**. São **tipos simples** e todos suportam 
 operadores aritméticos, Bitwise lógicos, de comparação e de igualdade.
@@ -32,7 +26,7 @@ O alias `int` é um apelido para `System.Int32`
 
 O valor padrão de cada tipo integral é `0`. Cada um dos tipos possui as constantes `MinValue` e `MaxValue` que fornecem o valor mínimo e máximo desse tipo.
 
-### 2. Tipos numéricos de ponto flutuante
+## Tipos numéricos de ponto flutuante
 
 Os *tipos numéricos de ponto flutuante* representam números reais. São **tipos simples** e também suportam operadores aritméticos, bitwise lógicos], de comparação e de igualdade.
 
@@ -60,7 +54,7 @@ decimal dinheiro2 = 800.00M;
 
 ```
 
-### 3. Tipo Boolean
+## Tipos Boolean
 
 A `bool` é um alias para o tipo [System.Boolean](https://docs.microsoft.com/pt-br/dotnet/api/system.boolean?view=netcore-3.1). Representa um
 valor booleano que pode ser `true` ou `false` (verdadeiro ou falso).
@@ -82,7 +76,7 @@ else
 
 O valor default de um boolean é `false`.
 
-### 4. Tipos Char
+## Tipos Char
 
 O `char` é um alias para o tipo [System.Char](https://docs.microsoft.com/pt-br/dotnet/api/system.char?view=netcore-3.1) que representa um caractere [Unicode UTF-16](http://www.fileformat.info/info/charset/UTF-16/list.htm).
 
@@ -109,7 +103,7 @@ Console.WriteLine(abcd);
 ```
 No exemplo acima, utilizo a função **string.Join()** para unir todos os caracteres, o resultado exibido será **j j j j**.
 
-### 5. Tipo de enumeração
+## Tipos enum
 
 Um *tipo de enumeração* (ou *tipo enum*) é um tipo de valor definido por um conjunto de constantes nomeadas do tipo [numérico integral](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variaveis.md#1-tipos-num%C3%A9ricos-integrais). `enum` é o alias do tipo [System.Enum](https://docs.microsoft.com/pt-br/dotnet/api/system.enum?view=netcore-3.1).
 Para definir uma enumeração, use o alias `enum` e especifique os membros:
@@ -133,7 +127,7 @@ enum Profissoes : ushort
 }
 ```
 
-#### 5.1. Tipos de Enumeração como Bit Flags
+#### Tipos de Enumeração usando Bit Flags
 Se você quiser que um tipo de enumeração represente uma combinação de escolhas, defina os membros dessa enumeração de tal forma que cada membro individual seja um bit. Com isso, você pode utilizar os
 [operadores lógicos bitwise '|' ou '&']() para combinar ou interceptar combinações de escolhas. Para indicar que um enumerador declara seus membros como bits, utilize o atributo [[Flags]](), por exemplo:
 ```C#
@@ -174,9 +168,9 @@ public class FlasEnumExemplo
 }
 ```
 
-### 6. Tipo de Estrutura
+## Tipo de estrutura (struct)
 
-Um *tipo de estrutura* é um tipo de valor que pode encapsular dados e funcionalidades relacionadas. Você usa o alias `struct` para definir uma estrutura:
+Um *tipo struct* é um tipo de valor que pode encapsular dados e funcionalidades relacionadas. Você usa o alias `struct` para definir uma estrutura:
 
 ```C#
 public struct Coordenadas
@@ -193,220 +187,12 @@ public struct Coordenadas
     public override string ToString() => $"({X}, {Y})";
 }
 ```
-Os tipos de estrutura têm *semântica de valor*. Ou seja, uma variável de um tipo de estrutura contém uma instância do tipo. Por padrão, os valores variáveis são copiados na atribuição, passando um argumento para um método
+Os tipos **struct** têm *semântica de valor*. Ou seja, uma variável de um tipo de estrutura contém uma instância do tipo. Por padrão, os valores variáveis são copiados na atribuição, passando um argumento para um método
 e retornando um resultado do método. No caso de uma variável do tipo `struct`, uma instância do tipo é copiada.
 
 Normalmente, usamos uma `struct` para criar pequenos tipos centrados em dados que fornecem pouco ou nenhum comportamento.
 
-## B) Tipos de Referência
 
-### 1. Tipo String
-
-O tipo `string` é uma cadeira de caracteres que representa uma sequência de um ou mais caracteres Unicode. `string` é um alias de [System.String](https://docs.microsoft.com/pt-br/dotnet/api/system.string?view=netcore-3.1).
-
-Mesmo `string` sendo um tipo de referência, os operadores de igualdade `==` e `!=` comparam os **valores** de objetos `string`, não referências. Por exemplo:
-```C#
-string a = "M";
-string b = "Mundo";
-
-a += "undo";
-
-Console.WriteLine("As strings são iguais: " + (a == b));
-Console.WriteLine("As referências das strings são iguais: " + object.ReferenceEquals(a, b));
-```
-Este código vai exibir **As strings são iguais: true** e, em seguida, **As referências das strings são iguais: false** porque os conteúdos das cadeidas de caracteres são equivalentes, mas `a` e `b` são instâncias diferentes.
-
-O operador `+` concatena as cadeias de caracteres:
-```C#
-string a = "Olá " + "Mundo";
-Console.WriteLine(a);
-```
-Isso cria uma cadeia de caracteres que contém **Olá mundo**.
-
-Cadeia de caracteres são *imutáveis*, ou seja, o conteúdo de uma `string` não pode ser alterado depois que o objeto é criado, embora a sintaxe faça com que pareça que você pode fazer isso. Toda nova operação em uma string acaba
-por criar uma nova `string`.
-
-O operador `[]` pode ser usado para ler um caracter específico dentro de uma `string`. Por exemplo:
-```C#
-string texto = "Felipe";
-char caracter = texto[0];
-
-Console.WriteLine(caracter);
-```
-O resultado irá imprimir a letra **F** como resultado;
-
-### 2. Tipo Class
-
-Class é um objeto que é declarado usando o alias `class`. Uma classe é uma estrutura de dados que combina ações e estados em uma única unidade. 
-```C#
-class TestClass
-{
-    // Métodos, prorpriedades, campos, eventos, delegados e sub classes vão aqui dentro
-}
-```
-
-O **C#** não da suporta a múltiplas heranças que nem linguagens como **C++**, somente herança única. Porém, uma classe pode implementar mais de uma interface. 
-Exemplos:
-
-```C#
-// Classe sem nenhuma herança
-class ClassTest
-{
-}
-
-// Classe com uma única herança
-class ClasseDerivada : ClasseBase
-{
-}
-
-// Classe sem nenhuma herança, porém implementa duas interfaces
-class ClassTest : InterfaceA, InterfaceB
-{
-}
-
-// Classe com uma única herança e implementa uma interface
-class ClasseDerivada : ClasseBase, InterfaceA
-{
-}
-```
-
-Classes que você declara dentro de um namespace, que não são sub classes de outras classes, podem ser [públicas]() ou [internas](). As classes são `internal` por padrão
-
-Já seus membros podem ser [públicos](), [internos protegidos](), [protegidos](), [internos](), [privados]() ou [protegidos privados](). Os membros são `private` por padrão.
-
-Uma classe pode conter várias declarações:
-* Construtores
-* Constantes
-* Campos
-* Finalizadores
-* Métodos
-* Propriedades
-* Indexadores
-* Operadores
-* Eventos
-* Delegados
-* Classes
-* Interfaces
-* Tipos de estrutura
-* Tipos de enumeração
-
-Exemplo:
-```C#
-class Personagem
-{    
-    // Campos
-    private string Nome;
-    private string Classe;
-
-    // Construtor padrão
-    public Personagem()
-    {
-        Nome = "Sem Nome";
-        Classe = "Sem Classe";
-    }
-    
-    // Construtor com parâmetros
-    public Personagem(string nome, string classe)
-    {
-        this.Nome = nome;
-        this.Classe = classe;
-    }
-    
-    // Finalizador
-    ~Personagem()
-    {
-        Nome = string.Empty;
-        Classe = string.Empty;
-    }
-    
-    // Método
-    public void Atacar()
-    {
-        Console.WriteLine($"{Nome} da classe {Classe} está atacando!");
-    }
-}
-
-class Mundo
-{
-    static void Main()
-    {
-        // Instanciação usando Construtor padrão
-        var personagemSemNome = new Personagem();
-        
-        // Instanciação usando Construtor com parâmetros
-        var felipe = new Personagem("Felipe", "Berserker");
-        
-        // Invocação do método Personagem.Atacar()
-        personagemSemNome.Atacar();
-        felipe.Atacar();
-        
-        //Removendo referência para chamar o Finalizador
-        felipe = null;
-    }
-}
-```
-
-### 3. Tipo Interface
-
-Uma interface tem como objetivo definir um contrato, qualquer [class](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variaveis.md#2-tipo-class) ou [struct](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variaveis.md#2-tipo-class)
-que implemente este contrato deve fornecer uma implementação **obrigatória** dos membros definidos na interface. Exemplo:
-```C#
-interface ICarro
-{
-    // Propriedade
-    string Nome { get; set; }
-    string Marca { get; }
-    
-    // Métodos
-    void Acelerar();
-    void Freiar();
-
-    // Método com implementação padrão
-    void Buzinar()
-    {
-        Console.WriteLine("Nani!?")
-    }
-}
-
-class Fusca : ICarro
-{
-    // Implementação das propriedades
-    string Nome { get; set; }
-    string Marca => return "Meu Fusquinha Turbinado";
-	
-    // Implementação explícita da interface
-    void ICarro.Acelerar()
-    {
-        //Lógica para acelerar o fusca
-    }
-    // Implementação implícita da interface
-    void Freiar()
-    {
-        //Lógica para freiar o fusca
-    }
-    
-    static void Main()
-    {
-        // Declaração de uma interfacia com uma instância de fusca
-        ICarro carro = new Fusca();
-        
-        // Invocação dos métodos da interface
-        carro.Acelerar();
-        carro.Freiar();
-        
-        // Invocação de uma implementação padrão
-        carro.Buzinar();
-    }
-}
-```
-
-Uma declaração de interface podem ser as seguintes:
-* Método
-* Propriedades
-* Indexadores
-* Eventos
-Nenhuma dessas declarações de membros precisa conter um corpo. Como podemos observar no exemplo acima, **Acelerar** e **Freiar**, na interface **ICarro** não possuem implementação.
-Caso seja criado um corpo para uma declaração, este corpo será uma *implementação padrão*.
 
 # Referências
 * https://docs.microsoft.com/pt-br/dotnet/csharp/

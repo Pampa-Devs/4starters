@@ -1,4 +1,4 @@
-# Operadores lógicos boolianos
+# ⁉️ Operadores lógicos boolianos
 
 Os operadores que iremos apresentar neste artigo executam operações lógicas e de comparação com operandos [bool](https://devblogs.microsoft.com/aspnet/blazor-webassembly-3-2-0-now-available/?fbclid=IwAR0brw10DyJrB4RhHmu_HwIGVIhloqUe-wdsHhQx9pNuKw4idkHgt4NPxnE)
 

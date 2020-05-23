@@ -1,9 +1,18 @@
-# Operadores Aritméticos
+# ➕ Operadores Aritméticos
 
 São os operadores que executam operações aritméticas utilizando-se de tipos númericos:
 
-* Operadores unários [++ (incrementar)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operadores-de-incremento--e-decremento---), [-- (decrementar)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operadores-de-incremento--e-decremento---), [+ (soma)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operadores-de-incremento--e-decremento---) e [- subtração](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operadores-de-incremento--e-decremento---)
-* Operadores binário [\* (multiplicação)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-multiplica%C3%A7%C3%A3o-), [/ (divisão)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-divis%C3%A3o-), [% (resto)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-divis%C3%A3o-), [+ (adição)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-adi%C3%A7%C3%A3o-), [- (subtração)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md#operador-de-subtra%C3%A7%C3%A3o--)
+| Nome | Expressão | Categoria |
+| :--- | :---: | :---: |
+**Incremento** | `x++`, `++x` | Unário
+**Decremento** | `x--`, `--x` | Unário
+**Soma** | `+ a` | Unário
+**Soma** | `a + b` | Binário
+**Subtração** | `- a` | Unário
+**Subtração** | `a - b` | Binário
+**Multiplicação** | `a * b` | Binário
+**Divisão** | `a / b` | Binário
+**Resto** | `a % b` | Binário
 
 ## Operadores de incremento ++ e decremento --
 

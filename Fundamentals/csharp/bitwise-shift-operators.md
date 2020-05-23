@@ -1,4 +1,4 @@
-# Operadores Bitwise e Shift
+# ⚙️ Operadores Bitwise e Shift
 
 Antes de prosseguir, recomendo fortemente que leiam o seguinte artigo do [Jean Martins](https://github.com/jeanfmc).
 [Sinal Magnitude: bit de sinal, complemento de 1 e complemento de 2](https://link.medium.com/z9f1mS1dI6)
@@ -7,9 +7,14 @@ Antes de prosseguir, recomendo fortemente que leiam o seguinte artigo do [Jean M
 
 Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos de tipo [numéricos integrais](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#1-tipos-num%C3%A9ricos-integrais) ou no tipo [char](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md#4-tipos-char):
 
-* Operador unário [~ inversão de bits](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#operador-bitwise-de-invers%C3%A3o-de-bits-)
-* Operadores de deslocamento binário [<< (left-shift)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#operador-de-deslocamento-%C3%A0-esquerda-left-shift-) e [>> (right-shift)](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md#operador-de-deslocamento-%C3%A0-direita-right-shift-)
-* Operadores binários [& (AND lógico)](), [OR lógico]() e [XOR lógico]
+| Nome | Expressão | Categoria |
+| :--- | :---: | :---: |
+**Complemento bitwise** | `~a` | Unário
+**Left-Shift** | `a << 1` | Binário
+**Right-Shift** | `a >> 1` | Binário
+**AND lógico** | `a & b` | Binário
+**OR lógico** | `a | b` | Binário
+**XOR lógico** | `a ^ b` | Binário
 
 Estes operadores são definidos para operações com os tipos `int`, `uint`, `long`, `ulong`. Quando ambos os operandos
 são de outros tipos (`sbyte`, `byte`, `short`, `ushort` ou `char`), seus valores são convertidos automaticamente para o tipo `int`.
