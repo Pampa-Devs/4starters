@@ -2,8 +2,8 @@
 
 São os operandos que executam operações relacionais. O C# da suporte a operações relacionais a **todos os tipos númericos** [integral]() e [de ponto flutuante]()
 
-Nome | Expressão | Categoria
---------- | --------- | ---------
+| Nome | Expressão | Categoria |
+| :--- | :---: | :---: |
 **Menor** | `a < b` | Binário
 **Maior** | `a > b` |  Binário
 **Menor ou igual** | `a <= b` | Binário

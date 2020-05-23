@@ -9,7 +9,7 @@ Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos d
 
 | Nome | Expressão | Categoria |
 | :--- | :---: | :---: |
-**Complemento bitwise** | ~a | Unário
+**Complemento bitwise** | `~a` | Unário
 **Left-Shift** | `a << 1` | Binário
 **Right-Shift** | `a >> 1` | Binário
 **AND lógico** | `a & b` | Binário
