@@ -43,14 +43,14 @@ int [,] array1 = new int [2, 3];
 ```
 
 Declaração de uma matriz multidimensional 4 por 2 populada
+```C#
+int[,] array2 = new int[4, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+```
 | 1 | 2 |
 | :---: | :---: |
 | **3** | **4** |
 | **5** | **6** |
 | **7** | **8** |
-```C#
-int[,] array2 = new int[4, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
-```
 
 Lendo os valores de uma matriz multidimensional:
 ```C#
@@ -71,10 +71,6 @@ int [4][] array = new int [4][];
 ```
 
 Declaração de uma matriz denteada populada
-| Matriz 0 | Matriz 1 | Matriz 2 | Matriz 3 |
-| :---: | :---: | :---: | :---: |
-| <p>1<br>2<br>3<br>4</p> | <p>5</p> | <p>6<br>7<br>8<br>9<br>10</p> | <p>11<br>12</p> |
-
 ```C#
 int [][] jaggedArray = new int[3][];
 
@@ -83,3 +79,7 @@ jaggedArray[1] = new int[1] { 5 };
 jaggedArray[2] = new int[5] { 6, 7, 8, 9, 10 };
 jaggedArray[3] = new int[2] { 11, 12 };
 ```
+
+| Matriz 0 | Matriz 1 | Matriz 2 | Matriz 3 |
+| :---: | :---: | :---: | :---: |
+| <p>1<br>2<br>3<br>4</p> | <p>5</p> | <p>6<br>7<br>8<br>9<br>10</p> | <p>11<br>12</p> |
