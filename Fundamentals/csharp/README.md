@@ -62,6 +62,7 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 
 1. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md)
 2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
+3. 🔢 [**Tipos de Coleções**]()
 
 ### Operadores
 
@@ -82,7 +83,7 @@ As estruturas são instruçõoes do nosso programa que realizam funções espec�
 
 7. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md)
 8. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/iteration-statements.md)
-9. ▶️ [TO DO] [**Métodos**]()
+9. [TO DO] [**Estruturas de Tatamento de Exceções**]()
 10. 🔠[TO DO] [**Arrays**]()
 11. [TO DO] [**Listas**]()
 12. [TO DO] [**HashMaps**]()

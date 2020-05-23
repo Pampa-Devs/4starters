@@ -9,7 +9,7 @@ São instruções que executam o **mesmo bloco de código *N* vezes**.
 **foreach** | `foreach (var item in items) { //do something }`
 **while** | `while (condition) { // do something }`
 
-## do 
+## Instrução do 
 
 A instrução `do` executa um bloco de código **enquanto uma condição** for avaliada como `true`.
 A qualquer momento do bloco de código é possível interromper o loop (repetição) utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`.
@@ -45,7 +45,7 @@ Resultado:
 4
 ```
 
-## for
+## Instrução for
 
 A instrução `for` executa um bloco de código **enquanto uma condição** for avaliada como `true`.
 A qualquer momento do bloco de código é possível interromper o loop (repetição) utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`.
@@ -57,7 +57,8 @@ for (initializer; condition; iterator)
     Corpo
 ```
 
-Exemplo com todas as seções definidas:
+### Exemplo
+Com todas as seções definidas:
 ```C#
 for (int i = 0; i < 3; i ++)
 {
@@ -106,7 +107,64 @@ Nela você pode usar zero ou mais expressões separadas por `,`:
 i++
 ```
 
+## Instrução foreach, in
+
+A instrução `forearch` executa um bloco de código **para cada** elemento de uma coleção. Esta coleção pode ser do tipo [System.Collections.IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netcore-3.1) ou [System.Collections.Generic.IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=netcore-3.1).
+O `foreach` não é limitado a somente esses tipos, porém os mesmos devem atender os seguintes requisitos:
+
+* O tipo deve incluir um método `GetEnumerator` *público* e sem parâmetros, cujo tipo de retorno é um tipo é um `class`, `struct` ou `interface`.
+* O tipo de retorno do método `GetEnumerator` deve possuir a propriedade `Current` *pública* e o método `MoveNext` *público* e sem pârametros cujo tipo de retorno é um `bool`.
+
+A qualquer momento do bloco de código é possível interromper o loop (repetição) utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`.
+
+### Estrutura da instrução `foreach`
+A váriavel `collection` representa uma coleção, enquanto `item` é um elemento desta coleção. O corpo do loop é uma linha ou bloco de código.
+```C#
+foreach (var item in collection)
+{
+    Corpo
+}
+```
+
+### Exemplo
+```C#
+var collectionFibNumbers = new List<int> { 0, 1, 1, 2, 3, 5, 8, 13 };
+
+foreach(var element in collectionFibNumbers)
+{
+    Console.WriteLine($"Elemento: {element}");
+}
+```
+
+Resultado:
+```
+Elemento: 0
+Elemento: 1
+Elemento: 1
+Elemento: 2
+Elemento: 3
+Elemento: 5
+Elemento: 8
+Elemento: 13
+```
+
+## Instrução while
+A instrução `while` executa uma linha ou bloco de código enquanto uma condição for avaliada como `true`. Como essa condição é avaliada **antes de cada execução** do loop, o `while` é executado zero ou mais vezes.
+
+A qualquer momento do bloco de código é possível interromper o loop utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`.
+
+### Exemplo
+```C#
+int number = 0;
+while (number < 5)
+{
+    Console.WriteLine(number);
+}
+```
+
 # Referências
 
 * [The do statement](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/language-specification/statements#the-do-statement)
+* [for](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for)
 * [foreach, in](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/foreach-in)
+* [while](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while)
