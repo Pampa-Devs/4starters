@@ -73,7 +73,7 @@ int [4][] array = new int [4][];
 Declaração de uma matriz denteada populada
 | | | |
 | :---: | :---: | :---: |
-| <ul><li>1</li><li>2</li><li>3</li><li>4</li></ol> | <ul><li>5</li></ul> | 5 |
+| <p>1<br>2<br>3<br>4</p> | <p>5</p> | 5 |
 
 ```C#
 int [][] jaggedArray = new int[3][];
