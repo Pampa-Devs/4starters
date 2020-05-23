@@ -53,21 +53,21 @@ Aqui iremos apresentar os conceitos básicos e elementares de programação e de
 
 Conceitos básicos que devemos saber prosseguir com o tutorial:
 
-1. 🎲 [**O que é uma váriavel?**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md)
-2. 📦 [**O que são métodos?**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/methods.md)
+1. 🎲 [**O que é uma váriavel?**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variables.md)
+2. 📦 [**O que são métodos?**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
 
 ### Tipos
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
 enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos.
 
-1. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/value-types.md)
-2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/reference-types.md)
+1. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/value-types.md)
+2. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/reference-types.md)
 
 ### Coleções de Tipos
 
 Em diversas situações, você irá necessitar gerenciar um grupo de objetos. Abaixo algumas formas de como fazer isso no C#:
 
-1. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arrays.md)
+1. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arrays.md)
 2. 🔢 [**Listas**]
 3. 🔠 [**Dicionários**]
 
@@ -83,11 +83,11 @@ No exemplo abaixo o `+` é o operador, `2` e `5` são os operandos.
 int a = 2 + 5;
 ```
 
-1. ➕ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
-2. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
-3. ✔️ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
-4. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/comparison-operators.md)
-5. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
+1. ➕ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arithmetic-operators.md)
+2. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/logical-operators.md)
+3. ✔️ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/equality-operators.md)
+4. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/comparison-operators.md)
+5. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md)
 
 ### Exceções
 1. ❌[TO DO] [**Exceções**]()
@@ -96,8 +96,8 @@ int a = 2 + 5;
 
 As estruturas são instruçõoes do nosso programa que realizam funções específicas.
 
-1. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/conditional-statements.md)
-2. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/iteration-statements.md)
+1. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md)
+2. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
 3. 🛑 [TO DO] [**Estruturas de Tatamento de Exceções**]()
 
 ### Exercícios
