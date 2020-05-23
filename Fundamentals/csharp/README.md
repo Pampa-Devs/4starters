@@ -70,11 +70,11 @@ O C# oferece vários operadores predefinidos:
 **Incremento** | `x++`, `++x`, `x--`, `--x` | Unário
 **Soma** | `+ a` | Unário
 **Soma** | `a + b` | Binário
-**Subtração** | `- a` | Subtração | Unário
-**Subtração** | `a - b` | Subtração | Binário
-**Multiplicação** | `a * b` | Multiplicação | Binário
-**Divisão** | `a / b` | Divisão | Binário
-**Resto** | `a % b` | Resto | Binário
+**Subtração** | `- a` | Unário
+**Subtração** | `a - b` | Binário
+**Multiplicação** | `a * b` | Binário
+**Divisão** | `a / b` | Binário
+**Resto** | `a % b` | Binário
 
 2. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
 3. [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
