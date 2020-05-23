@@ -51,19 +51,28 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 
 Aqui iremos apresentar os conceitos básicos e elementares de programação e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de programação.
 
+#### Tipos
 1. [**Tipos e Variáveis**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/variables.md)
+
+#### Operadores
 2. [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
 3. [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
 4. [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/equality-operators.md)
 5. [TO DO] [**Operadores de Comparação**]()
 6. [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/bitwise-shift-operators.md)
+
+#### Estruturas
 7. [TO DO] [**Estruturas Condicionais**]()
 8. [TO DO] [**Estruturas de Repetição**]()
 9. [TO DO] [**Métodos**]()
 10. [TO DO] [**Arrays**]()
 11. [TO DO] [**Listas**]()
 12. [TO DO] [**HashMaps**]()
+
+#### Modificadores de acesso
 13. [TO DO] [**Modificadores**]()
+
+#### Exceções
 14. [TO DO] [**Exceções**]()
 
 ### Tutoriais
