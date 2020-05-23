@@ -130,6 +130,9 @@ switch (person)
         Console.WriteLine($"A váriavel {nameof(person)} não é do tipo Person");
         break;
 }
+
+// O resultado que será mostrado será o seguinte:
+// "Felipe: O desenvolvedor mais motivado que você vai conhecer!"
 ```
 
 # Referências
