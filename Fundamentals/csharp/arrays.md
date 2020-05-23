@@ -80,6 +80,25 @@ jaggedArray[2] = new int[5] { 6, 7, 8, 9, 10 };
 jaggedArray[3] = new int[2] { 11, 12 };
 ```
 
-| Matriz 0 | Matriz 1 | Matriz 2 | Matriz 3 |
-| :---: | :---: | :---: | :---: |
-| <p>1<br>2<br>3<br>4</p> | <p>5</p> | <p>6<br>7<br>8<br>9<br>10</p> | <p>11<br>12</p> |
+| Posição | Matriz 0 | Matriz 1 | Matriz 2 | Matriz 3 |
+| :---: | :---: | :---: | :---: | :---: |
+| **0** | 1 | 5 | 6 | 11 |
+| **1** | 2 | - | 7 | 12 |
+| **2** | 3 | - | 8 | - |
+| **3** | 4 | - | 9 | - |
+| **4** | - | - | 10 | - |
+
+Lendo os valores de uma matriz denteada:
+```C#
+int [][] jaggedArray = new int[3][];
+
+jaggedArray[0] = new int[4] { 1, 2, 3, 4};
+jaggedArray[1] = new int[1] { 5 };
+jaggedArray[2] = new int[5] { 6, 7, 8, 9, 10 };
+jaggedArray[3] = new int[2] { 11, 12 };
+
+Console.WriteLine(array[0][0]); // Exibe 1
+Console.WriteLine(array[0][1]); // Exibe 2
+Console.WriteLine(array[1][0]); // Exibe 3
+Console.WriteLine(array[3][1]); // Exibe 8
+```
