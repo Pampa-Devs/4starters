@@ -2,9 +2,9 @@
 
 *Estruturas condicionais* executam um instrução de código caso uma condição booliana sejá atendida. Elas permitem que o desenvolvedor realize desde as mais simples as mais complexas verificações de código.
 
-Nome | Palavra-Chaves
---------- | ---------
-**if-else** | `if`, `else`, `else if`, `?:`
+| Nome      | Exemplos |
+| :---      | :---:    |
+**if-else** | `if`, `else`, `else if`, `condition ? :`
 **switch** | `switch`, `case`, `default`, `when`
 
 ## if-else
