@@ -11,8 +11,6 @@ C# é uma linguagem de programação, multiparadigma, de [tipagem forte](https:/
 desenvolvida pela **Microsoft** como parte da **plataforma .NET**. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens
 de programação, como Object Pascal e, principalmente, Java.
 
-<br>
-
 ## Por que C# como primeira linguagem?
 
 Não existe resposta certa para essa pergunta e cada pessoa provavelmente vai te dar uma resposta diferente se baseando em seu gosto e experiência. 
@@ -62,12 +60,10 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 
 ### Operadores
 
-Operadores são os símbolos utilizados para realizar operações em váriaveis. Iremos realizar a soma de **2** e **5** e armazenar o resultado na váriavel **a**.
+Operadores são os símbolos utilizados para realizar operações em váriaveis. No exemplo abaixo o `+` é o operador, `2` e `5` são os operandos.
 ```C#
 int a = 2 + 5;
 ```
-No exemplo acima o `+` é o operador, `2` e `5` são os operandos.
-
 
 1. ➕ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/arithmetic-operators.md)
 2. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/logical-operators.md)
