@@ -2,10 +2,6 @@
 
 Representa uma lista de objetos que podem ser acessados por índice. Também providencia métodos para pesquisar, classificar e manipular esses objetos.
 
-## Listas simples
-
-*Listas simples* são as listas que utilizam *tipos simples* como `int`, `float`, `string`, `char`, etc.
-
 ### Estrutura de uma lista
 O exemplo abaixo mostra que temos uma coleção do tipo `T`.
 ```
