@@ -1,4 +1,4 @@
-# Operadores Aritméticos
+# ➕ Operadores Aritméticos
 
 São os operadores que executam operações aritméticas utilizando-se de tipos númericos:
 

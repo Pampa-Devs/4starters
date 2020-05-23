@@ -1,4 +1,4 @@
-# Operadores Bitwise e Shift
+# ⚙️ Operadores Bitwise e Shift
 
 Antes de prosseguir, recomendo fortemente que leiam o seguinte artigo do [Jean Martins](https://github.com/jeanfmc).
 [Sinal Magnitude: bit de sinal, complemento de 1 e complemento de 2](https://link.medium.com/z9f1mS1dI6)

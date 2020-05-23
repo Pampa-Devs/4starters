@@ -1,4 +1,4 @@
-# Operadores de Igualdade
+# ✔️ Operadores de Igualdade
 
 São os operadores que executam checam se seus operandos são iguais ou não:
 
