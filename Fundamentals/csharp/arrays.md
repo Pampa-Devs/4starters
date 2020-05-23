@@ -72,7 +72,7 @@ int [4][] array = new int [4][];
 
 Declaração de uma matriz denteada populada
 | Matriz 0 | Matriz 1 | Matriz 2 | Matriz 3 |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | <p>1<br>2<br>3<br>4</p> | <p>5</p> | <p>6<br>7<br>8<br>9<br>10</p> | <p>11<br>12</p> |
 
 ```C#
