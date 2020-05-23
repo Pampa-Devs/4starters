@@ -26,6 +26,7 @@ int [] array2 = new int[] { 1, 3, 5, 7, 9};
 | | Posição 0 | Posição 1 | Posição 2 | Posição 3 | Posição 4 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Elementos | 1 | 3 | 5 | 7 | 9 |
+
 Sintaxe alternativa para popular a matriz com elementos
 ```C#
 int [] array3 = { 1, 3, 5, 7, 9};
