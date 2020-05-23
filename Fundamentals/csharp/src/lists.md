@@ -8,12 +8,12 @@ O exemplo abaixo mostra que temos uma coleção do tipo `T`.
 List<T> name;
 ```
 
-### Declaração de uma lista de `string`.
+### Declaração de uma lista de `string`
 ```C#
 var companies = new List<string>();
 ```
 
-### Adicionando elementos a lista companies
+### Adicionando elementos a lista
 ```C#
 companies.Add("Google");
 companies.Add("Microsoft");
