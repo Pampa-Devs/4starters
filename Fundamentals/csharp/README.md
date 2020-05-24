@@ -76,6 +76,8 @@ Em diversas situações, você irá necessitar gerenciar um grupo de objetos. Ab
 3. 🔠 [**Dicionários**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/dictionaries.md)
 
 ### Modificadores de acesso
+Modificadores de acesso controlam se o seu **tipo** pode ser usado em outro bloco de código ou até em outro projeto.
+
 1. 🚦 [**Modificadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
 
 ### Operadores
