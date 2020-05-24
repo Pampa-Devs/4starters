@@ -31,9 +31,22 @@ class ProductStore
 ```
 
 ## Manipulação de Exceções
-No C#, os erros no programa em tempo de execução são propagados pelo programa usando um mecanismo chamado exceções. Uma vez que a exceção é gerada,
-ela é propagada acima na pilha de chamadas até uma instrução `catch` para a exceção ser encontrada. As exceções não capturadas são tratadas por 
-um manipulador de exceção genérico fornecido pelo sistema que exibe uma caixa de diálogo.
+No C#, os erros no programa em tempo de execução são **propagados** pelo programa usando um mecanismo chamado **exceções**. Uma vez que a exceção é gerada,
+ela irá mostrar uma caixa de diálogo exibindo o erro em seu programa. Porém podemos capturar esta exceção utilizando a instrução `try` e `catch`.
+
+```
+try
+{
+    // Código que irá lançar uma exceção em uma situação inesperada.
+}
+catch (Exception ex)
+{
+    // Caso o bloco 'try' lance uma exceção, a mesma será capturada
+    // pelo 'catch' e este trecho de código será executado:
+    Console.WriteLine("Exceção capturada!);
+}
+```
+
 
 ```C#
 
@@ -57,9 +70,7 @@ class ProductStore
     }
 }
 ```
-Depois que uma exceção é gerada, se a mesma estiver dentro de um bloco `try`, podemos capturar a `Exception` lançada.
-
-Uma instrução `try` pode conter mais de um bloco `catch`. A primeira instrução `catch` que puder capcturar a `Exception` é executado. 
+Uma instrução `try` pode conter mais de um bloco `catch`. A primeira instrução `catch` que puder capcturar a `Exception` é executado.
 Qualquer `catch` posterior, é ignorado. Portanto os blocos de captura `catch` devem ser ordenados dos mais específicos para os menos específicos.
 
 Antes do bloco `catch` ser executado, é verificado se existe um bloco `finally`. O bloco `finally` permite que o programador
@@ -77,7 +88,6 @@ public class ExceptionExample
             {
                 sw.WriteLine("Hello");
             }
-        
         }
         
         // Exceção mais específica primeiro
