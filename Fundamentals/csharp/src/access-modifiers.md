@@ -6,7 +6,7 @@ O nível de acessibilidade controla se eles podem ser usados a partir de outro c
 Utilize os seguintes modificadores para específicar a acessibilidade de um tipo ou membro quando você declara-lo:
 
 | Modificador | Descrição |
-| :--- | :--- | 
+| :---: | :--- | 
 | **public** | O tipo ou membro pode ser acessado por qualquer outro código |
 | **private** | O tipo ou membro só pode ser acessado dentro dentro de sua `class` ou `struct` |
 | **protected** | O tipo ou membro só pode ser acessado dentro dentro de sua `class`, ou em uma `class` derivada de sua `class` |
@@ -70,7 +70,8 @@ class Program
     {
         var coord = new Coord();
         
-        // Os membros x e y da classe Coord são inacessíveis, eles não podem ser acessados da forma abaixo:
+        // Os membros x e y da classe Coord são inacessíveis, 
+        // eles não podem ser acessados da forma abaixo:
         //coord.x = 10;
         //coord.y = 15;
         
@@ -111,7 +112,8 @@ class Program
         
         
         
-        // O membro name das classe Person e Student são inacessíveis, eles não podem ser acessados da forma abaixo:
+        // O membro name das classe Person e Student são inacessíveis, 
+        // eles não podem ser acessados da forma abaixo:
         //person.name = "Lucas";
         //student.name = "Victor";
     }
@@ -141,7 +143,7 @@ public class Database
 ```
 
 **Projeto B**
-```
+```C#
 class Program
 {
     static void Main()
@@ -181,7 +183,7 @@ public class TestClass
 ```
 
 **Projeto B**
-```
+```C#
 class DerivedClass : BaseClass
 {
     static void Main()
@@ -226,7 +228,7 @@ public class DerivedClass1 : BaseClass
 ```
 
 **Projeto B**
-```
+```C#
 class DerivedClass2: BaseClass
 {
     public void Test()
