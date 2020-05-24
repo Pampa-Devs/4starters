@@ -7,8 +7,15 @@ O exemplo abaixo mostra que temos uma coleção do tipo `T`.
 ```
 List<T> name;
 ```
+Exemplo com diferentes tipos:
+```C#
+List<int> listInt;
+List<float> listFloat;
+List<string> listString;
+List<object> listObject;
+```
 
-### Declaração de uma lista de `string`
+### Declaração de uma lista
 ```C#
 var companies = new List<string>();
 ```
@@ -23,23 +30,52 @@ companies.Add("Dell");
 
 Sintaxe alternativa para o exemplo acima:
 ```C#
-var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"}
+var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
 ```
 
-### Acessando elementos da lista
-Podemos acessar qualquer elemento da lista especificando o indice que queremos acessar usando a seguinte estrutura:
-```
-lista[indice]
-```
-
-Utilizando a estrutura acima, vamos acessar os membros previamente criados no nosso exemplo:
+### Tamanho da lista
+O método `Count` da lista retorna o número de elementos que a mesma contém.
 ```C#
-Console.WriteLine("O nome da empresa é: " + companies[0]);
-// O Nome da empresa é Google
+var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
 
-Console.WriteLine("O nome da empresa é: " + companies[3]);
-// O Nome da empresa é Dell
+Console.WriteLine(companies.Count);
+// 4
+```
 
+### Acessando elementos por índice
+Também podemos acessar qualquer elemento da lista especificando o indice que queremos acessar usando a estrutura `lista[índice]`.
+```C#
+var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
+
+string a = companies[0];
+Console.WriteLine(a);
+// Google
+
+string b = companies[3];
+Console.WriteLine(b);
+// Dell
+```
+
+### Removendo elementos da lista
+Utilizando o método `Remove` conseguimos remover o elemento específicado da lista.
+```C#
+var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
+
+companies.Remove("Dell")
+// Google, Microsoft, Oracle
+```
+
+Utilizando o método `RemoveAt` conseguimos remover o elemento do índice específicado da lista.
+```C#
+var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
+
+companies.RemoveAt(0);
+// Microsoft, Oracle, Dell
+```
+
+### Percorrendo cada elemento da lista
+Podemos utilizar um [iterador]() para percorrer os elementos de uma coleção. Um iterador utiliza a instrução **yield return** para retornar um elemento da coleção por vez.
+```C#
 foreach (string company in companies)
 {
     Console.WriteLine(company);
@@ -50,19 +86,13 @@ foreach (string company in companies)
 // Dell
 ```
 
-### Removendo elementos da lista
-Utilizando o método `Remove` conseguimos remover o elemento específicado da lista.
+A estrura de repetição `for` também pode ser utilizada para percorrer os membros de uma lista.
 ```C#
-companies.Remove("Dell")
-// Google, Microsoft, Oracle
+for (int i = 0; i < companies.Count; i ++)
+{
+    Console.WriteLine(companies[i]);
+}
 ```
-
-Utilizando o método `RemoveAt` conseguimos remover o elemento do índice específicado da lista.
-```C#
-companies.RemoveAt(0);
-// Microsoft, Oracle
-```
-
 
 # Referências
 
