@@ -69,7 +69,7 @@ Em diversas situações, você irá necessitar gerenciar um grupo de objetos. Ab
 
 1. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arrays.md)
 2. 🔢 [**Listas**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/lists.md)
-3. 🔠 [TO DO] [**Dicionários**]()
+3. 🔠 [**Dicionários**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/dictionaries.md)
 
 ### Modificadores de acesso
 1. 🚦 [TO DO] [**Modificadores**]()
