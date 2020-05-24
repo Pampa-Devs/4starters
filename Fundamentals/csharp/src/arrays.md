@@ -1,4 +1,4 @@
-# Arrays (Matrizes)
+# 🔢 Arrays (Matrizes)
 
 Também conhecidas como `array`. permitem a armazenação de vários objetos de um mesmo tipo. Ela também pode armazenar elementos de qualquer tipo, especificando `object` como o tipo da matriz.
 As matrizes são frequentemente utilizadas para trabalhar com um **número fixo** de objetos.

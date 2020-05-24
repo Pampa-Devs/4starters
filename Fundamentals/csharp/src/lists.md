@@ -1,8 +1,7 @@
 # Listas
-
 Representa uma lista de objetos que podem ser acessados por índice. Também providencia métodos para pesquisar, classificar e manipular esses objetos.
 
-### Estrutura de uma lista
+## Estrutura de uma lista
 O exemplo abaixo mostra que temos uma coleção do tipo `T`.
 ```
 List<T> name;
@@ -15,12 +14,12 @@ List<string> listString;
 List<object> listObject;
 ```
 
-### Declaração de uma lista
+## Declaração de uma lista
 ```C#
 var companies = new List<string>();
 ```
 
-### Adicionando elementos a lista
+## Adicionando elementos a lista
 ```C#
 companies.Add("Google");
 companies.Add("Microsoft");
@@ -33,7 +32,7 @@ Sintaxe alternativa para o exemplo acima:
 var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
 ```
 
-### Tamanho da lista
+## Tamanho da lista
 O método `Count` da lista retorna o número de elementos que a mesma contém.
 ```C#
 var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
@@ -42,7 +41,7 @@ Console.WriteLine(companies.Count);
 // 4
 ```
 
-### Acessando elementos por índice
+## Acessando elementos por índice
 Também podemos acessar qualquer elemento da lista especificando o indice que queremos acessar usando a estrutura `lista[índice]`.
 ```C#
 var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
@@ -56,7 +55,7 @@ Console.WriteLine(b);
 // Dell
 ```
 
-### Removendo elementos da lista
+## Removendo elementos da lista
 Utilizando o método `Remove` conseguimos remover o elemento específicado da lista.
 ```C#
 var companies = new List<string>() { "Google", "Microsoft", "Oracle", "Dell"};
@@ -73,7 +72,7 @@ companies.RemoveAt(0);
 // Microsoft, Oracle, Dell
 ```
 
-### Percorrendo cada elemento da lista
+## Percorrendo cada elemento da lista
 Podemos utilizar um [iterador]() para percorrer os elementos de uma coleção. Um iterador utiliza a instrução **yield return** para retornar um elemento da coleção por vez.
 ```C#
 foreach (string company in companies)

@@ -68,7 +68,7 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 Em diversas situações, você irá necessitar gerenciar um grupo de objetos. Abaixo algumas formas de como fazer isso no C#:
 
 1. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arrays.md)
-2. 🔢 [TO DO] [**Listas**]()
+2. 🔢 [**Listas**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/lists.md)
 3. 🔠 [TO DO] [**Dicionários**]()
 
 ### Modificadores de acesso
