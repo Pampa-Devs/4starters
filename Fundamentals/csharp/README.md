@@ -107,6 +107,6 @@ As estruturas são instruçõoes do nosso programa que realizam funções espec�
 
 ### Programação Orientada a Objetos
 
-17. 👩‍👦 [TO DO] Herança
-18. 🎭 [TO DO] Polimorfismo
+17. 👩‍👦 [TO DO] [Herança]()
+18. 🎭 [TO DO] [Polimorfismo]()
 
