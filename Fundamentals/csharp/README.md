@@ -45,6 +45,10 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 * https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/
 * https://www.udemy.com/pt/topic/c-sharp/free/
 
+## Ferramentas Necessárias
+
+[TO DO]()
+
 ## Fundamentos
 
 Aqui iremos apresentar os conceitos básicos e elementares de programação e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de programação.
@@ -72,7 +76,7 @@ Em diversas situações, você irá necessitar gerenciar um grupo de objetos. Ab
 3. 🔠 [**Dicionários**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/dictionaries.md)
 
 ### Modificadores de acesso
-1. 🚦 [TO DO] [**Modificadores**]()
+1. 🚦 [**Modificadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
 
 ### Operadores
 

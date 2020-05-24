@@ -11,7 +11,7 @@ São os operandos que executam operações relacionais. O C# da suporte a opera�
 
 O tipo [Char]() também suporta os operadores de comparação. Porém é utilizado o código do caractere.
 
-## Operador menor que <
+## Operador menor que `<`
 
 O operador `<` retornará `true` se o operando da esquerda for menor que o operando à direita, caso contrário, `false`:
 ```C#
@@ -20,7 +20,7 @@ Console.WriteLine(10.2 < 15.5);	// Resultado: True
 Console.WriteLine(5.0 < 5.0);	// Resultado: True
 ```
 
-## Operador maior que >
+## Operador maior que `>`
 
 O operador `>` retornará `true` se o operando da esquerda for maior que o operando à direita, caso contrário, `false`:
 ```C#
@@ -29,7 +29,7 @@ Console.WriteLine(10.2 > 15.5);	// Resultado: False
 Console.WriteLine(5.0 > 5.0);	// Resultado: True
 ```
 
-## Operador menor ou igual <=
+## Operador menor ou igual `<=`
 
 O operador `<=` retornará `true` se o operando da esquerda for menor ou igual ao operando à direita, caso contrário, `false`:
 ```C#
@@ -38,7 +38,7 @@ Console.WriteLine(10.2 <= 15.5);	// Resultado: True
 Console.WriteLine(5.0 <= 5.0);	// Resultado: True
 ```
 
-## Operador menor ou igual >=
+## Operador menor ou igual `>=`
 
 O operador `>=` retornará `true` se o operando da esquerda for maior ou igual ao operando à direita, caso contrário, `false`:
 ```C#

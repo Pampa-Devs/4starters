@@ -19,7 +19,7 @@ Os seguintes operadores realizam operações *bitwise* ou *shift* em operandos d
 Estes operadores são definidos para operações com os tipos `int`, `uint`, `long`, `ulong`. Quando ambos os operandos
 são de outros tipos (`sbyte`, `byte`, `short`, `ushort` ou `char`), seus valores são convertidos automaticamente para o tipo `int`.
 
-## Operador de complemento bitwise (inversão de bits) ~
+## Operador de complemento bitwise (inversão de bits) `~`
 
 O operador `~` inverte os bits de seu operando:
 
@@ -35,7 +35,7 @@ Console.WriteLine(Convert.ToString(b, toBase: 2));
 // 00001111000011110000111110010110
 ```
 
-## Operador de deslocamento à esquerda (left-shift) <<
+## Operador de deslocamento à esquerda (left-shift) `<<`
 
 O operador `<<` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md#contagem-de-deslocamento-dos-operadores--e-).
 
@@ -62,7 +62,7 @@ Console.WriteLine(Convert.ToString(a, toBase: 2));
 // 00000000000000000000001000000000 - 512 em binário
 ```
 
-## Operador de deslocamento à direita (right-shift) >>
+## Operador de deslocamento à direita (right-shift) `>>`
 
 O operador `>>` desloca todos os bits **n** casas para a esquerda, sendo **n** a [contagem de deslocamento com base em seu operando](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md#contagem-de-deslocamento-dos-operadores--e-).
 
@@ -89,7 +89,7 @@ Console.WriteLine(Convert.ToString(a, toBase: 2));
 // 0000000000000000000000000010000 - 16 em binário
 ```
 
-## Operador AND lógico &
+## Operador AND lógico `&`
 O operador `&` computa o **AND** lógico **bit a bit** de seus operandos. Ou seja, para cada bit de cada operando, é realizada a operação `bit AND bit`.
 ```C#
 uint a = 0b_1111_1000;
@@ -100,7 +100,7 @@ Console.WriteLine(Convert.ToString(c, toBase: 2));
 // 10011000
 ```
 
-## Operador OR lógico |
+## Operador OR lógico `|`
 O operador `|` computa o **OR** lógico bit a bit de seus operandos. Ou seja, para cada bit de cada operando, é realizada a operação `bit | bit`.
 ```C#
 uint a = 0b_1111_1000;
@@ -111,7 +111,7 @@ Console.WriteLine(Convert.ToString(c, toBase: 2));
 // 11111101
 ```
 
-## Operador XOR lógico ^
+## Operador XOR lógico `^`
 O operador `^` computa o **XOR** lógico bit a bit de seus operandos. Ou seja, para cada bit de cada operando, é realizada a operação `bit ^ bit`.
 ```C#
 uint a = 0b_1111_1000;

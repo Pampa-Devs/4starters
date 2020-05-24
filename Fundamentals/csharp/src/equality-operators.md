@@ -7,7 +7,7 @@ São os operadores que executam checam se seus operandos são iguais ou não:
 **Igualdade ==** | `a == b` | Binário
 **Desigualdade !=** | `a != b` | Binário
 
-## Operador de igualdade ==
+## Operador de igualdade `==`
 
 O operador `==` retornará `true` se seus operandos forem iguais, caso contrário, `false`.
 
@@ -59,7 +59,7 @@ Console.WriteLine(a + b == a + b);	// Resultado: True
 Console.WriteLine(a + b == b + a);	// Resultado: False
 ```
 
-## Operador de desigualdade !=
+## Operador de desigualdade `!=`
 
 O operador de desigualdade `!=` retornará `true` caso seus operandos sejam diferentes, caso contrário `true`. 
 

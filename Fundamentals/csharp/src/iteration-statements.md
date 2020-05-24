@@ -45,7 +45,7 @@ Resultado:
 4
 ```
 
-## Instrução for
+## Instrução `for`
 
 A instrução `for` executa um bloco de código **enquanto uma condição** for avaliada como `true`.
 A qualquer momento do bloco de código é possível interromper o loop (repetição) utilizando a instrução `break` ou seguir para a próxima iteração usando a instrução `continue`.
@@ -107,7 +107,7 @@ Nela você pode usar zero ou mais expressões separadas por `,`:
 i++
 ```
 
-## Instrução foreach, in
+## Instrução `foreach`, `in`
 
 A instrução `forearch` executa um bloco de código **para cada** elemento de uma coleção. Esta coleção pode ser do tipo [System.Collections.IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netcore-3.1) ou [System.Collections.Generic.IEnumerable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=netcore-3.1).
 O `foreach` não é limitado a somente esses tipos, porém os mesmos devem atender os seguintes requisitos:

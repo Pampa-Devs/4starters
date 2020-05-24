@@ -1,4 +1,4 @@
-# Listas
+# 🔢 Listas
 Representa uma lista de objetos que podem ser acessados por índice. Também providencia métodos para pesquisar, classificar e manipular esses objetos.
 
 ## Estrutura de uma lista

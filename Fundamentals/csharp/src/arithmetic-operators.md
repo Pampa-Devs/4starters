@@ -14,7 +14,7 @@ São os operadores que executam operações aritméticas utilizando-se de tipos 
 **Divisão** | `a / b` | Binário
 **Resto** | `a % b` | Binário
 
-## Operadores de incremento ++ e decremento --
+## Operadores de incremento `++` e decremento `--`
 
 O operador de incremento unário `++` incrementa, e o operador `--` decrementa o valor de uma váriavel de tipo numérico em 1.
 
@@ -76,7 +76,7 @@ Console.WriteLine(b);			// Resultado: -20
 Console.WriteLine(b.GetType());	// Resultado: System.Int64
 ```
 
-## Operador de multiplicação *
+## Operador de multiplicação `*`
 
 O operador de multiplicação `*` calcula o produto dos operandos:
 ```C#
@@ -85,7 +85,7 @@ Console.WriteLine(0.5 * 2);			// Resultado: 1
 Console.WriteLine(0.5m * 25.5);			// Resultado: 12.75
 ```
 
-## Operador de divisão /
+## Operador de divisão `/`
 
 O operador de divisão `/` divide o operando à esquerda pelo da direita.
 
@@ -111,7 +111,7 @@ Console.WriteLine(16.8d / 4.1d);   // Resultado: 4.09756097560976
 Console.WriteLine(16.8m / 4.1m);   // Resultado: 4.0975609756097560975609756098
 ```
 
-## Operador de resto %
+## Operador de resto `%`
 O operador de resto `%` calcula o resto após dividir o operando á esquerda pelo da direita.
 ```C#
 Console.WriteLine(5 % 4);			// Resultado: 1
@@ -120,7 +120,7 @@ Console.WriteLine(-5 % 4);			// Resultado: -1
 Console.WriteLine(-5 % -4);			// Resultado: -1
 ```
 
-## Operador de adição +
+## Operador de adição `+`
 O operador `+` calcula a soma dos operandos:
 ```C#
 Console.WriteLine(10 + 10);			// Resultado: 20
@@ -128,7 +128,7 @@ Console.WriteLine(10 + 10.5);			// Resultado: 20.5
 Console.WriteLine(8.2m + 4.2m);			// Resultado: 12.4
 ```
 
-## Operador de subtração -
+## Operador de subtração `-`
 O operador `-` calcula a subtração dos operandos:
 ```C#
 Console.WriteLine(10 - 10);			// Resultado: 0

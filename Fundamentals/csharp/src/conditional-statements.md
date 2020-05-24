@@ -7,7 +7,7 @@
 **if-else** | `if`, `else`, `else if`, `condition ? :`
 **switch** | `switch`, `case`, `default`, `when`
 
-## if-else
+## Se, senão `if-else`
 
 O `if` verifica qual instrução deve ser executada com base em um valor booliano. No exemplo abaixo, a váriavel `condition`, onde o resultado será **A condição é verdadeira**.
 ```C#
@@ -56,7 +56,7 @@ else
 }
 ```
 
-## switch
+## Caso `switch`
 
 O `switch` escolhe uma uníca instrução para ser executada de uma lista de candidatos caso a mesma corresponda a uma das opções providênciadas.
 ```C#
