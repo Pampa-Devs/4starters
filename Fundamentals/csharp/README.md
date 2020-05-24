@@ -58,7 +58,7 @@ Aqui iremos apresentar os conceitos básicos e elementares de programação e de
 Conceitos básicos que devemos saber prosseguir com o tutorial:
 
 1. 🎲 [**Váriaveis**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variables.md)
-2. 🧬 [TO DO] [**Propriedades**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/properties.md)
+2. 🧬 [**Propriedades**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/properties.md)
 3. 🚶 [**Métodos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
 
 
