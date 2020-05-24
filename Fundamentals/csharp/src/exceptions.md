@@ -34,7 +34,7 @@ class ProductStore
 No C#, os erros no programa em tempo de execução são **propagados** pelo programa usando um mecanismo chamado **Exception**. Uma vez que a exceção é gerada,
 ela irá **exibir** uma caixa de diálogo **informando o erro em seu programa**.
 
-Porém podemos **capturar** esta exceção utilizando a instrução `try` e `catch`.
+Porém, podemos **capturar** esta exceção utilizando a instrução `try` e `catch` antes de ela **exibir** a caixa de diálogo.
 
 ```C#
 try
