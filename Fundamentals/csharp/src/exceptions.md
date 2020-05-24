@@ -34,7 +34,7 @@ class ProductStore
 No C#, os erros no programa em tempo de execução são **propagados** pelo programa usando um mecanismo chamado **Exception**. Uma vez que a exceção é gerada,
 ela irá **exibir** uma caixa de diálogo **informando o erro em seu programa**.
 
-Porém, podemos **capturar** esta exceção utilizando a instrução `try` e `catch` antes de ela **exibir** a caixa de diálogo.
+Porém, podemos **capturar** esta exceção utilizando a instrução `try` e `catch` **antes** de ela exibir a caixa de diálogo.
 
 ```C#
 try
@@ -52,7 +52,6 @@ catch (Exception ex)
 Adaptação do primeiro exemplo para **capturar** uma exceção.
 
 ```C#
-
 class ProductStore
 {
     List<string> products = new List<string>() { "ps4", "xbox", "iphone 10" };
@@ -92,16 +91,19 @@ public class ExceptionExample
             }
         }
         
-        // Exceção mais específica primeiro
+        // Exceção mais específica
+        // Esta exceção acontece caso o diretório informado não seja encontrado.
         catch (DirectoryNotFoundException ex)
         {
             Console.WriteLine(ex);
         }
+        // Esta exceção acontece caso o arquivo informado não é encontrado.
         catch (FileNotFoundException ex)
         {
             Console.WriteLine(ex);
         }
         // Exceção menos específica por último
+        // Esta acontece quando acontece um erro na escrita no arquivo informado.
         catch (IOException ex)
         {
             Console.WriteLine(ex);
