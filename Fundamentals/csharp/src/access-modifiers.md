@@ -8,7 +8,7 @@ Utilize os seguintes modificadores para específicar a acessibilidade de um tipo
 | Modificador | Descrição |
 | :---: | :--- | 
 | **public** | O tipo ou membro pode ser acessado por qualquer outro código |
-| **private** | O tipo ou membro só pode ser acessado dentro dentro de sua `class` ou `struct` |
+| **private** | O tipo ou membro só pode ser acessado dentro dentro de sua `class` |
 | **protected** | O tipo ou membro só pode ser acessado dentro dentro de sua `class`, ou em uma `class` derivada de sua `class` |
 | **internal** | O tipo ou membro pode ser acessado por qualquer outro código dentro de um mesmo projeto |
 | **internal protected** | O tipo ou membro pode ser acessado por qualquer outro código dentro de um mesmo projeto, ou em uma `class` derivada de sua `class` |
