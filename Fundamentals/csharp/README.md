@@ -93,16 +93,13 @@ int a = 2 + 5;
 4. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/comparison-operators.md)
 5. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md)
 
-### Exceções
-1. ❌[TO DO] [**Exceções**]()
-
 ### Estruturas
 
 As estruturas são instruçõoes do nosso programa que realizam funções específicas.
 
 1. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md)
 2. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
-3. 🛑 [TO DO] [**Estruturas de Tatamento de Exceções**]()
+3. 🛑 [**Exceções e Manipulação de Exceções**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/exceptions.md)
 
 ### Exercícios
 
