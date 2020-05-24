@@ -105,12 +105,8 @@ As estruturas são instruçõoes do nosso programa que realizam funções espec�
 15. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
 16. 🛑 [**Exceções e Manipulação de Exceções**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/exceptions.md)
 
-### Exercícios 
-
 ### Programação Orientada a Objetos
 
-[TO DO] Herança
-[TO DO] Polimorfismo
-[TO DO] 
+17. 👩‍👦 [TO DO] Herança
+18. 🎭 [TO DO] Polimorfismo
 
-[TO DO]()
