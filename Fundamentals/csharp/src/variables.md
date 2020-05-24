@@ -1,8 +1,8 @@
-# 🎲 O que é uma váriavel?
+# 🎲 Váriaveis
 
 Váriaveis representam locais de armazenamento.
 
-No exemplo abaixo, a váriavel é `number` do tipo [inteiro](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/value-types.md#-tipos-de-valor#tipos-numéricos-integrais) e possui um valor de `5`.
+No exemplo abaixo, a váriavel é número se chama `number` e é do tipo [inteiro](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/value-types.md#-tipos-de-valor#tipos-numéricos-integrais) e possui um valor de `5`.
 ```C#
 int number = 5;
 ```

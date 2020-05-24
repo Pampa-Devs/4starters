@@ -1,4 +1,4 @@
-# 📦 O que são métodos?
+# 🚶 Métodos
 
 Um *método* é um bloco de código **nomeado** que implementa alguma ação ou cálculo que pode ser executado.
 

@@ -49,36 +49,38 @@ Você pode aprender C# em diversos lugares diferentes e de graça. Além desse t
 
 [TO DO]()
 
-## Fundamentos
+## Tutorial
 
-Aqui iremos apresentar os conceitos básicos e elementares de programação e desenvolvimento de algoritimos, bem como características e paradigmas de linguagens de programação.
+Aqui iremos apresentar os conceitos básicos e elementares de programação e desenvolvimento de algoritimos, bem como características e paradigmas da linguagem de programação C#.
 
 ### Básico
 
 Conceitos básicos que devemos saber prosseguir com o tutorial:
 
-1. 🎲 [**O que é uma váriavel?**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variables.md)
-2. 📦 [**O que são métodos?**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
+1. 🎲 [**Váriaveis**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variables.md)
+2. 🧬 [TO DO] [**Propriedades**]
+3. 🚶 [**Métodos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
+
 
 ### Tipos
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
 enquanto variáveis de **tipos de referência** armazenam a referência a seus dados, o último sendo conhecido como objetos.
 
-3. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/value-types.md)
-4. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/reference-types.md)
+5. 🔵 [**Tipos de Valor**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/value-types.md)
+6. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/reference-types.md)
 
 ### Coleções de Tipos
 
 Em diversas situações, você irá necessitar gerenciar um grupo de objetos. Abaixo algumas formas de como fazer isso no C#:
 
-5. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arrays.md)
-6. 🔢 [**Listas**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/lists.md)
-7. 🔠 [**Dicionários**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/dictionaries.md)
+7. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arrays.md)
+8. 🔢 [**Listas**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/lists.md)
+9. 🔠 [**Dicionários**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/dictionaries.md)
 
 ### Modificadores de acesso
 Modificadores de acesso controlam se o seu **tipo** pode ser usado em outro bloco de código ou até em outro projeto.
 
-8. 🚦 [**Modificadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
+10. 🚦 [**Modificadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
 
 ### Operadores
 
@@ -89,20 +91,26 @@ No exemplo abaixo o `+` é o operador, `2` e `5` são os operandos.
 int a = 2 + 5;
 ```
 
-9. ➕ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arithmetic-operators.md)
-10. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/logical-operators.md)
-11. ✔️ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/equality-operators.md)
-12. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/comparison-operators.md)
-13. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md)
+11. ➕ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arithmetic-operators.md)
+12. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/logical-operators.md)
+13. ✔️ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/equality-operators.md)
+14. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/comparison-operators.md)
+15. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md)
 
 ### Estruturas
 
 As estruturas são instruçõoes do nosso programa que realizam funções específicas.
 
-1. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md)
-2. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
-3. 🛑 [**Exceções e Manipulação de Exceções**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/exceptions.md)
+14. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md)
+15. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
+16. 🛑 [**Exceções e Manipulação de Exceções**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/exceptions.md)
 
-### Exercícios
+### Exercícios 
+
+### Programação Orientada a Objetos
+
+[TO DO] Herança
+[TO DO] Polimorfismo
+[TO DO] 
 
 [TO DO]()
