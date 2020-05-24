@@ -45,7 +45,7 @@ catch (Exception ex)
 {
     // Caso o bloco 'try' lance uma exceção, a mesma será capturada
     // pelo 'catch' e este trecho de código será executado:
-    Console.WriteLine("Exceção capturada!);
+    Console.WriteLine("Exceção capturada!");
 }
 ```
 
