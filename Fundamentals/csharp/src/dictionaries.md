@@ -75,20 +75,6 @@ Console.WriteLine(a); // True
 Console.WriteLine(b); // False
 ```
 
-Classe `Game` utilizada nos exemplos.
-```C#
-class Game
-{
-    public Game(string acronym, string name)
-    {
-        Acronym = acronym;
-        Name = name;
-    }
-    public string Acronym { get; private set; }
-    public string Name { get; private set; }
-}
-```
-
 ## Percorrendo os elementos de um dicionário
 Assim como uma lista, pode ser utilizado um [iterador]() para percorrer os elementos de um dicionário.
 
@@ -124,6 +110,21 @@ games.Remove("lol");
 bool exists = games.ContainsKey("lol");
 
 Console.WriteLine(exists); // False
+```
+
+## Classe Game
+Classe `Game` utilizada nos exemplos.
+```C#
+class Game
+{
+    public Game(string acronym, string name)
+    {
+        Acronym = acronym;
+        Name = name;
+    }
+    public string Acronym { get; set; }
+    public string Name { get; set; }
+}
 ```
 
 # Referências
