@@ -6,11 +6,11 @@ Com o **Visual Studio Community** aberto, faça o seguinte:
 
 1. Clique em **Create a new project**
 
-<img src="fundamentals/csharp/assets/step-2.png" alt="Create New Project" width="220" /> 
+<img src="/Images/csharp/step-2.png" alt="Create New Project" width="220" /> 
 
 2. Na barra de pesquisa, entre com **blank solution**, selecione o resultado e clique em **Next**
 
-<img src="fundamentals/csharp/assets/step-3.png" alt="Create Blank Solution" width="850" /> 
+<img src="/Images/csharp/step-3.png" alt="Create Blank Solution" width="850" /> 
 
 3. Agora vamos nomear o nome de nossa **solução** (um conteiner para vários projetos)
     * No campo **Solution Name**, coloque **CSharpTutorial**
