@@ -126,3 +126,6 @@ Modificadores de acesso controlam se o seu **tipo** pode ser usado em outro bloc
 
 26. 🚦 [**Modificadores de acesso**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
 27. 🔧 [TO DO] [**Modificadores de Tipos**](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types)
+
+# Referências
+* [Using constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors)
