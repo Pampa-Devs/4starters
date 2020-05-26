@@ -144,7 +144,7 @@ public static void AddFiveToNumber(ref int number)
 Uma váriavel de um **tipo de referência** não contém seus dados diretamente, ela contém uma referência a seus dados. Quando você passa um parâmetro de tipo de referência por valor, é possível
 alterar os dados que pertencem ao objeto referenciado.
 
-### Parâmetros de **Tipo de Referência**, sendo passado por valor
+### Parâmetros de **Tipo de Referência**, sendo passados por valor
 O exemplo abaixo demonstra a passagem de um parâmetro de **tipo de referência**, `listNumbers`. para um método chamado `ChangeFirstNumber`.
 Alterar um dos valores do elemento da lista dentro do método é possível, porém criar uma nova lista dentro do método não irá afetar a váriavel original, como pode ser demonstrado no exemplo abaixo:
 ```C#
@@ -176,7 +176,7 @@ public static void ChangeFirstNumber(List<int> list)
 // Valor após chamar o método: 42
 ```
 
-## Parâmetros de **Tipo de Referência**, sendo passado por referência
+## Parâmetros de **Tipo de Referência**, sendo passados por referência
 O exemplo abaixo é o mesmo do anterior, só que agora utilizando a palavra-chave `ref`. Alterações dentro do método são persistidas na váriavel original.
 ```C#
 static void Main()
