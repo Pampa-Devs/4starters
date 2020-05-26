@@ -2,7 +2,7 @@
 
 Com os **tipos de referência** é possível que duas variáveis diferentes referenciem o mesmo objeto, ou seja, alterar uma delas irá alterar o valor da outra.
 
-## Tipo String
+## Tipo `string`
 
 O tipo `string` é uma cadeira de caracteres que representa uma sequência de um ou mais caracteres Unicode. `string` é um alias de [System.String](https://docs.microsoft.com/pt-br/dotnet/api/system.string?view=netcore-3.1).
 
@@ -37,9 +37,9 @@ Console.WriteLine(caracter);
 ```
 O resultado irá imprimir a letra **F** como resultado;
 
-## Tipo Class
+## Tipo `class`
 
-Class é um objeto que é declarado usando o alias `class`. Uma classe é uma estrutura de dados que combina ações e estados em uma única unidade. 
+`class` é um objeto que é declarado usando o alias `class`. Uma classe é uma estrutura de dados que combina ações e estados em uma única unidade. 
 ```C#
 class TestClass
 {
@@ -148,9 +148,9 @@ class Mundo
 }
 ```
 
-## Tipo Interface
+## Tipo `interface`
 
-Uma interface tem como objetivo definir um contrato, qualquer [class](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variaveis.md#2-tipo-class) ou [struct](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variaveis.md#2-tipo-class)
+Uma `interface` tem como objetivo definir um contrato, qualquer [class](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variaveis.md#2-tipo-class) ou [struct](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variaveis.md#2-tipo-class)
 que implemente este contrato deve fornecer uma implementação **obrigatória** dos membros definidos na interface. Exemplo:
 ```C#
 interface ICarro
@@ -209,6 +209,35 @@ Uma declaração de interface podem ser as seguintes:
 * Eventos
 Nenhuma dessas declarações de membros precisa conter um corpo. Como podemos observar no exemplo acima, **Acelerar** e **Freiar**, na interface **ICarro** não possuem implementação.
 Caso seja criado um corpo para uma declaração, este corpo será uma *implementação padrão*.
+
+## Tipo `delegate`
+
+A declaração de um tipo `delegate` é parecida com a de um método. Ela tem um valor retornado e parâmetros de qualquer tipo:
+```C#
+public delegate void MensagemDelegate(string mensagem);
+public delegate void OutroDelegate(Fusca fusca, long numero);
+```
+
+Um `delegate` pode ser utilizado para encapsular um método **nomeado** ou **anônimo**. Exemplo:
+
+Método que vai ser encapsulado:
+```C#
+public void EscreverMensagem(string mensagem)
+{
+    Console.WriteLine(mensagem);
+}
+```
+
+Delegate encapsulando e executando o método encapsulado:
+```C#
+MensagemDelegate delegado = EscreverMensagem;
+
+// Por ter encapsulado o método 'EscreverMensagem', invocar o delegado passando o parâmetro "Olá Mundo"
+// irá executar o método 'EscreverMensagem'
+delegado("Olá Mundo");
+
+// Resultado: "Olá Mundo"
+```
 
 # Referências
 * https://docs.microsoft.com/pt-br/dotnet/csharp/src/

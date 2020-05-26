@@ -1,4 +1,4 @@
-# 🚶 Métodos
+# 🚶 Métodos - Parte 1
 
 Um *método* é um bloco de código **nomeado** que implementa alguma ação ou cálculo que pode ser executado.
 
@@ -12,11 +12,18 @@ void MyMethod()
 
 Os métodos também podem retornar valores, basta atribuir o **tipo** do valor a ser retornado ao método.
 ```C#
+// Não retorna nada 'void'
+void MyMethod()
+{
+}
+
+// Retorna um tipo 'int'
 int MyAge()
 {
     return 25;
 }
 
+// Retorna um tipo 'string'
 string MyName()
 {
     return "Felipe";

@@ -77,6 +77,8 @@ object obj2 = new object();
 Console.WriteLine(obj1 != obj2);	// Resultado: True
 ```
 
+
+
 # Referências
 
 * [System.IQuatable<T>](https://docs.microsoft.com/en-us/dotnet/api/system.iequatable-1?view=netcore-3.1)

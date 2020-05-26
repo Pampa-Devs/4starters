@@ -2,12 +2,12 @@
 
 Váriaveis representam locais de armazenamento.
 
-Como podemos ver abaixo, a váriavel é número se chama `number` e é do tipo [inteiro](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/value-types.md#-tipos-de-valor#tipos-numéricos-integrais) e possui um valor de `5`.
+Como podemos ver abaixo, a váriavel é número se chama `number` e é do **tipo** [inteiro](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/value-types.md#-tipos-de-valor#tipos-numéricos-integrais) e possui um valor de `5`.
 ```C#
 int number = 5;
 ```
 
-Cada váriavel tem um tipo e este tipo determina quais os valores que podem ser atribuidos a mesma.
+Cada váriavel tem um tipo e este tipo determina quais os valores que podem ser **atribuidos** a mesma.
 ```C#
 int number = 5;
 
