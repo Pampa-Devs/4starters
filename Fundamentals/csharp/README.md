@@ -61,7 +61,7 @@ Aqui iremos apresentar os conceitos básicos e elementares de programação e de
 Conceitos básicos que devemos saber prosseguir com o tutorial:
 
 1. 🎲 [**Váriaveis**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/variables.md)
-2. 🧬 [**Main - Ponto de partida da aplicação C#**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/main.md)
+2. ▶️ [**Main - Ponto de partida da aplicação C#**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/main.md)
 
 ### Tipos
 No C# existem dois tipos: **tipos de valor** e **tipos de referência**. As váriaveis de **tipos de valor** contêm diretamente seus dados
@@ -80,7 +80,7 @@ são os **membros** da classe ou struct, e eles incluem métodos, propriedades, 
 7. 🚶 [TO DO] [**Métodos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
 8. 🛠️ [TO DO] [**Construtores**]()
 9. 🗑️ [TO DO] [**Finalizadores**]()
-10 🤝 [TO DO] [**Classes Parciais**]()
+10. 🤝 [TO DO] [**Classes Parciais**]()
 11. 👩‍👦 [TO DO] [**Herança**]()
 12. 🎭 [TO DO] [**Polimorfismo**]()
 
