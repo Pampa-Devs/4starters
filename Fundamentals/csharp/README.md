@@ -125,5 +125,4 @@ As estruturas são instruçõoes do nosso programa que realizam funções espec�
 Modificadores de acesso controlam se o seu **tipo** pode ser usado em outro bloco de código ou até em outro projeto.
 
 26. 🚦 [**Modificadores de acesso**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
-27. 🔧 [**Modificadores de Tipos**]()
-https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types
+27. 🔧 [TO DO] [**Modificadores de Tipos**](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types)
