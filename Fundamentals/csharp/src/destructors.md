@@ -21,6 +21,30 @@ class DatabaseConnection
 O programador não tem controle sobre quando um finalizador é chamado pois isso é tarefa do coletor de lixo. O coletor busca por objetos que não estão mais sendo utilizados e, caso seja qualificado para finalização, ele irá executar
 o finalizador (se o mesmo existir) e irá recuperar a memória alocada para armazenar aquele objeto.
 
+Exemplo de um objeto sendo destruido após o método `Main` ser finalizado:
+```C#
+class TestObject
+{
+    ~TestObject()
+    {
+        System.Diagnostics.Trace.WriteLine("Objeto destruído");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Objeto TestObject inicializado
+        var test = new TestObject();
+        
+        // Função main acaba, portanto a memória alocada para test é liberada ao chamar o seu finalizador
+    }
+}
+
+// Resultado: "Objeto destruído"
+```
+
 # Referências
 
 * [Destructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/destructors)
