@@ -5,7 +5,7 @@ Quando um objeto é finalizado, a memória alocada para o seu armazenamento é l
 
 Os *finalizadores* tem o mesmo nome de sua classe, sendo precedido pelo operador `~`.
 
-```
+```C#
 class DatabaseConnection
 {
     private SqlConnection connection;
