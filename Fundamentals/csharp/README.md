@@ -80,7 +80,7 @@ são os **membros** da classe ou struct, e eles incluem métodos, propriedades, 
 7. 🚶 [**Métodos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
 8. 🛠️ [**Construtores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/constructors.md)
 9. 🗑️ [**Finalizadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/destructors.md)
-10. 🤝 [TO DO] [**Classes Parciais**]()
+10. 🤝 [**Classes Parciais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/partial-class-methods.md)
 11. 👩‍👦 [TO DO] [**Herança**]()
 12. 🎭 [TO DO] [**Polimorfismo**]()
 
