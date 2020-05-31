@@ -71,23 +71,25 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 4. 🟢 [**Tipos de Referência**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/reference-types.md)
 5. 🔷 [**"Tipo" var**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/var-type.md)
 
+### Modificadores de acesso
+
+Modificadores de acesso controlam se o seu **tipo** pode ser usado em outro bloco de código ou até em outro projeto.
+
+6. 🚦 [**Modificadores de acesso**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
+7. 🔧 [TO DO] [**Modificadores de Tipos**](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types)
+
 ### Classes e Structs
 
 Classes e structs são essencialmente uma **estrutura de dados** que encapsula um conjunto de *dados* e *comportamentos*. Esses *dados* e *comportamentos*
 são os **membros** da classe ou struct, e eles incluem métodos, propriedades, eventos e mais alguns listados mais para frente.
 
-6. 🧬 [**Propriedades**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/properties.md)
-7. 🚶 [**Métodos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
-8. 🛠️ [**Construtores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/constructors.md)
-9. 🗑️ [**Finalizadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/destructors.md)
-10. 🤝 [**Classes Parciais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/partial-class-methods.md)
-11. 👩‍👦 [TO DO] [**Herança**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/heritage.md)
-12. 🎭 [TO DO] [**Polimorfismo**]()
-
-### Delegados e Eventos
-
-13. 📦 [TO DO] [**Delegados**]()
-14. 🔔 [TO DO] [**Eventos**]()
+8. 🧬 [**Propriedades**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/properties.md)
+9. 🚶 [**Métodos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
+10. 🛠️ [**Construtores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/constructors.md)
+11. 🗑️ [**Finalizadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/destructors.md)
+12. 🤝 [**Classes Parciais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/partial-class-methods.md)
+13. 👩‍👦 [TO DO] [**Herança**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/heritage.md)
+14. 🎭 [TO DO] [**Polimorfismo**]()
 
 ### Coleções
 
@@ -119,10 +121,3 @@ As estruturas são instruçõoes do nosso programa que realizam funções espec�
 23. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md)
 24. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
 25. 🛑 [**Exceções e Manipulação de Exceções**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/exceptions.md)
-
-### Modificadores de acesso
-
-Modificadores de acesso controlam se o seu **tipo** pode ser usado em outro bloco de código ou até em outro projeto.
-
-26. 🚦 [**Modificadores de acesso**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
-27. 🔧 [TO DO] [**Modificadores de Tipos**](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types)
