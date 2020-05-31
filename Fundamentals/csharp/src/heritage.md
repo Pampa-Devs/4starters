@@ -163,3 +163,6 @@ class Program
     }
 ```
 
+# Referências
+* [Heritage](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance)
+* [Object Oriented Programming](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
