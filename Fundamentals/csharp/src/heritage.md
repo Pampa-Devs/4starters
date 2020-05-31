@@ -35,7 +35,7 @@ class Program
 }
 
 // Resultado:
-"Felipe"
+// "Felipe"
 ```
 
 ## Herança de Membros
@@ -114,6 +114,8 @@ public class ChildClassC : BaseClass
     }
 }
 ```
+
+## Sobrescrevendo métodos
 
 Também é possível sobrescrever o método de uma classe pai que possua a palavra-chave `virtual` antes de sua declaração.
 Para isso precisamos adicionar a palavra-chave `override` no método da classe derivada. Além disso, mesmo sobrescrevendo o método da classe pai, ainda é possível executa-lo utilizando 
