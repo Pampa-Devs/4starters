@@ -88,7 +88,7 @@ são os **membros** da classe ou struct, e eles incluem métodos, propriedades, 
 10. 🛠️ [**Construtores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/constructors.md)
 11. 🗑️ [**Finalizadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/destructors.md)
 12. 🤝 [**Classes Parciais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/partial-class-methods.md)
-13. 👩‍👦 [TO DO] [**Herança**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/heritage.md)
+13. 👩‍👦 [**Herança**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/heritage.md)
 14. 🎭 [TO DO] [**Polimorfismo**]()
 
 ### Coleções
