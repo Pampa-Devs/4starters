@@ -119,3 +119,6 @@ As estruturas são instruçõoes do nosso programa que realizam funções espec�
 22. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md)
 23. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
 24. 🛑 [**Exceções e Manipulação de Exceções**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/exceptions.md)
+
+# Autores
+* [Felipe Almeida](https://github.com/felipe-allmeida) - Fundador da PampaDevs e Engenheiro de Software
