@@ -1,6 +1,6 @@
 # Design Atômico
 
-
+```
 ├── index.html
 ├── main.js
 └── src
@@ -28,6 +28,7 @@
         └── components
              └── home
                  └── index.css
+```
 
 ## Exemplo JS importando html
 **home/index.js**
