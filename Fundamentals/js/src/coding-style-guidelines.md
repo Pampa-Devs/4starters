@@ -8,10 +8,11 @@ Sempre remover os 'trailing white spaces' dos códigos, exemplo:
 ```js
 let test = 5;                   
 ```
-* Usar ponto e virgula
+### * Usar ponto e virgula
 Por padrão (a não ser que seja acordado com o time), sempre utilizar `;` no final da linha.
-* Usar aspas simples ao invés de aspas duplas
+### * Usar aspas simples ao invés de aspas duplas
 Sempre utilizar aspas simples a não ser que você esteja escrevendo um JSON.
+
 **Correto**
 ```js
 let foo = 'bar';
@@ -20,7 +21,7 @@ let foo = 'bar';
 ```js
 let foo = "bar";
 ```
-* Abrir chaves sempre na mesma linha
+### * Abrir chaves sempre na mesma linha
 **Correto**
 ```js
 if (true) {
@@ -40,8 +41,9 @@ else
     console.log('test')
 }
 ```
-* Declarar somente uma váriavel por instrução
+### * Declarar somente uma váriavel por instrução
 É mais fácil de re-ordenar as linhas quando as váriaveis estão separadas.
+
 **Correto**
 ```js
 let keys = ['a', 'b'];
@@ -53,7 +55,7 @@ let keys = ['a', 'b'], value = [23, 42];
 ```
 
 ## Conveções de Nomeclatura
-* Sempre utilizar lowerCamelCase para váriaveis, propriedades e nomes de função
+### * Sempre utilizar lowerCamelCase para váriaveis, propriedades e nomes de função
 **Correto**
 ```js
 let adminUser = db.query('SELECT * FROM users ...');
@@ -62,7 +64,7 @@ let adminUser = db.query('SELECT * FROM users ...');
 ```js
 let admin_user = db.query('SELECT * FROM users ...');
 ```
-* Utilizar UpperCamelCase para nomes de classe
+### * Utilizar UpperCamelCase para nomes de classe
 **Correto**
 ```js
 function BankAccount() { }
@@ -71,7 +73,7 @@ function BankAccount() { }
 ```js
 function back_Account() { }
 ```
-* Sempre utilizar UPPERCASE para Constantes
+### * Sempre utilizar UPPERCASE para Constantes
 ```js
 const SECOND = 1 * 1000;
 
@@ -102,7 +104,7 @@ let b = {good: 'code'
 ```
 
 ## Condicionais
-* Sempre utilizar o operador '==='
+### * Sempre utilizar o operador '==='
 **Correto**
 ```js
 if (a === 0) { }
@@ -113,7 +115,7 @@ if (a !== '') { }
 if (a == 0) { }
 if (a != '') { }
 ```
-* Sempre escrever váriaveis com nomes descritivos
+### * Sempre escrever váriaveis com nomes descritivos
 **Correto**
 ```js
 let isValidPassword = pswd.length >= 4 && /^(?:*\d).test(pswd);
@@ -129,7 +131,7 @@ if (pswd.length >= 4 && /^(?:*\d).test(pswd)) {
 ```
 
 ## Funções
-* Evitar arvore de instruções ao retornar
+### * Evitar arvore de instruções ao retornar
 **Correto**
 ```js
 function isPercentage(val) {
@@ -152,7 +154,7 @@ function isPercentage(val) {
     }
 }
 ```
-* Encadeamento de métodos
+### * Encadeamento de métodos
 **Correto**
 ```js
 User.findOne({name: 'foo'})
