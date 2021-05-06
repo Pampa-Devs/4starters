@@ -14,4 +14,4 @@ Caso tenha qualquer dúvida, pode entrar em contato com a gente no nosso servido
 
 |       | Tutorial | Descrição | Autores
 ------- | ------- | ------- | -------
-<img src="/Images/csharp_logo.png" width="50px" /> | [Introdução ao C#](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/README.md) | Aprenda os fundamentos e conceitos básicos do C#! | [felipe-allmeida](https://github.com/felipe-allmeida)
+<img src="/Images/csharp_logo.png" width="50px" /> | [Introdução ao C# 8.0](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/README.md) | Aprenda os fundamentos e conceitos básicos do C#! | [felipe-allmeida](https://github.com/felipe-allmeida)
