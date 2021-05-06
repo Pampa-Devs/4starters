@@ -76,28 +76,27 @@ enquanto variáveis de **tipos de referência** armazenam a referência a seus d
 Modificadores de acesso controlam se o seu **tipo** pode ser usado em outro bloco de código ou até em outro projeto.
 
 6. 🚦 [**Modificadores de acesso**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/access-modifiers.md)
-7. 🔧 [TO DO] [**Modificadores de Tipos**](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types)
 
 ### Classes e Structs
 
 Classes e structs são essencialmente uma **estrutura de dados** que encapsula um conjunto de *dados* e *comportamentos*. Esses *dados* e *comportamentos*
 são os **membros** da classe ou struct, e eles incluem métodos, propriedades, eventos e mais alguns listados mais para frente.
 
-8. 🧬 [**Propriedades**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/properties.md)
-9. 🚶 [**Métodos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
-10. 🛠️ [**Construtores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/constructors.md)
-11. 🗑️ [**Finalizadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/destructors.md)
-12. 🤝 [**Classes Parciais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/partial-class-methods.md)
-13. 👩‍👦 [**Herança**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/heritage.md)
-14. 🎭 [TO DO] [**Polimorfismo**]()
+7. 🧬 [**Propriedades**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/properties.md)
+8. 🚶 [**Métodos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/methods.md)
+9. 🛠️ [**Construtores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/constructors.md)
+10. 🗑️ [**Finalizadores**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/destructors.md)
+11. 🤝 [**Classes Parciais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/partial-class-methods.md)
+12. 👩‍👦 [**Herança**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/heritage.md)
+13. 🎭 [TO DO] [**Polimorfismo**]()
 
 ### Coleções
 
 Em diversas situações, você irá necessitar gerenciar um grupo de objetos. Abaixo algumas formas de como fazer isso no C#:
 
-15. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arrays.md)
-16. 🔢 [**Listas**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/lists.md)
-17. 🔠 [**Dicionários**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/dictionaries.md)
+14. 🔢 [**Arrays**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arrays.md)
+15. 🔢 [**Listas**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/lists.md)
+16. 🔠 [**Dicionários**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/dictionaries.md)
 
 ### Operadores
 
@@ -108,16 +107,16 @@ No exemplo abaixo o `+` é o operador, `2` e `5` são os operandos.
 int a = 2 + 5;
 ```
 
-18. ➕ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arithmetic-operators.md)
-19. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/logical-operators.md)
-20. ✔️ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/equality-operators.md)
-21. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/comparison-operators.md)
-22. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md)
+17. ➕ [**Operadores Aritméticos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/arithmetic-operators.md)
+18. ⁉️ [**Operadores Lógicos**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/logical-operators.md)
+29. ✔️ [**Operadores de Igualdade**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/equality-operators.md)
+20. ⚖️ [**Operadores de Comparação**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/comparison-operators.md)
+21. ⚙️ [**Operadores Bitwise e Shift**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/bitwise-shift-operators.md)
 
 ### Estruturas
 
 As estruturas são instruçõoes do nosso programa que realizam funções específicas.
 
-23. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md)
-24. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
-25. 🛑 [**Exceções e Manipulação de Exceções**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/exceptions.md)
+22. 🔀 [**Estruturas Condicionais**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/conditional-statements.md)
+23. 🔄 [**Estruturas de Repetição**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/iteration-statements.md)
+24. 🛑 [**Exceções e Manipulação de Exceções**](https://github.com/Pampa-Devs/4starters/blob/master/Fundamentals/csharp/src/exceptions.md)
