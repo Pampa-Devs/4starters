@@ -2,8 +2,7 @@
      <img src="/Images/csharp_logo.png" alt="C#" width="250px" />
 </p>
 
-# .NET - Introdução ao C# 
-*Este artigo foi escrito em abril de 2020*
+# .NET - Introdução ao C# 8.0
 
 ## O que é C#?
 
